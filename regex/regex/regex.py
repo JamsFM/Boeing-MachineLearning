@@ -1,13 +1,19 @@
 import re
 
-logs = open('S:/QuickAccess/errorLogs.txt', 'r') #@@@ INSERT LOCATION OF LOG FILE HERE
+logs = open('C:/Users/Test/Desktop/Nicholas Falter/School (Current)/Senior Design/Code/logs.txt', 'r') #TODO: INSERT LOCATION OF LOG FILE HERE
 
 for line in logs:
     if re.search("^\[",line): #log starts with a square bracket
-       # print("This is a error.log log file") #these logs aren't currently used for any bad actor scenario
+       # print("This is a error.log log file")
         line = re.split("\[", line, 1)[1]
-        date = re.split("\]", line, 1)[0]
+        date = re.split("(?<=.{10})\s", line, 1)[0] #gets first part of date. Will be concatenated with year later
+        line = re.split("(?<=.{10})\s", line, 1)[1]
+        time = re.split("\s", line, 1)[0]
+        print("time = " + time)
+        line = re.split("\s", line, 1)[1]
+        date = date + " " + re.split("]", line, 1)[0] #concatenates year with the rest of the date
         print("date = " + date)
+        line = re.split("]", line, 1)[1]
         line = re.split("\[", line, 1) [1]
         logType = re.split("\]", line, 1) [0]
         print("log type = " + logType)
@@ -30,8 +36,6 @@ for line in logs:
         print("message =" + msg )
         
         
-
-
     elif re.search("^\d",line): #log starts with a digit
         #print("This is a access.log log file") #used for malicious web server access bad actor
         #log format:
@@ -44,18 +48,25 @@ for line in logs:
         user = re.split("\s", line, 1)[0]
         print("user = " + user)
         line = re.split("\s\[", line, 1)[1]
-        date = re.split("]", line, 1)[0]
+        date = re.split(":", line, 1)[0]
         print("date = " + date)
+        line = re.split(":", line, 1)[1]
+        time = re.split("]", line, 1)[0]
+        print("time = " + time)
         msg = re.split("] ", line, 1)[1]
         print("message = " + msg)
         
+
     elif re.search("^[A-Za-z]",line): #log starts with a alphabetical character
         #print("This is a auth.log log file")
         #log format:
         #month  day hour:minute:second user useraccount logtype: main information
-        date = re.split("(?<=.{15})\s", line, 1)[0]
+        date = re.split("(?<=.{6})\s", line, 1)[0]
         print("date = " + date)
-        line = re.split("(?<=.{15})\s", line, 1)[1]
+        line = re.split("(?<=.{6})\s", line, 1)[1]
+        time = re.split("(?<=.{8})\s", line, 1)[0]
+        print("time = " + time)
+        line = re.split("(?<=.{8})\s", line, 1)[1]
         user = re.split("\s", line)[0]
         print("user = " + user)
         msg = re.split("\s", line, 1)[1]
