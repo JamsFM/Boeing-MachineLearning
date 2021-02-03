@@ -1,0 +1,40 @@
+import re
+import os
+
+logs = open(os.path.join(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))), 'logs.txt'), 'r') #Opens logs.txt (has to be in same directory as python script)
+dictionary = {}
+baseLog = [] #Will be added to as dictionary is populated. Has a 0 for each dictionary member.
+
+def bag(log): #implement bagofwords
+    baggedLog = baseLog.copy() #start with a vector of 0's (n zeros, n dictionary members)
+    for feature in log: #look at each feature in the log
+        count = 0 #keep track of which member of the dictionary is being compared
+        inDictionary = 0 #represents if the feature is found in the dictionary
+        for member in dictionary: #search through dictionary
+            if member == feature: #if feature is in dictionary
+                baggedLog[count] += 1 #add 1 to the frequency of the feature
+                inDictionary = 1
+                break #exit search for feature in dictionary
+            count += 1
+        if not inDictionary: #if feature isn't in dictionary
+            #dictionary.append(feature) #add it to the dictionary (when using list object for dictionary)
+            dictionary.update({feature: 1}) #add it to the dictionary (when using dictionary object for dictionary)
+            baseLog.append(0) #add a zero for the new feature
+            baggedLog.append(1) #count the new feature
+    return baggedLog
+
+def inputVectorization(): #returns a list of bag of words representations (separated by spaces) of logs in logs.txt
+    logSet = []
+    for line in logs: #reads logs and counts number of occurences of words separated by spaces
+        line = re.split("\t|\n", line, 1)[0] #removes new line and tab characters from log
+        #print(re.split("\s+", line), end = "\n\n") #re.split("\s+", line) makes a list of each element of the log (elements are determined by spaces)
+        #baggedLog = bag(re.split("\s+", line))
+        #print(baggedLog)
+        #logSet.append(baggedLog)
+        logSet.append(bag(re.split("\s+", line))) #creates a list of the bag of words representation of all logs in logs.txt
+
+    maxLen = len(logSet[-1])
+    for i in range (len(logSet)): # make all subarrays same length
+        logSet[i].extend([0]*(maxLen - len(logSet[i])))
+    #print(logSet)
+    return logSet
