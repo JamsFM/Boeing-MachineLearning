@@ -38,3 +38,6 @@ def inputVectorization(): #returns a list of bag of words representations (separ
         logSet[i].extend([0]*(maxLen - len(logSet[i])))
     #print(logSet)
     return logSet
+
+logSet = inputVectorization()
+print(logSet)
