@@ -127,8 +127,12 @@ trainingLabels = ["safe","safe","safe","safe","safe","safe","safe","safe","safe"
 
 
 Auth.log logs (for everything else)
-trainingLabel = ["port scan","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login",0,0,0,0,"unauthorized superuser privileges",0,0,"unauthorized superuser privileges","unauthorized superuser privileges","unauthorized superuser privileges",0,0,0,"failed login","failed login","failed login",0,"unauthorized login","unauthorized login","unauthorized login"]
+trainingLabel = ["port scan","port scan","port scan","port scan","port scan","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login",0,0,0,0,"unauthorized superuser privileges",0,0,"unauthorized superuser privileges","unauthorized superuser privileges","unauthorized superuser privileges",0,0,0,"failed login","failed login","failed login",0,"unauthorized login","unauthorized login","unauthorized login"]
 Dec  6 16:43:39 travis sshd[4416]: error: kex_exchange_identification: Connection closed by remote host
+Feb 11 18:03:48 travis sshd[2867]: error: kex_exchange_identification: Connection closed by remote host
+Feb 11 18:04:40 travis sshd[2908]: error: kex_exchange_identification: Connection closed by remote host
+Feb 11 18:05:00 travis sshd[2928]: error: kex_exchange_identification: Connection closed by remote host
+Feb 11 18:05:31 travis sshd[2943]: error: kex_exchange_identification: Connection closed by remote host
 Dec  6 17:10:35 travis sshd[4538]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.88.112.61  user=root
 Dec  6 17:10:37 travis sshd[4538]: Failed password for root from 59.88.112.61 port 62808 ssh2
 Dec  6 17:10:44 travis sshd[4538]: message repeated 2 times: [ Failed password for root from 59.88.112.61 port 62808 ssh2]
