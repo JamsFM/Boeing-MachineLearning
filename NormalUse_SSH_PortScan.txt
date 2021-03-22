@@ -1,0 +1,238 @@
+(After removing these first 2 lines) Line 1-26: Normal Use, 27-98: SSH, 100: Port Scan, 101-109: SSH, 110: Port Scan, 111-222: SSH, 223-231: Port Scan
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Mar 11 16:20:46 travis useradd[1492]: failed adding user 'vboxadd', data deleted
+Mar 11 16:20:46 travis useradd[1493]: failed adding user 'vboxadd', data deleted
+Mar 11 16:20:48 travis gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar 11 16:20:48 travis systemd-logind[709]: New session c1 of user gdm.
+Mar 11 16:20:48 travis systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar 11 16:21:02 travis polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.45 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 11 16:21:15 travis dbus-daemon[692]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 11 16:21:23 travis gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:21:28 travis gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:21:28 travis gdm-password]: gkr-pam: unable to locate daemon control file
+Mar 11 16:21:28 travis gdm-password]: gkr-pam: stashed password to try later in open session
+Mar 11 16:21:28 travis gdm-password]: pam_unix(gdm-password:session): session opened for user travis by (uid=0)
+Mar 11 16:21:28 travis systemd-logind[709]: New session 2 of user travis.
+Mar 11 16:21:28 travis systemd: pam_unix(systemd-user:session): session opened for user travis by (uid=0)
+Mar 11 16:21:29 travis gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 11 16:21:32 travis gnome-keyring-daemon[2142]: The Secret Service was already initialized
+Mar 11 16:21:32 travis gnome-keyring-daemon[2142]: The PKCS#11 component was already initialized
+Mar 11 16:21:35 travis polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 11 16:21:39 travis gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 11 16:21:39 travis systemd-logind[709]: Session c1 logged out. Waiting for processes to exit.
+Mar 11 16:21:39 travis systemd-logind[709]: Removed session c1.
+Mar 11 16:21:39 travis polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.45, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 11 16:21:49 travis systemd: pam_unix(systemd-user:session): session closed for user gdm
+Mar 11 16:21:54 travis dbus-daemon[692]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar 11 16:22:43 travis pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar 11 16:22:43 travis pkexec[2880]: travis: Executing command [USER=root] [TTY=unknown] [CWD=/home/travis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 11 16:29:33 travis sshd[3230]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=182.254.218.176  user=root
+Mar 11 16:29:36 travis sshd[3230]: Failed password for root from 182.254.218.176 port 58118 ssh2
+Mar 11 16:29:36 travis sshd[3230]: Received disconnect from 182.254.218.176 port 58118:11: Bye Bye [preauth]
+Mar 11 16:29:36 travis sshd[3230]: Disconnected from authenticating user root 182.254.218.176 port 58118 [preauth]
+Mar 11 16:29:50 travis sshd[3232]: Invalid user sinusbot from 212.33.250.241 port 35944
+Mar 11 16:29:50 travis sshd[3232]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:29:50 travis sshd[3232]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=212.33.250.241 
+Mar 11 16:29:52 travis sshd[3232]: Failed password for invalid user sinusbot from 212.33.250.241 port 35944 ssh2
+Mar 11 16:29:52 travis sshd[3232]: Received disconnect from 212.33.250.241 port 35944:11: Bye Bye [preauth]
+Mar 11 16:29:52 travis sshd[3232]: Disconnected from invalid user sinusbot 212.33.250.241 port 35944 [preauth]
+Mar 11 16:30:01 travis CRON[3263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 11 16:30:01 travis CRON[3263]: pam_unix(cron:session): session closed for user root
+Mar 11 16:31:46 travis sshd[3270]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.122  user=travis
+Mar 11 16:31:49 travis sshd[3270]: Failed password for travis from 192.168.0.122 port 51856 ssh2
+Mar 11 16:32:19 travis sshd[3270]: message repeated 4 times: [ Failed password for travis from 192.168.0.122 port 51856 ssh2]
+Mar 11 16:32:27 travis sshd[3270]: Accepted password for travis from 192.168.0.122 port 51856 ssh2
+Mar 11 16:32:27 travis sshd[3270]: pam_unix(sshd:session): session opened for user travis by (uid=0)
+Mar 11 16:32:27 travis systemd-logind[709]: New session 5 of user travis.
+Mar 11 16:32:40 travis sshd[3270]: pam_unix(sshd:session): session closed for user travis
+Mar 11 16:32:40 travis systemd-logind[709]: Session 5 logged out. Waiting for processes to exit.
+Mar 11 16:32:40 travis systemd-logind[709]: Removed session 5.
+Mar 11 16:36:08 travis sshd[3386]: Connection closed by 174.214.28.47 port 22676 [preauth]
+Mar 11 16:36:53 travis sshd[3389]: Connection closed by 174.214.28.47 port 3742 [preauth]
+Mar 11 16:37:32 travis sshd[3393]: Invalid user git from 14.102.74.99 port 54978
+Mar 11 16:37:32 travis sshd[3393]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:37:32 travis sshd[3393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 16:37:34 travis sshd[3393]: Failed password for invalid user git from 14.102.74.99 port 54978 ssh2
+Mar 11 16:37:35 travis sshd[3393]: Received disconnect from 14.102.74.99 port 54978:11: Bye Bye [preauth]
+Mar 11 16:37:35 travis sshd[3393]: Disconnected from invalid user git 14.102.74.99 port 54978 [preauth]
+Mar 11 16:37:41 travis sshd[3396]: Invalid user admin from 174.214.28.47 port 22685
+Mar 11 16:37:44 travis sshd[3396]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:37:44 travis sshd[3396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=174.214.28.47 
+Mar 11 16:37:46 travis sshd[3396]: Failed password for invalid user admin from 174.214.28.47 port 22685 ssh2
+Mar 11 16:37:49 travis sshd[3396]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:37:51 travis sshd[3396]: Failed password for invalid user admin from 174.214.28.47 port 22685 ssh2
+Mar 11 16:37:55 travis sshd[3396]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:37:57 travis sshd[3396]: Failed password for invalid user admin from 174.214.28.47 port 22685 ssh2
+Mar 11 16:38:01 travis sshd[3396]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:38:03 travis sshd[3396]: Failed password for invalid user admin from 174.214.28.47 port 22685 ssh2
+Mar 11 16:38:09 travis sshd[3396]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:38:10 travis sshd[3396]: Failed password for invalid user admin from 174.214.28.47 port 22685 ssh2
+Mar 11 16:38:19 travis sshd[3396]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:38:21 travis sshd[3396]: Failed password for invalid user admin from 174.214.28.47 port 22685 ssh2
+Mar 11 16:38:22 travis sshd[3396]: error: maximum authentication attempts exceeded for invalid user admin from 174.214.28.47 port 22685 ssh2 [preauth]
+Mar 11 16:38:22 travis sshd[3396]: Disconnecting invalid user admin 174.214.28.47 port 22685: Too many authentication failures [preauth]
+Mar 11 16:38:22 travis sshd[3396]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=174.214.28.47 
+Mar 11 16:38:22 travis sshd[3396]: PAM service(sshd) ignoring max retries; 6 > 3
+Mar 11 16:40:39 travis sshd[3415]: Invalid user Travis from 174.214.28.47 port 3733
+Mar 11 16:40:43 travis sshd[3415]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:40:43 travis sshd[3415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=174.214.28.47 
+Mar 11 16:40:46 travis sshd[3415]: Failed password for invalid user Travis from 174.214.28.47 port 3733 ssh2
+Mar 11 16:40:56 travis sshd[3415]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:40:58 travis sshd[3415]: Failed password for invalid user Travis from 174.214.28.47 port 3733 ssh2
+Mar 11 16:41:06 travis sshd[3415]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:41:09 travis sshd[3415]: Failed password for invalid user Travis from 174.214.28.47 port 3733 ssh2
+Mar 11 16:41:31 travis sshd[3415]: Connection closed by invalid user Travis 174.214.28.47 port 3733 [preauth]
+Mar 11 16:41:31 travis sshd[3415]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=174.214.28.47 
+Mar 11 16:41:56 travis sshd[3429]: Accepted password for travis from 174.214.28.47 port 3715 ssh2
+Mar 11 16:41:56 travis sshd[3429]: pam_unix(sshd:session): session opened for user travis by (uid=0)
+Mar 11 16:41:56 travis systemd-logind[709]: New session 6 of user travis.
+Mar 11 16:42:23 travis sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:42:27 travis sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:42:27 travis sudo: pam_unix(sudo:auth): authentication failure; logname=travis uid=1000 euid=0 tty=/dev/pts/1 ruser=travis rhost=  user=travis
+Mar 11 16:42:28 travis sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:42:40 travis sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:42:40 travis sudo:   travis : TTY=pts/1 ; PWD=/home/travis ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 11 16:42:40 travis sudo: pam_unix(sudo:session): session opened for user root by travis(uid=0)
+Mar 11 16:43:02 travis sudo: pam_unix(sudo:session): session closed for user root
+Mar 11 16:43:24 travis sshd[3429]: pam_unix(sshd:session): session closed for user travis
+Mar 11 16:43:24 travis systemd-logind[709]: Session 6 logged out. Waiting for processes to exit.
+Mar 11 16:43:24 travis systemd-logind[709]: Removed session 6.
+Mar 11 16:43:43 travis pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar 11 16:43:43 travis pkexec[4138]: travis: Executing command [USER=root] [TTY=unknown] [CWD=/home/travis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 11 16:45:36 travis sshd[4146]: error: kex_exchange_identification: Connection closed by remote host
+Mar 11 16:49:18 travis sshd[4166]: Invalid user mapred from 14.102.74.99 port 50176
+Mar 11 16:49:18 travis sshd[4166]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:49:18 travis sshd[4166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 16:49:20 travis sshd[4166]: Failed password for invalid user mapred from 14.102.74.99 port 50176 ssh2
+Mar 11 16:49:22 travis sshd[4166]: Received disconnect from 14.102.74.99 port 50176:11: Bye Bye [preauth]
+Mar 11 16:49:22 travis sshd[4166]: Disconnected from invalid user mapred 14.102.74.99 port 50176 [preauth]
+Mar 11 16:49:29 travis sshd[4169]: Invalid user git from 106.53.103.194 port 38824
+Mar 11 16:49:29 travis sshd[4169]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:49:29 travis sshd[4169]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.53.103.194 
+Mar 11 16:49:29 travis sshd[4171]: error: kex_exchange_identification: Connection closed by remote host
+Mar 11 16:49:31 travis sshd[4169]: Failed password for invalid user git from 106.53.103.194 port 38824 ssh2
+Mar 11 16:49:31 travis sshd[4169]: Received disconnect from 106.53.103.194 port 38824:11: Bye Bye [preauth]
+Mar 11 16:49:31 travis sshd[4169]: Disconnected from invalid user git 106.53.103.194 port 38824 [preauth]
+Mar 11 16:51:02 travis sshd[4240]: Invalid user temp from 14.102.74.99 port 37974
+Mar 11 16:51:02 travis sshd[4240]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:51:02 travis sshd[4240]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 16:51:04 travis sshd[4240]: Failed password for invalid user temp from 14.102.74.99 port 37974 ssh2
+Mar 11 16:51:05 travis sshd[4240]: Received disconnect from 14.102.74.99 port 37974:11: Bye Bye [preauth]
+Mar 11 16:51:05 travis sshd[4240]: Disconnected from invalid user temp 14.102.74.99 port 37974 [preauth]
+Mar 11 16:52:31 travis sshd[6290]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99  user=root
+Mar 11 16:52:33 travis sshd[6290]: Failed password for root from 14.102.74.99 port 54006 ssh2
+Mar 11 16:52:34 travis sshd[6290]: Received disconnect from 14.102.74.99 port 54006:11: Bye Bye [preauth]
+Mar 11 16:52:34 travis sshd[6290]: Disconnected from authenticating user root 14.102.74.99 port 54006 [preauth]
+Mar 11 16:52:44 travis pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar 11 16:52:44 travis pkexec[6873]: travis: Executing command [USER=root] [TTY=unknown] [CWD=/home/travis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 11 16:52:46 travis sshd[860]: Received signal 15; terminating.
+Mar 11 16:52:46 travis sshd[7084]: Server listening on 0.0.0.0 port 22.
+Mar 11 16:52:46 travis sshd[7084]: Server listening on :: port 22.
+Mar 11 16:54:03 travis sshd[11528]: Invalid user mailtest from 14.102.74.99 port 41806
+Mar 11 16:54:03 travis sshd[11528]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:54:03 travis sshd[11528]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 16:54:05 travis sshd[11528]: Failed password for invalid user mailtest from 14.102.74.99 port 41806 ssh2
+Mar 11 16:54:06 travis sshd[11528]: Received disconnect from 14.102.74.99 port 41806:11: Bye Bye [preauth]
+Mar 11 16:54:06 travis sshd[11528]: Disconnected from invalid user mailtest 14.102.74.99 port 41806 [preauth]
+Mar 11 16:55:31 travis sshd[15960]: Invalid user jj from 14.102.74.99 port 57834
+Mar 11 16:55:31 travis sshd[15960]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:55:31 travis sshd[15960]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 16:55:33 travis sshd[15960]: Failed password for invalid user jj from 14.102.74.99 port 57834 ssh2
+Mar 11 16:55:33 travis sshd[15960]: Received disconnect from 14.102.74.99 port 57834:11: Bye Bye [preauth]
+Mar 11 16:55:33 travis sshd[15960]: Disconnected from invalid user jj 14.102.74.99 port 57834 [preauth]
+Mar 11 16:55:44 travis pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar 11 16:55:44 travis pkexec[16517]: travis: Executing command [USER=root] [TTY=unknown] [CWD=/home/travis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 11 16:57:03 travis sshd[17793]: Invalid user share from 14.102.74.99 port 45634
+Mar 11 16:57:03 travis sshd[17793]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:57:03 travis sshd[17793]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 16:57:04 travis sshd[17793]: Failed password for invalid user share from 14.102.74.99 port 45634 ssh2
+Mar 11 16:57:06 travis sshd[17793]: Received disconnect from 14.102.74.99 port 45634:11: Bye Bye [preauth]
+Mar 11 16:57:06 travis sshd[17793]: Disconnected from invalid user share 14.102.74.99 port 45634 [preauth]
+Mar 11 16:58:31 travis sshd[28777]: Invalid user arun from 14.102.74.99 port 33430
+Mar 11 16:58:31 travis sshd[28777]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:58:31 travis sshd[28777]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 16:58:33 travis sshd[28777]: Failed password for invalid user arun from 14.102.74.99 port 33430 ssh2
+Mar 11 16:58:35 travis sshd[28777]: Received disconnect from 14.102.74.99 port 33430:11: Bye Bye [preauth]
+Mar 11 16:58:35 travis sshd[28777]: Disconnected from invalid user arun 14.102.74.99 port 33430 [preauth]
+Mar 11 16:58:44 travis pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar 11 16:58:44 travis pkexec[29469]: travis: Executing command [USER=root] [TTY=unknown] [CWD=/home/travis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 11 16:59:33 travis gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:59:39 travis gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 16:59:39 travis gdm-password]: gkr-pam: unlocked login keyring
+Mar 11 17:00:07 travis sshd[38989]: Invalid user admin from 14.102.74.99 port 49462
+Mar 11 17:00:07 travis sshd[38989]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 17:00:07 travis sshd[38989]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 17:00:08 travis sshd[38989]: Failed password for invalid user admin from 14.102.74.99 port 49462 ssh2
+Mar 11 17:00:09 travis sshd[38989]: Received disconnect from 14.102.74.99 port 49462:11: Bye Bye [preauth]
+Mar 11 17:00:09 travis sshd[38989]: Disconnected from invalid user admin 14.102.74.99 port 49462 [preauth]
+Mar 11 17:01:37 travis sshd[39312]: Invalid user michael from 14.102.74.99 port 37260
+Mar 11 17:01:37 travis sshd[39312]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 17:01:37 travis sshd[39312]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 17:01:39 travis sshd[39312]: Failed password for invalid user michael from 14.102.74.99 port 37260 ssh2
+Mar 11 17:01:40 travis sshd[39312]: Received disconnect from 14.102.74.99 port 37260:11: Bye Bye [preauth]
+Mar 11 17:01:40 travis sshd[39312]: Disconnected from invalid user michael 14.102.74.99 port 37260 [preauth]
+Mar 11 17:01:43 travis pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Mar 11 17:01:43 travis pkexec[39426]: travis: Executing command [USER=root] [TTY=unknown] [CWD=/home/travis] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar 11 17:03:01 travis sshd[39438]: error: kex_exchange_identification: Connection closed by remote host
+Mar 11 17:03:13 travis sshd[39440]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99  user=root
+Mar 11 17:03:15 travis sshd[39440]: Failed password for root from 14.102.74.99 port 53292 ssh2
+Mar 11 17:03:16 travis sshd[39440]: Received disconnect from 14.102.74.99 port 53292:11: Bye Bye [preauth]
+Mar 11 17:03:16 travis sshd[39440]: Disconnected from authenticating user root 14.102.74.99 port 53292 [preauth]
+Mar 11 17:04:05 travis sshd[39443]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.53.103.194  user=root
+Mar 11 17:04:07 travis sshd[39443]: Failed password for root from 106.53.103.194 port 44154 ssh2
+Mar 11 17:04:08 travis sshd[39443]: Received disconnect from 106.53.103.194 port 44154:11: Bye Bye [preauth]
+Mar 11 17:04:08 travis sshd[39443]: Disconnected from authenticating user root 106.53.103.194 port 44154 [preauth]
+Mar 11 17:04:47 travis sshd[39447]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99  user=root
+Mar 11 17:04:49 travis sshd[39447]: Failed password for root from 14.102.74.99 port 41090 ssh2
+Mar 11 17:04:50 travis sshd[39447]: Received disconnect from 14.102.74.99 port 41090:11: Bye Bye [preauth]
+Mar 11 17:04:50 travis sshd[39447]: Disconnected from authenticating user root 14.102.74.99 port 41090 [preauth]
+Mar 11 17:05:43 travis sshd[39452]: error: Protocol major versions differ: 2 vs. 1
+Mar 11 17:05:43 travis sshd[39451]: error: Protocol major versions differ: 2 vs. 1
+Mar 11 17:05:44 travis sshd[39453]: Unable to negotiate with 174.214.28.47 port 16881: no matching host key type found. Their offer: ssh-dss [preauth]
+Mar 11 17:05:44 travis sshd[39455]: Connection closed by 174.214.28.47 port 16890 [preauth]
+Mar 11 17:05:45 travis sshd[39457]: Connection closed by 174.214.28.47 port 16874 [preauth]
+Mar 11 17:05:45 travis sshd[39459]: Unable to negotiate with 174.214.28.47 port 10933: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Mar 11 17:05:45 travis sshd[39461]: Unable to negotiate with 174.214.28.47 port 10914: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Mar 11 17:05:46 travis sshd[39463]: Connection closed by 174.214.28.47 port 10924 [preauth]
+Mar 11 17:06:19 travis sshd[39466]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99  user=root
+Mar 11 17:06:22 travis sshd[39466]: Failed password for root from 14.102.74.99 port 57120 ssh2
+Mar 11 17:06:22 travis sshd[39466]: Received disconnect from 14.102.74.99 port 57120:11: Bye Bye [preauth]
+Mar 11 17:06:22 travis sshd[39466]: Disconnected from authenticating user root 14.102.74.99 port 57120 [preauth]
+Mar 11 17:07:52 travis sshd[39482]: Invalid user gts from 14.102.74.99 port 44918
+Mar 11 17:07:52 travis sshd[39482]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 17:07:52 travis sshd[39482]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 17:07:54 travis sshd[39482]: Failed password for invalid user gts from 14.102.74.99 port 44918 ssh2
+Mar 11 17:07:55 travis sshd[39482]: Received disconnect from 14.102.74.99 port 44918:11: Bye Bye [preauth]
+Mar 11 17:07:55 travis sshd[39482]: Disconnected from invalid user gts 14.102.74.99 port 44918 [preauth]
+Mar 11 17:08:27 travis sshd[39489]: error: kex_exchange_identification: Connection closed by remote host
+Mar 11 17:08:49 travis sshd[39493]: error: Protocol major versions differ: 2 vs. 1
+Mar 11 17:08:49 travis sshd[39492]: error: Protocol major versions differ: 2 vs. 1
+Mar 11 17:08:50 travis sshd[39494]: Unable to negotiate with 73.239.143.254 port 1213: no matching host key type found. Their offer: ssh-dss [preauth]
+Mar 11 17:08:50 travis sshd[39496]: Connection closed by 73.239.143.254 port 1217 [preauth]
+Mar 11 17:08:50 travis sshd[39498]: Connection closed by 73.239.143.254 port 1220 [preauth]
+Mar 11 17:08:51 travis sshd[39500]: Unable to negotiate with 73.239.143.254 port 1224: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Mar 11 17:08:51 travis sshd[39502]: Unable to negotiate with 73.239.143.254 port 1225: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Mar 11 17:08:51 travis sshd[39504]: Connection closed by 73.239.143.254 port 1226 [preauth]
+Mar 11 17:09:30 travis sshd[39518]: Invalid user wasadmin from 14.102.74.99 port 60950
+Mar 11 17:09:30 travis sshd[39518]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 17:09:30 travis sshd[39518]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 17:09:32 travis sshd[39518]: Failed password for invalid user wasadmin from 14.102.74.99 port 60950 ssh2
+Mar 11 17:09:36 travis sshd[39518]: Received disconnect from 14.102.74.99 port 60950:11: Bye Bye [preauth]
+Mar 11 17:09:36 travis sshd[39518]: Disconnected from invalid user wasadmin 14.102.74.99 port 60950 [preauth]
+Mar 11 17:10:49 travis gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 17:10:56 travis gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 11 17:10:56 travis gdm-password]: gkr-pam: unlocked login keyring
+Mar 11 17:16:20 travis sshd[39627]: error: kex_exchange_identification: Connection closed by remote host
+Mar 11 17:16:42 travis sshd[39630]: error: Protocol major versions differ: 2 vs. 1
+Mar 11 17:16:42 travis sshd[39629]: error: Protocol major versions differ: 2 vs. 1
+Mar 11 17:16:42 travis sshd[39631]: Unable to negotiate with 73.239.143.254 port 1507: no matching host key type found. Their offer: ssh-dss [preauth]
+Mar 11 17:16:43 travis sshd[39633]: Connection closed by 73.239.143.254 port 1511 [preauth]
+Mar 11 17:16:43 travis sshd[39635]: Connection closed by 73.239.143.254 port 1514 [preauth]
+Mar 11 17:16:43 travis sshd[39637]: Unable to negotiate with 73.239.143.254 port 1517: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Mar 11 17:16:44 travis sshd[39639]: Unable to negotiate with 73.239.143.254 port 1519: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Mar 11 17:16:44 travis sshd[39641]: Connection closed by 73.239.143.254 port 1520 [preauth]
+Mar 11 17:17:01 travis sshd[39644]: Invalid user mauricio from 14.102.74.99 port 56398
+Mar 11 17:17:01 travis sshd[39644]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 17:17:01 travis sshd[39644]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Mar 11 17:17:01 travis CRON[39648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 11 17:17:01 travis CRON[39648]: pam_unix(cron:session): session closed for user root
