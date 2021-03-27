@@ -1,6 +1,7 @@
 import os
 import numpy as np
 import pandas as pd
+import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 import random
 
@@ -59,5 +60,15 @@ def modeltrain():
     clf.fit(x_train,y_train)
     y_pred = clf.predict(x_test)
     print("Accuracy score of sklearn model: " + str(accuracy_score(y_test,y_pred)))
+    #Save the model
+    pickle.dump(clf, open('SVMModel.sav', 'wb'))
 
-modeltrain() 
+#modeltrain()
+
+def loadmodel():
+    loadedmodel = pickle.load(open('SVMModel.sav', 'rb'))
+    X, Y, x_train, x_test, y_train, y_test = splitdataset(df)
+    result = loadedmodel.score(x_test, y_test)
+    print("loaded model accuracy: " + str(result))
+
+loadmodel()
