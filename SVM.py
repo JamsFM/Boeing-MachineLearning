@@ -1,74 +1,84 @@
 import os
-import numpy as np
+
+import numpy as np #TODO: Check if these libraries are needed
 import pandas as pd
 import pickle
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 import random
 
-logs = open(os.path.join(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))), 'BadActorLogs.txt'), 'r', encoding="utf8") #Opens logs.txt (has to be in same directory as python script)
-#training labels for combined logs
+def ProcessLogs(): # Makes each log into an array with the first element being the logs label, and the remaining elements being the tfidf representation of the log.
+    # Vectorizes log file into numerical array
+    logs = open(os.path.join(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))), 'BadActorLogs.txt'), 'r', encoding="utf8") #Opens logs.txt (has to be in same directory as python script)
 
-#trainingLabels = ["safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","safe","safe","safe","safe","unsafe","safe","safe","unsafe","unsafe","unsafe","safe","safe","safe","unsafe","unsafe","unsafe","safe","unsafe","unsafe","unsafe"]
+    # Training labels for combined logs
+    #trainingLabels = ["safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","safe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","unsafe","safe","safe","safe","safe","unsafe","safe","safe","unsafe","unsafe","unsafe","safe","safe","safe","unsafe","unsafe","unsafe","safe","unsafe","unsafe","unsafe"]
 
-#training labels for bad actor logs
-trainingLabels = ["Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized superuser privileges","unauthorized superuser privileges","unauthorized superuser privileges","unauthorized superuser privileges","failed login","failed login","failed login","unauthorized login","unauthorized login","unauthorized login"]
+    # Training labels for bad actor logs
+    trainingLabels = ["Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","Unauthorized Web Server Logins","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","malicious webserver access","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","ddos","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","port scan","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized login","unauthorized superuser privileges","unauthorized superuser privileges","unauthorized superuser privileges","unauthorized superuser privileges","failed login","failed login","failed login","unauthorized login","unauthorized login","unauthorized login"]
 
-# Vectorizes log file into numerical array
-vectorizer = TfidfVectorizer()
-vectors = vectorizer.fit_transform(logs)
-feature_names = vectorizer.get_feature_names()
-dense = vectors.todense()
-denselist = dense.tolist()
-for i in range(len(denselist)):
-        denselist[i].insert(0,trainingLabels[i])
+    vectorizer = TfidfVectorizer()
+    vectors = vectorizer.fit_transform(logs)
+    featureNames = vectorizer.get_feature_names()
+    dense = vectors.todense()
+    denseList = dense.tolist()
+    for i in range(len(denseList)):
+        denseList[i].insert(0,trainingLabels[i])
+    #random.shuffle(denselist) # TODO: resolve issue with printing output being messed up by randomizing order
+    processedLogs = pd.DataFrame(denseList)
 
-random.shuffle(denselist)
-
-df = pd.DataFrame(denselist)
-#print(feature_names)
-#print(df)
-
-#import data
-balance_data = df
-# Printing the dataset shape 
-#print ("Dataset Length: ", len(balance_data)) 
-#print ("Dataset Shape: ", balance_data.shape)
-# Printing the dataset obseravtions 
-#print ("Dataset: ",balance_data.head())
-
+    # Printing the dataset shape 
+    #print ("Dataset Length: ", len(processedLogs)) 
+    #print ("Dataset Shape: ", processedLogs.shape)
+    # Printing the dataset obseravtions 
+    #print ("Dataset: ",processedLogs.head())
+    #print(feature_names)
+    #print(df)
+    return processedLogs
 
 from sklearn.model_selection import train_test_split 
 # Function to split the dataset 
-def splitdataset(balance_data): 
-  
+def SplitDataset():
+    processedLogs = ProcessLogs()
     # Separating the target variable 
-    X = balance_data.values[:, 1:] 
-    Y = balance_data.values[:, 0] 
-  
+    tfidfLogs = processedLogs.values[:, 1:]
+    Labels = processedLogs.values[:, 0] 
+
     # Splitting the dataset into train and test 
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.2) 
-      
-    return X, Y, X_train, X_test, y_train, y_test 
+    xTrain, xTest, yTrain, yTest = train_test_split(tfidfLogs, Labels, test_size = 0.2) 
+    
+    return tfidfLogs, Labels, xTrain, xTest, yTrain, yTest 
 
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-def modeltrain():
-    X, Y, x_train, x_test, y_train, y_test = splitdataset(df)
+def ModelTrain(): # Train and save a support vector machines (SVM) algorithm
+    tfidfLogs, Labels, xTrain, xTest, yTrain, yTest = SplitDataset()
 
-    clf = SVC(kernel='rbf', degree=8) #degree is only used for poly kernels
-    clf.fit(x_train,y_train)
-    y_pred = clf.predict(x_test)
-    print("Accuracy score of sklearn model: " + str(accuracy_score(y_test,y_pred)))
-    #Save the model
-    pickle.dump(clf, open('SVMModel.sav', 'wb'))
+    clf = SVC(kernel='rbf') # Uses a radial basis function kernel
+    clf.fit(xTrain,yTrain)
+    yPred = clf.predict(xTest)
+    print("Accuracy score of trained sklearn model: " + str(accuracy_score(yTest,yPred)))
+    pickle.dump(clf, open('SVMModel.sav', 'wb')) # Save the model
 
-#modeltrain()
+def MakePredictions(): # Writes each log and its corresponding prediction to a file called "AlgorithmOutput.txt"
+    # Loads model, and makes prediction
+    loadedModel = pickle.load(open('SVMModel.sav', 'rb'))
+    tfidfLogs, Labels, xTrain, xTest, yTrain, yTest = SplitDataset()
+    predictions = loadedModel.predict(tfidfLogs)
+    result = loadedModel.score(tfidfLogs, Labels)
+    print("Loaded model accuracy: " + str(result))
 
-def loadmodel():
-    loadedmodel = pickle.load(open('SVMModel.sav', 'rb'))
-    X, Y, x_train, x_test, y_train, y_test = splitdataset(df)
-    result = loadedmodel.score(x_test, y_test)
-    print("loaded model accuracy: " + str(result))
+    #write predictions to output file
+    f = open("AlgorithmOutput.txt", "w") #"w" will overwrite any existing content, "a" will append to the end of the file. Will make a file called "AlgorithmOutput.txt" if one doesn't already exist
+    logs = open(os.path.join(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))), 'BadActorLogs.txt'), 'r', encoding="utf8") # Opens logs.txt (has to be in same directory as python script)
+    for i in range(len(predictions)): # Write every log and its corresponding prediction to file
+        f.write("Prediction: ")
+        f.write(predictions[i]) # Write prediction to file
+        f.write("   log: ")
+        f.write(logs.readline().rstrip('\n')) # Write original log to file (not inluding '\n')
+        f.write("\n")
+    f.close()
 
-loadmodel()
+#ModelTrain()
+MakePredictions()
