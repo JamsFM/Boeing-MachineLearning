@@ -1,0 +1,66 @@
+Dec  9 19:03:03 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=riley rhost=  user=riley
+Mar 11 15:08:03 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Jan 12 15:33:03 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Jan 15 16:50:49 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Feb 13 19:51:24 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get auto-remove
+Feb 13 20:08:34 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Feb 13 20:09:12 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Mar 21 18:18:31 riley-VirtualBox sudo:    riley : TTY=pts/1 ; PWD=/home/riley/Desktop/School Files ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Mar 21 18:20:08 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Mar 21 18:20:19 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley ; USER=root ; COMMAND=/usr/bin/apt-get update
+Mar 21 18:20:39 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Mar 21 18:21:07 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Mar 11 16:42:27 travis sudo: pam_unix(sudo:auth): authentication failure; logname=travis uid=1000 euid=0 tty=/dev/pts/1 ruser=travis rhost=  user=travis
+Mar 11 15:08:03 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Jan 12 15:33:03 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Jan 15 16:50:49 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Feb 13 19:51:24 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get auto-remove
+Feb 13 20:08:34 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Feb 13 20:09:12 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Mar 21 18:18:31 riley-VirtualBox sudo:    riley : TTY=pts/1 ; PWD=/home/riley/Desktop/School Files ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Mar 21 18:20:08 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Mar 21 18:20:19 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley ; USER=root ; COMMAND=/usr/bin/apt-get update
+Mar 21 18:20:39 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Mar 21 18:21:07 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:41:42 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:41:49 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+Apr  6 15:41:59 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:42:36 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt remove
+Apr  6 15:42:43 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Apr  6 15:42:47 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  6 15:43:04 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:43:13 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  6 15:43:22 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:44:19 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  6 15:44:49 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get remove
+Apr  6 15:47:09 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:47:29 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  6 15:47:59 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:48:08 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  6 15:48:24 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:48:37 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt remove
+Apr  6 15:48:45 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Apr  6 15:48:49 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get auto-remove
+Apr  6 15:48:53 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  6 15:52:03 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:52:10 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get update
+Apr  6 15:52:17 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:52:25 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Apr  6 15:52:37 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:52:47 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get remove
+Apr  6 15:52:58 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:53:05 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Apr  6 15:53:10 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:53:18 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get auto-remove
+Apr  6 15:53:26 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:53:34 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+Apr  6 15:53:40 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:53:48 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Apr  6 15:53:58 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:54:05 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt remove
+Apr  6 15:54:25 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:54:32 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Apr  6 15:54:37 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:54:46 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  6 15:55:07 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  6 15:55:11 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove

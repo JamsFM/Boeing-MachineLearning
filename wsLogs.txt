@@ -1,0 +1,50 @@
+[Wed Dec 09 18:57:55.208340 2020] [auth_basic:error] [pid 793:tid 140073706153728] [client 73.239.143.254:53720] AH01618: user badmin not found: /
+[Wed Dec 09 18:58:00.023046 2020] [auth_basic:error] [pid 793:tid 140073697761024] [client 73.239.143.254:53720] AH01618: user oops not found: /
+[Wed Dec 09 19:00:23.454050 2020] [auth_basic:error] [pid 792:tid 140073722939136] [client 71.212.209.82:56697] AH01618: user bahsdkja not found: /
+[Wed Dec 09 19:00:26.323867 2020] [auth_basic:error] [pid 792:tid 140073714546432] [client 71.212.209.82:56697] AH01618: user adf not found: /
+[Wed Dec 09 19:00:33.336769 2020] [auth_basic:error] [pid 792:tid 140073680975616] [client 71.212.209.82:56699] AH01618: user afga not found: /
+[Wed Dec 09 19:00:45.223817 2020] [auth_basic:error] [pid 793:tid 140073731331840] [client 212.102.47.66:63684] AH01618: user applebottom jeans not found: /
+[Thu Mar 11 21:52:15.306276 2021] [auth_basic:error] [pid 816:tid 139737062946560] [client 166.181.242.53:17740] AH01618: user failedusername not found: /
+[Thu Mar 11 21:52:23.506956 2021] [auth_basic:error] [pid 816:tid 139737088124672] [client 166.181.242.53:17563] AH01618: user failedusername2 not found: /
+[Thu Mar 11 21:56:49.444483 2021] [auth_basic:error] [pid 816:tid 139736979019520] [client 166.181.242.53:49617] AH01618: user failedlogin3 not found: /
+[Thu Mar 11 21:56:54.033202 2021] [auth_basic:error] [pid 816:tid 139737322989312] [client 166.181.242.53:49617] AH01618: user failedlogin4 not found: /
+[Thu Mar 11 21:57:19.139506 2021] [auth_basic:error] [pid 816:tid 139737348167424] [client 166.181.242.53:49157] AH01618: user failedlogin5 not found: /
+[Thu Mar 11 21:58:15.832292 2021] [auth_basic:error] [pid 815:tid 139737205556992] [client 166.181.242.53:49613] AH01618: user user not found: /
+[Thu Mar 11 22:01:36.575087 2021] [auth_basic:error] [pid 816:tid 139737088124672] [client 166.181.242.53:17649] AH01618: user hi not found: /
+[Thu Mar 11 22:01:43.248653 2021] [auth_basic:error] [pid 815:tid 139736576399104] [client 166.181.242.53:17432] AH01618: user asdf not found: /
+[Thu Mar 11 22:01:52.498629 2021] [auth_basic:error] [pid 816:tid 139737046161152] [client 166.181.242.53:17411] AH01618: user I need more usernames not found: /
+[Thu Mar 11 22:01:59.577641 2021] [auth_basic:error] [pid 816:tid 139736962234112] [client 166.181.242.53:17617] AH01618: user Hello World! not found: /
+[Thu Mar 11 22:02:06.867835 2021] [auth_basic:error] [pid 815:tid 139736593184512] [client 166.181.242.53:17503] AH01618: user failed login not found: /
+[Thu Mar 11 22:02:18.121743 2021] [auth_basic:error] [pid 816:tid 139737322989312] [client 166.181.242.53:17644] AH01618: user Failed access not found: /
+[Thu Mar 11 22:02:22.947371 2021] [auth_basic:error] [pid 816:tid 139737447241472] [client 166.181.242.53:17644] AH01618: user failed access 1 not found: /
+[Thu Mar 11 22:02:29.761372 2021] [auth_basic:error] [pid 816:tid 139737339774720] [client 166.181.242.53:17890] AH01618: user failed access 2 not found: /
+[Thu Mar 11 22:02:34.899867 2021] [auth_basic:error] [pid 816:tid 139737020983040] [client 166.181.242.53:17896] AH01618: user failed access 3 not found: /
+[Thu Mar 11 22:02:40.525230 2021] [auth_basic:error] [pid 816:tid 139736970626816] [client 166.181.242.53:17409] AH01618: user failed access 4 not found: /
+[Thu Mar 11 22:02:46.647689 2021] [auth_basic:error] [pid 815:tid 139737180378880] [client 166.181.242.53:17913] AH01618: user failed access 5 not found: /
+[Thu Mar 11 22:02:51.938776 2021] [auth_basic:error] [pid 816:tid 139737314596608] [client 166.181.242.53:17484] AH01618: user failed access 6 not found: /
+[Thu Mar 11 22:02:57.511494 2021] [auth_basic:error] [pid 815:tid 139737348167424] [client 166.181.242.53:17751] AH01618: user failed accesss 7 not found: /
+[Thu Mar 11 22:03:10.428728 2021] [auth_basic:error] [pid 815:tid 139737230735104] [client 166.181.242.53:17596] AH01618: user failed accesses not found: /
+[Fri Apr 09 17:36:59.408302 2021] [auth_basic:error] [pid 847:tid 139930562979584] [client 166.181.252.47:3146] AH01618: user admindb not found: /
+[Fri Apr 09 17:37:06.714873 2021] [auth_basic:error] [pid 847:tid 139930537801472] [client 166.181.252.47:3343] AH01618: user dyejsnfnj not found: /
+[Fri Apr 09 17:37:08.733537 2021] [auth_basic:error] [pid 847:tid 139930672019200] [client 166.181.252.47:3343] AH01618: user shduenfbf not found: /
+[Fri Apr 09 17:37:10.815607 2021] [auth_basic:error] [pid 847:tid 139930529408768] [client 166.181.252.47:3343] AH01618: user dheuejdndy not found: /
+[Fri Apr 09 17:37:12.799633 2021] [auth_basic:error] [pid 847:tid 139931108243200] [client 166.181.252.47:3343] AH01618: user fhdjsnak4i not found: /
+[Fri Apr 09 17:37:14.627384 2021] [auth_basic:error] [pid 847:tid 139930521016064] [client 166.181.252.47:3343] AH01618: user iwkwhfie not found: /
+[Fri Apr 09 17:37:17.077326 2021] [auth_basic:error] [pid 848:tid 139930227435264] [client 166.181.252.47:3354] AH01618: user dkjwoqlfn not found: /
+[Fri Apr 09 17:37:19.231811 2021] [auth_basic:error] [pid 848:tid 139930219042560] [client 166.181.252.47:3354] AH01618: user djw8qoekrj not found: /
+[Fri Apr 09 17:37:21.363439 2021] [auth_basic:error] [pid 848:tid 139930185471744] [client 166.181.252.47:3354] AH01618: user djwiwokf not found: /
+[Fri Apr 09 17:37:23.405034 2021] [auth_basic:error] [pid 848:tid 139930210649856] [client 166.181.252.47:3354] AH01618: user djsiq9lf not found: /
+[Fri Apr 09 17:37:25.535883 2021] [auth_basic:error] [pid 848:tid 139930999138048] [client 166.181.252.47:3354] AH01618: user ueiepqkrk not found: /
+[Fri Apr 09 17:37:27.763369 2021] [auth_basic:error] [pid 848:tid 139930202257152] [client 166.181.252.47:3354] AH01618: user diqoqldkd not found: /
+[Fri Apr 09 17:37:29.900405 2021] [auth_basic:error] [pid 848:tid 139930193864448] [client 166.181.252.47:3354] AH01618: user fjqo10eu not found: /
+[Fri Apr 09 17:37:32.111071 2021] [auth_basic:error] [pid 848:tid 139931206133504] [client 166.181.252.47:3354] AH01618: user dieow0rkj not found: /
+[Fri Apr 09 17:37:35.431440 2021] [auth_basic:error] [pid 848:tid 139930235827968] [client 166.181.252.47:3354] AH01618: user ruei2krjf8 not found: /
+[Fri Apr 09 17:37:37.982866 2021] [auth_basic:error] [pid 848:tid 139931189348096] [client 166.181.252.47:3354] AH01618: user ew72irjrm not found: /
+[Fri Apr 09 17:37:42.713392 2021] [auth_basic:error] [pid 848:tid 139931007530752] [client 166.181.252.47:3354] AH01618: user d28ifjrieodk not found: /
+[Fri Apr 09 17:37:45.304617 2021] [auth_basic:error] [pid 848:tid 139930990745344] [client 166.181.252.47:3354] AH01618: user d7w28rjrjd9j not found: /
+[Fri Apr 09 17:37:49.388406 2021] [auth_basic:error] [pid 848:tid 139931074672384] [client 166.181.252.47:3354] AH01618: user qr4ffe9knr not found: /
+[Fri Apr 09 17:37:54.059891 2021] [auth_basic:error] [pid 848:tid 139931066279680] [client 166.181.252.47:3354] AH01618: user fw2rjidow not found: /
+[Fri Apr 09 17:37:58.221421 2021] [auth_basic:error] [pid 848:tid 139931057886976] [client 166.181.252.47:3354] AH01618: user fdwdrfkn not found: /
+[Fri Apr 09 17:38:02.262519 2021] [auth_basic:error] [pid 848:tid 139931049494272] [client 166.181.252.47:3354] AH01618: user vde3rffk not found: /
+[Fri Apr 09 17:38:06.012441 2021] [auth_basic:error] [pid 848:tid 139931041101568] [client 166.181.252.47:3354] AH01618: user cawrfeek not found: /
+[Fri Apr 09 17:38:09.004154 2021] [auth_basic:error] [pid 848:tid 139931032708864] [client 166.181.252.47:3354] AH01618: user fe2rfkf9rk not found: /
