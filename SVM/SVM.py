@@ -19,8 +19,13 @@ def ProcessLogs():
 
     Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
     fileNames = []
-    for i in range(5): #in order: trainingSet,testingSet,trainingLabels,testingLabels,vectorizerModel
-        fileNames.append(askopenfilename())
+    #for i in range(5): #in order: trainingSet,testingSet,trainingLabels,testingLabels,vectorizerModel
+    #    fileNames.append(askopenfilename())
+    fileNames.append(askopenfilename(title='trainingSet'))
+    fileNames.append(askopenfilename(title='testingSet'))
+    fileNames.append(askopenfilename(title='trainingLabels'))
+    fileNames.append(askopenfilename(title='testingLabels'))
+    fileNames.append(askopenfilename(title='vectorizerModel'))
 
     global trainingLogs, testingLogs, trainingLabels, testingLabels
     with open(fileNames[4], 'rb') as f:
