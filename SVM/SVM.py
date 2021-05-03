@@ -8,16 +8,14 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 import random
 
-#for labels (not being used atm, used with file that has an array)
+# For labels (not being used atm, used with file that has an array)
 import json
 
 def ProcessLogs(): 
-
-    from tkinter import Tk     # from tkinter import Tk for Python 3.x
+    from tkinter import Tk     # From tkinter import Tk for Python 3.x
     from tkinter.filedialog import askopenfilename
 
-
-    Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+    Tk().withdraw() # We don't want a full GUI, so keep the root window from appearing
     fileNames = []
     #for i in range(5): #in order: trainingSet,testingSet,trainingLabels,testingLabels,vectorizerModel
     #    fileNames.append(askopenfilename())
@@ -28,10 +26,10 @@ def ProcessLogs():
     fileNames.append(askopenfilename(title='vectorizerModel'))
 
     global trainingLogs, testingLogs, trainingLabels, testingLabels
-    with open(fileNames[4], 'rb') as f:
+    with open(fileNames[4], 'rb') as f: # Load vectorizer
         vectorizer = pickle.load(f)
 
-    with open(fileNames[0], 'r', encoding='utf8') as f:
+    with open(fileNames[0], 'r', encoding='utf8') as f: #
         vectors = vectorizer.transform(f)
         dense = vectors.todense()
         trainingLogs = np.asarray(dense)
@@ -44,11 +42,10 @@ def ProcessLogs():
     with open(fileNames[2], 'r', encoding='utf8') as f:
         trainingLabels = json.load(f)
 
-
     with open(fileNames[3], 'r', encoding='utf8') as f:
         testingLabels = json.load(f)
 
-    labelTranslation = ["safe", "ssh", "ws", "sql", "ddos", "ps", "su"]
+    labelTranslation = ["safe", "ssh", "ws", "sql", "ddos", "ps", "su","unsafe"]
     trainingLabelsString = []
     testingLabelsString = []
     for i in range(len(trainingLabels)):
@@ -58,7 +55,6 @@ def ProcessLogs():
         label = testingLabels[i]
         testingLabels[i] = labelTranslation[label]
     
-
     # Returns position in file to original file
     testingSet = open(fileNames[1], 'r', encoding="utf8")
     global logs 
@@ -70,8 +66,6 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
 def ModelTrain(): # Train and save a support vector machines (SVM) algorithm
-    
-
     clf = SVC(kernel='rbf') # Uses a radial basis function kernel
     clf.fit(trainingLogs, trainingLabels)
     predictions = clf.predict(trainingLogs)
@@ -82,13 +76,13 @@ def MakePredictions(): # Writes each log and its corresponding prediction to a f
     # Loads model, and makes prediction
     loadedModel = pickle.load(open('SVMModel.sav', 'rb'))
     predictions = loadedModel.predict(testingLogs)
+    createBadActorSet(predictions)
     result = loadedModel.score(testingLogs, testingLabels)
     print("Loaded model accuracy: " + str(result))
 
-
     #write predictions to output file
     f = open("AlgorithmOutput.txt", "w") #"w" will overwrite any existing content, "a" will append to the end of the file. Will make a file called "AlgorithmOutput.txt" if one doesn't already exist
-    frequencies = {'safe': 0, 'ws': 0, 'sql': 0, 'ddos': 0, 'ps': 0, 'ssh': 0, 'su': 0}
+    frequencies = {'safe': 0, 'ws': 0, 'sql': 0, 'ddos': 0, 'ps': 0, 'ssh': 0, 'su': 0, 'unsafe':0}
     for i in range(len(predictions)):
         frequencies[predictions[i]] = (frequencies.get(predictions[i]) + 1)
     for badActor in frequencies:
@@ -104,7 +98,6 @@ def MakePredictions(): # Writes each log and its corresponding prediction to a f
         f.write(featureExtract(logs[i]))
         f.write("\tLine Number: " + str(i+1) + "\n\n")
     f.close()
-
 
 def featureExtract(line):
     features = ""
@@ -133,7 +126,6 @@ def featureExtract(line):
         errorCode = re.split("\:", line, 1)[0]
         msg = re.split("\:", line, 1)[1]
         features = "\ttime = " + time + "\n\t" + "date = " + date + "\n\t" + "log type = " + logType + "\n\t" + "PID = " + PID + "\n\t" + "TID = " + TID + "\n\t" + "client = " + client + "\n\t" + "error code = " + errorCode + "\n\t" + "message =" + msg
-        
         
     elif re.search("^\d",line): #log starts with a digit
         #print("This is a access.log log file") #used for malicious web server access bad actor
@@ -164,6 +156,17 @@ def featureExtract(line):
         features = "\tdate = " + date + "\n\t" + "time = " + time + "\n\t" + "user = " + user + "\n\t" + "message = " + msg
     return features
 
+def createBadActorSet(predictions): # Creates a new set with only unsafe logs
+    #write predictions to output file
+    f = open("BadActors.txt", "w") #"w" will overwrite any existing content, "a" will append to the end of the file. Will make a file called "BadActors.txt" if one doesn't already exist
+    frequencies = {'safe': 0, 'ws': 0, 'sql': 0, 'ddos': 0, 'ps': 0, 'ssh': 0, 'su': 0}
+    
+    for i in range(len(predictions)): # Write every log and its corresponding prediction to file
+        if(predictions[i] == "unsafe"): # Write log to file
+            f.write(logs[i]) # Write original log to file (not inluding '\n')
+
+print("Do binomial classification")
 ProcessLogs()
 ModelTrain()
-MakePredictions() 
+MakePredictions()
+print("Do multinomial classification")
