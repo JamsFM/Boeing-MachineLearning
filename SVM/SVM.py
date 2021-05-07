@@ -75,7 +75,7 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
         for i in range(len(testingLabels)):
             testingLabels[i] = labelTranslation[testingLabels[i]]
     
-    if includeSafeLogs: # Remove all safe logs from training and testing sets
+    if not includeSafeLogs: # Remove all safe logs from training and testing sets
         if filesToLoad == "training" or filesToLoad == "all":
             trainingLogsBadActor = [] # Remove safe logs from training logs
             for i in range(len(trainingLogs)):
@@ -134,10 +134,17 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
     global testingLabels
     # Use binomial model to predict if "safe" or "unsafe"
     ProcessLogs("testing","binomial",True,True) #load testing logs in binomial format. Include safe logs, and load a vectorizer
+    print(testingLabels)
     loadedModel = pickle.load(open('SVMBinomial.sav', 'rb')) 
     biPredictions = loadedModel.predict(testingLogs)
+    stringTestingLabels = []
+    for i in range(len(testingLabels)):
+        if testingLabels[i] == 0:
+            stringTestingLabels.append('safe')
+        else:
+            stringTestingLabels.append('unsafe')
     if compareToLabels == True:
-        result = loadedModel.score(testingLogs, testingLabels)
+        result = loadedModel.score(testingLogs, stringTestingLabels)
         print("Binomial accuracy: " + str(result))
 
     # Removes logs categorized as safe from testing set.
@@ -157,8 +164,11 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
     #processLogs("testing","")
     loadedModel = pickle.load(open('SVMMultinomial.sav', 'rb')) 
     multiPredictions = loadedModel.predict(badActorLogs)
+    stringBadActorLabels = []
+    for i in range(len(badActorLabels)):
+        stringBadActorLabels.append()
     if compareToLabels == True:
-        result = loadedModel.score(badActorLogs, badActorLabels)
+        result = loadedModel.score(badActorLogs, stringBadActorLabels)
         print("Multinomial accuracy: " + str(result))
 
     #write predictions to output file
@@ -258,38 +268,30 @@ def createBadActorSet(predictions): # Creates a new set with only unsafe logs
     for i in range(len(predictions)): # Write every log and its corresponding prediction to file
         if(predictions[i] == "unsafe"): # Write log to file
             f.write(logs[i]) # Write original log to file (not inluding '\n')
-
-"""def makeMultinomialPredictions(): # TODO: modify to fit specifically Multinomial predictions
+'''
+def makeMultinomialPredictions(): # TODO: modify to fit specifically Multinomial predictions
     global trainingLogs, testingLogs, trainingLabels, testingLabels
-
     Tk().withdraw() # We don't want a full GUI, so keep the root window from appearing
     fileNames = []
-
     fileNames.append(askopenfilename(title='Multinomial Training Labels'))
     fileNames.append(askopenfilename(title='Multinomial Testing Labels'))
-
     with open(fileNames[0], 'r', encoding='utf8') as f:
         trainingLabels = json.load(f)
-
     with open(fileNames[1], 'r', encoding='utf8') as f:
         testingLabels = json.load(f)
-
     labelTranslation = ["safe", "ssh", "ws", "sql", "ddos", "ps", "su","unsafe"]
-
     for i in range(len(trainingLabels)):
         label = trainingLabels[i]
         trainingLabels[i] = labelTranslation[label]
     for i in range(len(testingLabels)):
         label = testingLabels[i]
         testingLabels[i] = labelTranslation[label]
-
     # Loads model, and makes prediction 
     loadedModel = pickle.load(open('SVMMultinomialModel.sav', 'rb'))
     predictions = loadedModel.predict(testingLogs)
     createBadActorSet(predictions)
     result = loadedModel.score(testingLogs, testingLabels)
     print("Loaded model accuracy: " + str(result))
-
     #write predictions to output file
     f = open("AlgorithmMultinomialOutput.txt", "w") #"w" will overwrite any existing content, "a" will append to the end of the file. Will make a file called "AlgorithmOutput.txt" if one doesn't already exist
     frequencies = {'safe': 0, 'ws': 0, 'sql': 0, 'ddos': 0, 'ps': 0, 'ssh': 0, 'su': 0, 'unsafe':0}
@@ -307,8 +309,8 @@ def createBadActorSet(predictions): # Creates a new set with only unsafe logs
         f.write(logs[i]) # Write original log to file (not inluding '\n')
         f.write(featureExtract(logs[i]))
         f.write("\tLine Number: " + str(i+1) + "\n\n")
-    f.close()"""
-
+    f.close()
+'''
 
 def makeBadActorSet(): # Makes a text file that contains bad actor training and testing logs and labels.
     Tk().withdraw() # We don't want a full GUI, so keep the root window from appearing
