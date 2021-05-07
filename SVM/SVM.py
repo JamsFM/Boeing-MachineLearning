@@ -21,11 +21,11 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
     fileNames = ["","","","",""]
     if filesToLoad == "training" or filesToLoad == "all":
         fileNames[0] = askopenfilename(title= 'Training Set')
-        fileNames[1] = askopenfilename(title= 'Training Labels')
+        fileNames[1] = askopenfilename(title= (cardinality + ' Training Labels'))
     if filesToLoad == "testing" or filesToLoad == "testingLogs" or filesToLoad == "all":
         fileNames[2] = askopenfilename(title= 'Testing Set')
     if filesToLoad == "testing" or filesToLoad == "all":
-        fileNames[3] = askopenfilename(title= 'Testing Labels')
+        fileNames[3] = askopenfilename(title= (cardinality + ' Testing Labels'))
     if loadNewVectorizer:
         fileNames[4] = askopenfilename(title='vectorizerModel')
 
@@ -49,6 +49,7 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
     if filesToLoad == "training" or filesToLoad == "all":
         with open(fileNames[1], 'r', encoding='utf8') as f:
             trainingLabels = json.load(f)
+            trainingLabels = np.asarray(trainingLabels) #TODO: TEST IF WORKS
 
     if filesToLoad == "testing" or filesToLoad == "testingLogs" or filesToLoad == "all":
         with open(fileNames[2], 'r', encoding='utf8') as f:
@@ -59,6 +60,7 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
     if filesToLoad == "testing" or filesToLoad == "all":
         with open(fileNames[3], 'r', encoding='utf8') as f:
             testingLabels = json.load(f)
+            testingLabels = np.asarray(testingLabels) #TODO: TEST IF WORKS
 
     if cardinality == "multinomial":
         labelTranslation = ["safe", "ssh", "ws", "sql", "ddos", "ps", "su","unsafe"]
@@ -129,7 +131,7 @@ def MultinomialModelTrain():
 
 def MakePredictions(compareToLabels = False): # Writes each log and its corresponding prediction to a file called "AlgorithmOutput.txt". If compareToLabels == True, then output accuracy.
     # Loads model, and makes prediction
-
+    global testingLabels
     # Use binomial model to predict if "safe" or "unsafe"
     ProcessLogs("testing","binomial",True,True) #load testing logs in binomial format. Include safe logs, and load a vectorizer
     loadedModel = pickle.load(open('SVMBinomial.sav', 'rb')) 
@@ -141,7 +143,11 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
     # Removes logs categorized as safe from testing set.
     badActorLogs = []
     badActorLabels = []
-    for i in range(len(biPredictions)):
+    fileName = askopenfilename(title= 'multinomial Testing Labels') # Load multinomial training labels.
+    with open(fileName, 'r', encoding='utf8') as f: 
+            testingLabels = json.load(f)
+
+    for i in range(len(biPredictions)): # Create set of logs and labels with only the logs labeled as unsafe
         if biPredictions[i] == "unsafe":
             badActorLogs.append(testingLogs[i])
             badActorLabels.append(testingLabels[i])
@@ -149,7 +155,7 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
 
     # Use multinomial model to predict which bad actors unsafe logs represent
     #processLogs("testing","")
-    loadedModel = pickle.load(open('SVMBinomial.sav', 'rb')) 
+    loadedModel = pickle.load(open('SVMMultinomial.sav', 'rb')) 
     multiPredictions = loadedModel.predict(badActorLogs)
     if compareToLabels == True:
         result = loadedModel.score(badActorLogs, badActorLabels)
@@ -388,10 +394,8 @@ def makeBadActorSet(): # Makes a text file that contains bad actor training and 
 
 #makeBadActorSet() # Makes a text file that contains bad actor training and testing logs and labels.
 
-print("Do binomial classification")
 #ProcessLogs()
 #BinomialModelTrain()
 #MultinomialModelTrain()
-MakePredictions()
-print("Do multinomial classification")
+MakePredictions(True)
 #makeMultinomialPredictions()
