@@ -1,6 +1,6 @@
 # **Boeing-MachineLearning**
 ##### **Google Drive:** (Relevant Documents: Design Spec, Validation/Test Plan, PRD)
-##### [Link]: https://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVAhttps://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVA
+##### https://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVAhttps://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVA
 
 
 ## **Boeing Analytics for Plane and Ground Support Log Data**
@@ -9,7 +9,7 @@
 #### managed by: *Nicholas Falter*
 #### 4/11/2021
 
-Revision History:
+**Revision History:**
 This section lists the previous versions of this document. Details as to what changed between versions of this document can be found in this section.
 
 Table 1. Each revision, and information about the revision.
@@ -52,7 +52,7 @@ Nicholas Falter
 
 A table detailing all revisions of this document and information about the revisions
 
-Table of Contents:
+**Table of Contents:**
 This section lists all of the different sections in this document. Page numbers can be found for different sections.
 
 1. Overview/Introduction	1
@@ -87,7 +87,7 @@ This section lists all of the different sections in this document. Page numbers 
 8. Errata	19
 
 
-1. Overview/Introduction
+##### 1. Overview/Introduction
 This section gives a general overview of what this project is. As we progress this will be updated to explain what it is we are working on and what testing will be covered in this document. 
 
 The purpose of this project is to create a proof of concept program that simulates analyzing log data from aircraft and ground support systems to discover and report anomalies in this log data. This would tell signs of potential threats to the aircraft.
@@ -95,7 +95,7 @@ The scope of this project does not include analyzing actual log data from aircra
 This project also includes creating a recommended set of procedures for analyzing these logs, with considerations such as the cost-effectiveness and probability of detecting a potential threat. The best methods for airports will vary, so potential considerations for an airport to examine will be outlined, but no universal best method can be determined.
 Currently, there are 6 different bad actors being used as data for the machine learning algorithm. The bad actors are unauthorized use of root/superuser privileges, malicious web server access, unauthorized logins, unauthorized web server logins, port scans, and DDOS. This is a very small subset of the bad actors Boeing tests for, but for the purposes of this project, it is adequate.
 
-2. Requirements
+##### 2. Requirements
 This section describes the critical requirements this project aims to satisfy.  This section summarizes what is documented in the PRD.
 2.1 Highest Priority/Primary Project Goal
 Create a program with machine learning that is able to identify potential threats to a computer’s cyber security by analyzing the computer’s logs. Logs are generated on a Linux system and these logs are what are required to be identified. This program simulates analyzing an aircraft system logs, but will not be tested or programmed with actual aircraft logs. This must be implemented through machine learning to be able to identify threats that were not explicitly programmed for or tested. 
@@ -104,7 +104,7 @@ Boeing has given us freedom to choose the program constraints. Our chosen progra
 Boeing requires the dataset of bad actors to have at least five entries. We chose to create the dataset from: unauthorized use of root/superuser privileges, malicious web server access, unauthorized logins, port scans, and DDOS. Additionally, unauthorized web server logins have been added to the dataset past the minimum of five.
 We have the freedom to select any machine learning algorithm we see fit. We tested Naive Bayes, Kmeans, Decision Trees, Neural Networks, Support Vector Machines (SVM), and Logistic Regression.
 
-3. System Architecture
+##### 3. System Architecture
 This section describes at a high level how this project works. It also describes alternate methods that could be used and why our team decided to use the methods we did.
 
 Transmitting logs wirelessly prevents personnel from having to physically visit each log producing system, which saves man-hours. If the airport doesn’t have WiFi, then this isn’t an option, but an analysis of how many man-hours are spent on collecting logs, and how much it would cost to install and maintain the internet connection, could be performed to determine if the airport should be set up to wirelessly transmit logs. Log analysis should be performed the day before an aircraft’s flight, and additionally be performed every week to ensure the integrity of the aircraft.
@@ -135,7 +135,7 @@ We will use the machine learning algorithm Support Vector Machines (SVM) trained
 3.5 Deploy for Serving/Serving Endpoint
 	This section of the project will not be handled by us. Boeing will review the results of our projects and if they are satisfied with the results, they will recreate the project with authentic airplane logs, and then use their recreation of our program to serve their endpoint(s), which would be analyzing logs from aircraft and their subsystems, and detecting logs that indicate bad actors (potential threats to the airplane’s cybersecurity).
 
-4. System Design
+##### 4. System Design
 This section gives specific details as to how each component of this project works. This section is useful for replicating similar projects.
 
 We are using Linux system logs to simulate airplane logs. These logs are then used with the machine learning algorithm Support Vector Machines (SVM) to identify and contextualize bad actors (logs that potentially indicate a threat to an airplane). These bad actors are simulated in a Linux virtual machine. The logs generated are then combined into a dataset, which is processed into a numeric form that can be used to train a machine learning algorithm.
@@ -296,7 +296,7 @@ This implementation was done using the Kmeans sub-library from the Python librar
 4.4 Human Interface Design
 Working with this program should be straightforward for Boeing operators. Giving log data to the program needs to be a simple process. Results from the scan should be clearly formatted and easy to analyze. The program should prompt for a text file input of logs, and then it should write a text file that copies the original file, but adds a classification to each line of the text file describing whether the line is classified as safe, or what bad actor it represents, and possibly further, the recommended procedure to deal with a given threat. Additionally, an unsupervised algorithm will be run that will group the data into categories. When new categories start appearing, it indicates that there are potentially new bad actors that the other algorithms should be trained to detect. This program would be used in conjunction with existing bad actor detection programs to ensure nothing is missed.
 
-5. Project Bill of Materials (BOM)
+##### 5. Project Bill of Materials (BOM)
 This section describes required components for this project. Cost details are also included in this section.
 
 Table 1. Each revision, and information about the revision.
@@ -309,14 +309,14 @@ https://store-us.vmware.com/vmware-workstation-16-player-5424180700.html?theme=2
 
 
 
-6. Ethical Considerations
+##### 6. Ethical Considerations
 This section describes the ethical implications of this project. Mitigation strategies for dealing with ethical issues are also found within this section.
 
 The purpose of this project is to create a proof of concept program that identifies bad actors (logs that potentially indicate a threat to an airplane). In logs generated by aircraft and their subsystems. Failure to identify bad actors could result in a threat to an aircraft’s computing systems going unnoticed, potentially resulting in a threat to the aircraft as a whole.
 This issue can only be mitigated by thoroughly testing our program and documenting its accuracy. This will ensure Boeing is not misinformed as to the accuracy of our program so that when they create their own program they can have appropriate expectations as to the accuracy of detections.
 Our program does not work with any actual aircraft logs, but if Boeing recreates our program with actual aircraft logs, then the level of privacy/security in which to handle the log data, and thus how the log data is accessed, needs to be approached carefully. Boeing handles this by only allowing authorized personnel to access logs specifically for the purpose of detecting bad actors.
 
-7. References
+##### 7. References
 This section details previous work and specifications that this project relies on. These components are necessary to run the project as designed.
 
 Simulating logs in a Linux Ubuntu environment.
@@ -331,7 +331,7 @@ Anderson, Melissa. “How To Set Up Password Authentication with Apache on Ubunt
 Tripathi, Mayank. “How to Process Textual Data Using tf-idf in Python.” FreeCodeCamp.org, FreeCodeCamp.org, 24 July 2019, www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/. (used for tf-idf figure)
 
 
-8. Errata
+##### 8. Errata
 This section details what goals are not able to be met within this achievement. Future projects could work on implementing these goals.
 
 One could train the model using multiple logs as one feature to create a more context-aware model. This has not been tested in this project.
