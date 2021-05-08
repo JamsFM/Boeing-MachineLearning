@@ -4,10 +4,10 @@
 
 
 ## **Boeing Analytics for Plane and Ground Support Log Data**
-#### Design Specifications 0.7
-#### *Nicholas Falter, James Mare, Riley Ruckman, Travis Shields*
-#### managed by: *Nicholas Falter*
-#### 4/11/2021
+####     Design Specifications 0.7
+####     *Nicholas Falter, James Mare, Riley Ruckman, Travis Shields*
+####     managed by: *Nicholas Falter*
+####     4/11/2021
 
 **Revision History:**
 This section lists the previous versions of this document. Details as to what changed between versions of this document can be found in this section.
