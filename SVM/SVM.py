@@ -171,10 +171,10 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
             j += 1
     finishedPrediction = biPredictions # finishedPrediction is the final set of predictions
     if compareToLabels == True: # Output the accuracy metrics of the model
-        print("Accuracy of binomial predictions: " + str(accuracy_score(testingLabels,finishedPrediction)))
-        print("f1 of binomial predictions: " + str(f1_score(testingLabels,finishedPrediction,average='micro')))
-        print("precision of binomial predictions: " + str(precision_score(testingLabels,finishedPrediction,average='micro')))
-        print("recall of binomial predictions: " + str(recall_score(testingLabels,finishedPrediction,average='micro')))
+        print("Accuracy of overall predictions: " + str(accuracy_score(testingLabels,finishedPrediction)))
+        print("f1 of overall predictions: " + str(f1_score(testingLabels,finishedPrediction,average='micro')))
+        print("precision of overall predictions: " + str(precision_score(testingLabels,finishedPrediction,average='micro')))
+        print("recall of overall predictions: " + str(recall_score(testingLabels,finishedPrediction,average='micro')))
 
     # Write predictions to output file
     f = open("LogPredictions.txt", "w") # "w" will overwrite any existing content, "a" will append to the end of the file. Will make a file called "AlgorithmOutput.txt" if one doesn't already exist
