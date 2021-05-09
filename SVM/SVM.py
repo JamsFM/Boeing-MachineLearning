@@ -49,7 +49,7 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
     if filesToLoad == "training" or filesToLoad == "all":
         with open(fileNames[1], 'r', encoding='utf8') as f:
             trainingLabels = json.load(f)
-            trainingLabels = np.asarray(trainingLabels) #TODO: TEST IF WORKS
+            #trainingLabels = np.asarray(trainingLabels) #TODO: TEST IF WORKS
 
     if filesToLoad == "testing" or filesToLoad == "testingLogs" or filesToLoad == "all":
         with open(fileNames[2], 'r', encoding='utf8') as f:
@@ -60,7 +60,7 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
     if filesToLoad == "testing" or filesToLoad == "all":
         with open(fileNames[3], 'r', encoding='utf8') as f:
             testingLabels = json.load(f)
-            testingLabels = np.asarray(testingLabels) #TODO: TEST IF WORKS
+            #testingLabels = np.asarray(testingLabels) #TODO: TEST IF WORKS
 
     if cardinality == "multinomial":
         labelTranslation = ["safe", "ssh", "ws", "sql", "ddos", "ps", "su","unsafe"]
@@ -72,6 +72,7 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
     if filesToLoad == "training" or filesToLoad == "all":
         for i in range(len(trainingLabels)): # Change the numeric representation of the bad actors to the string representation.
             trainingLabels[i] = labelTranslation[trainingLabels[i]]
+    if filesToLoad == "testing" or filesToLoad == "all":
         for i in range(len(testingLabels)):
             testingLabels[i] = labelTranslation[testingLabels[i]]
     
@@ -112,13 +113,19 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
 
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import f1_score
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
 
 def BinomialModelTrain(): # Train and save a support vector machines (SVM) algorithm
     ProcessLogs("all","binomial",True, True)
     clf = SVC(kernel='rbf') # Uses a radial basis function kernel
     clf.fit(trainingLogs, trainingLabels)
     predictions = clf.predict(testingLogs)
-    print("Accuracy score of trained sklearn model: " + str(accuracy_score(testingLabels,predictions)))
+    print("Accuracy score of trained binomial model: " + str(accuracy_score(testingLabels,predictions)))
+    print("f1 score of trained binomial model: " + str(f1_score(testingLabels,predictions,pos_label='safe')))
+    print("precision score of trained binomial model: " + str(precision_score(testingLabels,predictions,pos_label='safe')))
+    print("recall score of trained binomial model: " + str(recall_score(testingLabels,predictions,pos_label='safe')))
     pickle.dump(clf, open('SVMBinomial.sav', 'wb')) # Save the model
 
 def MultinomialModelTrain():
@@ -126,33 +133,34 @@ def MultinomialModelTrain():
     clf = SVC(kernel='rbf') # Uses a radial basis function kernel
     clf.fit(trainingLogs, trainingLabels)
     predictions = clf.predict(testingLogs)
-    print("Accuracy score of trained sklearn model: " + str(accuracy_score(testingLabels,predictions)))
+    print("Accuracy score of trained multinomial model: " + str(accuracy_score(testingLabels,predictions)))
+    print("f1 score of trained multinomial model: " + str(f1_score(testingLabels,predictions,average='micro')))
+    print("precision score of trained multinomial model: " + str(precision_score(testingLabels,predictions,average='micro')))
+    print("recall score of trained multinomial model: " + str(recall_score(testingLabels,predictions,average='micro')))
     pickle.dump(clf, open('SVMMultinomial.sav', 'wb')) # Save the model
 
 def MakePredictions(compareToLabels = False): # Writes each log and its corresponding prediction to a file called "AlgorithmOutput.txt". If compareToLabels == True, then output accuracy.
     # Loads model, and makes prediction
     global testingLabels
     # Use binomial model to predict if "safe" or "unsafe"
-    ProcessLogs("testing","binomial",True,True) #load testing logs in binomial format. Include safe logs, and load a vectorizer
-    print(testingLabels)
+    ProcessLogs("testing","binomial",True,True) # Load testing logs in binomial format. Include safe logs, and load a vectorizer
     loadedModel = pickle.load(open('SVMBinomial.sav', 'rb')) 
     biPredictions = loadedModel.predict(testingLogs)
-    stringTestingLabels = []
-    for i in range(len(testingLabels)):
+    """for i in range(len(testingLabels)):
         if testingLabels[i] == 0:
-            stringTestingLabels.append('safe')
+            testingLabels[i] = 'safe'
         else:
-            stringTestingLabels.append('unsafe')
+            testingLabels[i] = 'unsafe'"""
     if compareToLabels == True:
-        result = loadedModel.score(testingLogs, stringTestingLabels)
-        print("Binomial accuracy: " + str(result))
+        print("Accuracy of binomial predictions: " + str(accuracy_score(testingLabels,biPredictions)))
+        print("f1 of binomial predictions: " + str(f1_score(testingLabels,biPredictions,average='micro')))
+        print("precision of binomial predictions: " + str(precision_score(testingLabels,biPredictions,average='micro')))
+        print("recall of binomial predictions: " + str(recall_score(testingLabels,biPredictions,average='micro')))
 
     # Removes logs categorized as safe from testing set.
+    ProcessLogs("testing","multinomial",True,True) # Load testing logs in multinomial format. Include safe logs, and load a vectorizer
     badActorLogs = []
     badActorLabels = []
-    fileName = askopenfilename(title= 'multinomial Testing Labels') # Load multinomial training labels.
-    with open(fileName, 'r', encoding='utf8') as f: 
-            testingLabels = json.load(f)
 
     for i in range(len(biPredictions)): # Create set of logs and labels with only the logs labeled as unsafe
         if biPredictions[i] == "unsafe":
@@ -161,15 +169,21 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
 
 
     # Use multinomial model to predict which bad actors unsafe logs represent
-    #processLogs("testing","")
-    loadedModel = pickle.load(open('SVMMultinomial.sav', 'rb')) 
+    loadedModel = pickle.load(open('SVMMultinomial.sav', 'rb'))
     multiPredictions = loadedModel.predict(badActorLogs)
-    stringBadActorLabels = []
-    for i in range(len(badActorLabels)):
-        stringBadActorLabels.append()
+
+    # Put multinomial predictions back into testingSet
+    j = 0
+    for i in range(len(biPredictions)): # Iterate through all of binomial predictions and replace unsafe predictions with their categorical prediction
+        if biPredictions[i] == "unsafe":
+            biPredictions[i] = multiPredictions[j]
+            j += 1
+    finishedPrediction = biPredictions
     if compareToLabels == True:
-        result = loadedModel.score(badActorLogs, stringBadActorLabels)
-        print("Multinomial accuracy: " + str(result))
+        print("Accuracy of binomial predictions: " + str(accuracy_score(testingLabels,finishedPrediction)))
+        print("f1 of binomial predictions: " + str(f1_score(testingLabels,finishedPrediction,average='micro')))
+        print("precision of binomial predictions: " + str(precision_score(testingLabels,finishedPrediction,average='micro')))
+        print("recall of binomial predictions: " + str(recall_score(testingLabels,finishedPrediction,average='micro')))
 
     #write predictions to output file
     f = open("LogPredictions.txt", "w") #"w" will overwrite any existing content, "a" will append to the end of the file. Will make a file called "AlgorithmOutput.txt" if one doesn't already exist
@@ -191,11 +205,13 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
         f.write("Prediction: ")
         if biPredictions[i] == "safe": # If log is safe, then write that to the file
             f.write(biPredictions[i]) # Write prediction to file
+            f.write(" Frequency: ")
+            f.write(f'{frequencies.get(biPredictions[i]):.4g}') #TODO: LEFT OFF HERE@@
         else: # If log is unsafe, then write its multinomial classification to file
             f.write(multiPredictions[j])
             j += 1
-        f.write(" Frequency: ")
-        f.write(f'{frequencies.get(multiPredictions[i]):.4g}') #TODO: LEFT OFF HERE@@
+            f.write(" Frequency: ")
+            f.write(f'{frequencies.get(multiPredictions[j-1]):.4g}') #TODO: LEFT OFF HERE@@
         f.write("%   log: ")
         f.write(logs[i]) # Write original log to file (not inluding '\n')
         f.write(featureExtract(logs[i]))
@@ -397,7 +413,11 @@ def makeBadActorSet(): # Makes a text file that contains bad actor training and 
 #makeBadActorSet() # Makes a text file that contains bad actor training and testing logs and labels.
 
 #ProcessLogs()
+
+
 #BinomialModelTrain()
 #MultinomialModelTrain()
 MakePredictions(True)
+
+
 #makeMultinomialPredictions()
