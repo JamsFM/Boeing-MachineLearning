@@ -114,7 +114,7 @@ from sklearn.metrics import recall_score
 
 def BinomialModelTrain(): # Train and save a binomial support vector machines (SVM) algorithm
     ProcessLogs("all","binomial",True, True)
-    clf = LogisticRegression(solver = 'lbfgs') # 'liblinear' ,ight be more accurate just slower --------------------
+    clf = LogisticRegression(solver = 'liblinear') #'lbfgs' 'liblinear', might be more accurate just slower --------------------
     clf.fit(trainingLogs, trainingLabels) # Train SVM algorithm using trainingLogs and trainingLabels
     predictions = clf.predict(testingLogs) # Predict testingLogs with newly trained model
     # Output the accuracy metrics of the model
@@ -126,7 +126,7 @@ def BinomialModelTrain(): # Train and save a binomial support vector machines (S
 
 def MultinomialModelTrain(): # Train and save a multinomial support vector machines (SVM) algorithm
     ProcessLogs("all","multinomial",False, True)
-    clf = LogisticRegression(multi_class='multinomial', solver = 'lbfgs') # 'liblinear' ,ight be more accurate just slower --------------------
+    clf = LogisticRegression(multi_class='multinomial', solver = 'lbfgs') #'lbfgs' 'liblinear', might be more accurate just slower --------------------
     clf.fit(trainingLogs, trainingLabels) # Train SVM algorithm using trainingLogs and trainingLabels
     predictions = clf.predict(testingLogs) # Predict testingLogs with newly trained model
     # Output the accuracy metrics of the model
@@ -274,8 +274,6 @@ def createBadActorSet(predictions): # Creates a new set with only unsafe logs
             f.write(logs[i]) # Write original log to file (not inluding '\n')
 
 
-#makeBadActorSet() # Makes a text file that contains bad actor training and testing logs and labels.
-
-#BinomialModelTrain()
-#MultinomialModelTrain()
+BinomialModelTrain()
+MultinomialModelTrain()
 MakePredictions(True)
