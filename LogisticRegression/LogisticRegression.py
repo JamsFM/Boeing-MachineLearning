@@ -122,11 +122,11 @@ def BinomialModelTrain(): # Train and save a binomial support vector machines (S
     print("f1 score of trained binomial model: " + str(f1_score(testingLabels,predictions,pos_label='safe')))
     print("precision score of trained binomial model: " + str(precision_score(testingLabels,predictions,pos_label='safe')))
     print("recall score of trained binomial model: " + str(recall_score(testingLabels,predictions,pos_label='safe')))
-    pickle.dump(clf, open('SVMBinomial.sav', 'wb')) # Save the model as 'SVMBinomial.sav'
+    pickle.dump(clf, open('LRBinomial.sav', 'wb')) # Save the model as 'LRBinomial.sav'
 
 def MultinomialModelTrain(): # Train and save a multinomial support vector machines (SVM) algorithm
     ProcessLogs("all","multinomial",False, True)
-    clf = LogisticRegression(solver = 'lbfgs') # 'liblinear' ,ight be more accurate just slower --------------------
+    clf = LogisticRegression(multi_class='multinomial', solver = 'lbfgs') # 'liblinear' ,ight be more accurate just slower --------------------
     clf.fit(trainingLogs, trainingLabels) # Train SVM algorithm using trainingLogs and trainingLabels
     predictions = clf.predict(testingLogs) # Predict testingLogs with newly trained model
     # Output the accuracy metrics of the model
@@ -134,7 +134,7 @@ def MultinomialModelTrain(): # Train and save a multinomial support vector machi
     print("f1 score of trained multinomial model: " + str(f1_score(testingLabels,predictions,average='micro')))
     print("precision score of trained multinomial model: " + str(precision_score(testingLabels,predictions,average='micro')))
     print("recall score of trained multinomial model: " + str(recall_score(testingLabels,predictions,average='micro')))
-    pickle.dump(clf, open('SVMMultinomial.sav', 'wb')) # Save the model as 'SVMMultinomial.sav'
+    pickle.dump(clf, open('LRMultinomial.sav', 'wb')) # Save the model as 'LRMultinomial.sav'
 
 def MakePredictions(compareToLabels = False): # Writes each log and its corresponding prediction to a file called "AlgorithmOutput.txt". If compareToLabels == True, then output accuracy
     # Loads model, and makes prediction
@@ -142,7 +142,7 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
     global testingLabels
     # Use binomial model to predict if "safe" or "unsafe"
     ProcessLogs("testing","binomial",True,True) # Load testing logs in binomial format. Include safe logs, and load a vectorizer
-    loadedModel = pickle.load(open('SVMBinomial.sav', 'rb')) # Load binomial model
+    loadedModel = pickle.load(open('LRBinomial.sav', 'rb')) # Load binomial model
     biPredictions = loadedModel.predict(testingLogs) # Make predictions on testingLogs (binomially)
     
     if compareToLabels == True: # Output the accuracy metrics of the model
@@ -160,7 +160,7 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
             badActorLogs.append(testingLogs[i])
             badActorLabels.append(testingLabels[i])
     # Use multinomial model to predict which bad actors unsafe logs represent
-    loadedModel = pickle.load(open('SVMMultinomial.sav', 'rb'))
+    loadedModel = pickle.load(open('LRMultinomial.sav', 'rb')) # Load multinomial model
     multiPredictions = loadedModel.predict(badActorLogs)
 
     # Combine multinomial predictions and binomial predictions into one set
