@@ -31,7 +31,7 @@ def SVMSelections():
         command=VerifyBinomial).pack(fill=tk.X)
 
     tk.Button(svm, text='Train Multinomial Model', 
-        command=SVM.MultinomialModelTrain).pack(fill=tk.X)
+        command=VerifyMultinomial).pack(fill=tk.X)
 
     tk.Button(svm, text='Score Predictions Using Pipeline', 
         command=lambda: SVM.MakePredictions(True)).pack(fill=tk.X)
