@@ -8,7 +8,7 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 import random
 
-# For labels (not being used atm, used with file that has an array)
+# For labels (used with file that has an array)
 import json
 
 # For opening file explorer windows
@@ -107,10 +107,7 @@ def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLog
             logs.append(message)
 
 from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import f1_score
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
 def BinomialModelTrain(): # Train and save a binomial support vector machines (SVM) algorithm
     ProcessLogs("all","binomial",True, True)
