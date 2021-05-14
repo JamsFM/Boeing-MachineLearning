@@ -1,0 +1,1000 @@
+Mar 11 16:33:12 riley-VirtualBox sshd[17343]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=89.252.190.151 
+Apr  1 17:53:07 riley-VirtualBox sshd[7169]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:34:55 riley-VirtualBox sshd[2538]: Disconnected from authenticating user test 103.4.233.93 port 56534 [preauth]
+Mar 20 18:54:20 jfm-vm systemd-resolved[784]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr  1 18:53:51 riley-VirtualBox sshd[7919]: Connection closed by invalid user MikroTik 49.48.250.119 port 48875 [preauth]
+Apr  1 17:14:12 riley-VirtualBox sshd[6620]: pam_unix(sshd:auth): check pass; user unknown
+Mar 20 21:19:24 jfm-vm avahi-daemon[822]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.152.128.
+Mar 11 17:16:42 travis sshd[39631]: Unable to negotiate with 73.239.143.254 port 1507: no matching host key type found. Their offer: ssh-dss [preauth]
+Apr  1 21:51:10 riley-VirtualBox sshd[10354]: Invalid user user from 183.89.84.249 port 4047
+Apr  1 17:47:33 riley-VirtualBox sshd[7097]: Disconnected from invalid user teamspeak 120.53.227.85 port 42140 [preauth]
+[Thu Mar 11 22:02:18.121743 2021] [auth_basic:error] [pid 816:tid 139737322989312] [client 166.181.242.53:17644] AH01618: user Failed access not found: /
+Apr  1 22:02:23 riley-VirtualBox sshd[10618]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:18:57 riley-VirtualBox sshd[9518]: Connection closed by invalid user MikroTik 183.89.84.249 port 63416 [preauth]
+Apr  1 21:21:05 riley-VirtualBox sshd[9579]: Disconnected from invalid user user 140.143.229.56 port 54634 [preauth]
+Mar 11 16:30:01 travis CRON[3263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 18:28:48 riley-VirtualBox sshd[7618]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:54:35 riley-VirtualBox sshd[8704]: Invalid user update from 167.99.231.236 port 34528
+Mar 11 16:49:18 travis sshd[4166]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:40:49 riley-VirtualBox sshd[10095]: Invalid user developer from 202.91.78.34 port 42136
+Mar 11 16:26:58 riley-VirtualBox sshd[17306]: Invalid user xx from 161.35.59.177 port 44822
+Jan 12 15:42:32 riley-VirtualBox sshd[2764]: Unable to negotiate with 142.93.60.111 port 43240: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 23:01:46 riley-VirtualBox sshd[11523]: Received disconnect from 85.24.194.41 port 53458:11: Bye Bye [preauth]
+Apr  1 21:19:45 riley-VirtualBox sshd[9539]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.31.117.89 
+Apr  1 22:10:57 riley-VirtualBox sshd[10818]: Invalid user ftpuser1 from 153.101.57.40 port 41366
+Apr  1 22:22:07 riley-VirtualBox sshd[10979]: Failed password for invalid user test6 from 85.24.194.41 port 60652 ssh2
+Apr  1 17:36:36 riley-VirtualBox sshd[6965]: Invalid user dspace from 128.199.13.95 port 41924
+Feb 13 19:36:48 riley-VirtualBox sshd[4176]: Failed password for root from 212.64.100.82 port 44478 ssh2
+Apr  6 15:42:43 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt autoremove
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Jan 12 15:20:56 riley-VirtualBox dbus-daemon[597]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Feb 13 20:04:10 riley-VirtualBox sshd[4709]: Invalid user palm from 212.64.100.82 port 43672
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 18:54:31 riley-VirtualBox sshd[7928]: Invalid user MikroTik from 49.48.250.119 port 64552
+Feb 13 20:04:10 riley-VirtualBox sshd[4709]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:12:49 riley-VirtualBox sshd[9349]: Invalid user temp1 from 106.52.20.112 port 49422
+Apr  1 17:59:17 riley-VirtualBox sshd[7249]: Received disconnect from 188.120.249.12 port 44572:11: Bye Bye [preauth]
+Apr  1 17:53:12 riley-VirtualBox sshd[7172]: Failed password for invalid user server from 119.28.68.78 port 53334 ssh2
+Mar 11 17:01:37 travis sshd[39312]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:00:10 riley-VirtualBox sshd[8020]: Failed password for invalid user profile1 from 49.48.250.119 port 41019 ssh2
+Apr  1 17:33:57 riley-VirtualBox sshd[6906]: Failed password for invalid user dspace from 188.120.249.12 port 38732 ssh2
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+[Wed Dec 09 19:00:23.454050 2020] [auth_basic:error] [pid 792:tid 140073722939136] [client 71.212.209.82:56697] AH01618: user bahsdkja not found: /
+Apr  1 19:31:13 riley-VirtualBox sshd[8506]: Invalid user tech from 49.48.250.119 port 31747
+Apr  1 18:19:19 riley-VirtualBox sshd[7501]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 18:13:12 riley-VirtualBox sshd[7416]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:37:29 riley-VirtualBox sshd[9998]: Received disconnect from 103.96.220.115 port 49042:11: Bye Bye [preauth]
+Apr  1 21:09:15 riley-VirtualBox sshd[9258]: Invalid user user from 85.24.194.41 port 33388
+[Thu Mar 11 22:03:10.428728 2021] [auth_basic:error] [pid 815:tid 139737230735104] [client 166.181.242.53:17596] AH01618: user failed accesses not found: /
+Apr  1 22:58:03 riley-VirtualBox sshd[11470]: Invalid user vbox from 47.254.238.145 port 57308
+[Fri Apr 09 17:37:45.304617 2021] [auth_basic:error] [pid 848:tid 139930990745344] [client 166.181.252.47:3354] AH01618: user d7w28rjrjd9j not found: /
+Mar 21 18:18:31 riley-VirtualBox sudo:    riley : TTY=pts/1 ; PWD=/home/riley/Desktop/School Files ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Mar 11 16:58:31 travis sshd[28777]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:29:19 riley-VirtualBox sshd[9803]: Disconnected from invalid user gitlab 116.204.183.184 port 32812 [preauth]
+Mar 11 16:26:10 riley-VirtualBox sshd[17304]: Invalid user user1 from 81.68.133.181 port 60802
+[Fri Apr 09 17:37:19.231811 2021] [auth_basic:error] [pid 848:tid 139930219042560] [client 166.181.252.47:3354] AH01618: user djw8qoekrj not found: /
+Apr  1 21:19:17 riley-VirtualBox sshd[9530]: Invalid user MikroTik from 183.89.84.249 port 52121
+Apr  1 18:25:24 riley-VirtualBox sshd[7577]: Received disconnect from 128.199.13.95 port 50854:11: Bye Bye [preauth]
+Apr  1 18:41:47 riley-VirtualBox sshd[7754]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:02:02 riley-VirtualBox sshd[8051]: Invalid user user1 from 49.48.250.119 port 4324
+Apr  1 22:01:35 riley-VirtualBox sshd[10599]: pam_unix(sshd:auth): check pass; user unknown
+[Fri Apr 09 17:34:05.899819 2021] [auth_basic:error] [pid 848:tid 139930227435264] [client 166.181.252.47:3323] AH01617: user admin: authentication failure for "/": Password Mismatch
+Feb 11 18:06:55 riley-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr  1 18:25:23 riley-VirtualBox sshd[7579]: Disconnected from invalid user ntadmin 121.229.62.94 port 58782 [preauth]
+Apr  1 21:21:17 riley-VirtualBox sshd[9581]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.89.84.249 
+Feb 13 18:34:43 riley-VirtualBox useradd[1192]: failed adding user 'vboxadd', data deleted
+Apr  1 21:52:29 riley-VirtualBox sshd[10386]: Invalid user admin from 85.24.194.41 port 56270
+Mar 11 16:37:14 riley-VirtualBox sshd[17356]: Received disconnect from 13.72.86.172 port 42738:11: Bye Bye [preauth]
+Apr  1 18:39:02 riley-VirtualBox sshd[7732]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:12:55 riley-VirtualBox sshd[6604]: Received disconnect from 128.199.13.95 port 49946:11: Bye Bye [preauth]
+Apr  1 22:35:51 riley-VirtualBox sshd[11139]: Failed password for invalid user teamspeak from 101.36.122.184 port 44720 ssh2
+Jan 16 18:17:01 riley-VirtualBox CRON[16629]: pam_unix(cron:session): session closed for user root
+Apr  1 23:21:37 riley-VirtualBox sshd[11794]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:54:43 riley-VirtualBox sshd[10439]: Failed password for invalid user user from 183.89.84.249 port 63085 ssh2
+Apr  1 18:18:35 riley-VirtualBox sshd[7492]: Disconnected from invalid user ts 42.192.39.113 port 53272 [preauth]
+Mar 11 17:07:55 travis sshd[39482]: Disconnected from invalid user gts 14.102.74.99 port 44918 [preauth]
+Apr  1 22:41:36 riley-VirtualBox sshd[11231]: Failed password for invalid user user from 101.36.122.184 port 54514 ssh2
+Apr  1 18:20:37 riley-VirtualBox sshd[7517]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:28:18 riley-VirtualBox sshd[9776]: Invalid user user1 from 183.89.84.249 port 63192
+Apr  1 23:30:01 riley-VirtualBox sshd[11913]: Failed password for invalid user steamcmd from 200.106.236.138 port 34268 ssh2
+Feb 11 18:11:08 travis sshd[3065]: Connection closed by 73.239.143.254 port 55773 [preauth]
+[Fri Apr 09 17:37:21.363439 2021] [auth_basic:error] [pid 848:tid 139930185471744] [client 166.181.252.47:3354] AH01618: user djwiwokf not found: /
+Apr  1 17:13:14 riley-VirtualBox sshd[6610]: Disconnected from invalid user zabbix 103.83.37.140 port 33364 [preauth]
+Mar 11 16:37:34 travis sshd[3393]: Failed password for invalid user git from 14.102.74.99 port 54978 ssh2
+Apr  1 21:11:07 riley-VirtualBox sshd[9306]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:32:27 riley-VirtualBox sshd[2307]: Unable to negotiate with 142.93.60.111 port 50318: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 17:57:25 riley-VirtualBox sshd[7221]: Received disconnect from 84.199.67.194 port 41986:11: Bye Bye [preauth]
+Apr  1 20:48:37 riley-VirtualBox sshd[9042]: pam_unix(sshd:auth): check pass; user unknown
+Feb 13 19:51:21 riley-VirtualBox sshd[4626]: Failed password for invalid user dspace from 223.223.192.230 port 20289 ssh2
+Apr  1 17:46:14 riley-VirtualBox sshd[7089]: Disconnected from invalid user mc3 128.199.13.95 port 38172 [preauth]
+Apr  1 21:47:00 riley-VirtualBox sshd[10248]: Disconnected from invalid user guest1 113.31.117.89 port 53956 [preauth]
+Feb 13 20:03:48 riley-VirtualBox sshd[4707]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.234.54.100  user=root
+Apr  1 21:36:44 riley-VirtualBox sshd[9983]: pam_unix(sshd:auth): check pass; user unknown
+Apr  6 15:44:19 riley-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  1 18:17:51 riley-VirtualBox sshd[7481]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:25:50 riley-VirtualBox sshd[8883]: Received disconnect from 118.27.39.94 port 44434:11: Bye Bye [preauth]
+Apr  1 21:24:54 riley-VirtualBox sshd[9678]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=134.175.55.212 
+Apr  1 20:23:16 riley-VirtualBox sshd[8868]: Disconnected from invalid user mc 116.204.183.184 port 59892 [preauth]
+Jan 12 15:31:51 riley-VirtualBox sshd[2299]: Unable to negotiate with 142.93.60.111 port 37146: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 20:52:50 riley-VirtualBox sshd[9085]: pam_unix(sshd:auth): check pass; user unknown
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Jan 12 15:40:00 riley-VirtualBox sshd[2696]: Unable to negotiate with 142.93.60.111 port 46676: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Mar 21 18:21:07 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  1 22:41:01 riley-VirtualBox sshd[11223]: Failed password for invalid user mc2 from 115.159.102.123 port 35412 ssh2
+Apr  1 21:29:46 riley-VirtualBox sshd[9819]: Failed none for invalid user admin1 from 183.89.84.249 port 16369 ssh2
+Apr  1 18:15:31 riley-VirtualBox sshd[7448]: Invalid user user2 from 188.120.249.12 port 35454
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 18:58:23 riley-VirtualBox sshd[7992]: Invalid user profile1 from 49.48.250.119 port 29399
+Apr  1 17:09:35 riley-VirtualBox sshd[6549]: Failed password for invalid user test4 from 128.199.13.95 port 51456 ssh2
+Mar 11 16:21:29 travis gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Feb 13 19:52:20 riley-VirtualBox sshd[4659]: Failed password for invalid user nero from 122.51.207.208 port 47568 ssh2
+[Fri Apr 09 17:33:53.870469 2021] [auth_basic:error] [pid 847:tid 139931189348096] [client 166.181.252.47:3248] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 22:04:58 riley-VirtualBox sshd[10680]: Connection closed by invalid user demo 183.89.84.249 port 56724 [preauth]
+[Sun Dec 06 15:34:13.093943 2020] [auth_basic:error] [pid 8234:tid 139933683525376] [client 166.181.249.13:54685] AH01617: user admin: authentication failure for “/”: Password Mismatch
+Mar 20 23:07:53 jfm-vm NetworkManager[827]: <info>  [1616306873.4813] agent-manager: agent[ac0db06c22647400,:1.44/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Apr  1 21:42:50 riley-VirtualBox sshd[10149]: Invalid user user4 from 51.159.29.5 port 42680
+Mar 20 19:34:13 jfm-vm gnome-shell[1331]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 22:21:32 riley-VirtualBox sshd[10969]: Received disconnect from 134.175.55.212 port 33406:11: Bye Bye [preauth]
+Apr  1 21:12:28 riley-VirtualBox sshd[9341]: Invalid user mysftp from 34.86.71.86 port 55164
+[Fri Apr 09 17:35:18.240595 2021] [auth_basic:error] [pid 847:tid 139931197740800] [client 166.181.252.47:1737] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 18:59:57 riley-VirtualBox sshd[8016]: Invalid user ftp from 119.28.68.78 port 56220
+[Fri Apr 09 17:38:09.004154 2021] [auth_basic:error] [pid 848:tid 139931032708864] [client 166.181.252.47:3354] AH01618: user fe2rfkf9rk not found: /
+[Thu Feb 11 16:12:23.845868 2021] [auth_basic:error] [pid 855:tid 140032618776320] [client 166.181.251.145:40670] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 21:14:10 riley-VirtualBox sshd[9386]: Invalid user default from 183.89.84.249 port 57703
+Feb 13 20:08:34 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  1 19:02:16 riley-VirtualBox sshd[8055]: Failed password for invalid user user1 from 49.48.250.119 port 6305 ssh2
+Apr  1 19:48:18 riley-VirtualBox sshd[8677]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=212.68.218.36 
+Apr  1 21:50:49 riley-VirtualBox sshd[10348]: Invalid user web from 183.89.84.249 port 2419
+Mar 21 18:18:31 riley-VirtualBox sudo:    riley : TTY=pts/1 ; PWD=/home/riley/Desktop/School Files ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Apr  1 21:15:49 riley-VirtualBox sshd[9426]: Received disconnect from 42.192.161.98 port 48534:11: Bye Bye [preauth]
+Apr  1 17:12:14 riley-VirtualBox sshd[6596]: Invalid user user1 from 142.93.78.168 port 47018
+[Thu Mar 11 21:24:54.079423 2021] [auth_basic:error] [pid 816:tid 139737029375744] [client 166.181.242.53:17873] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 18:17:14 riley-VirtualBox sshd[7475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.229.62.94 
+Mar 20 21:19:32 jfm-vm avahi-daemon[822]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.152.128.
+Apr  1 22:47:59 riley-VirtualBox sshd[11323]: Received disconnect from 153.101.57.40 port 40508:11: Bye Bye [preauth]
+Apr  1 19:23:17 riley-VirtualBox sshd[8381]: Received disconnect from 167.99.231.236 port 53686:11: Bye Bye [preauth]
+Apr  1 22:10:13 riley-VirtualBox sshd[10796]: Invalid user postgres from 51.159.29.5 port 35338
+Apr  1 22:42:41 riley-VirtualBox sshd[11245]: Received disconnect from 115.159.102.123 port 52498:11: Bye Bye [preauth]
+[Fri Apr 09 17:32:41.974368 2021] [auth_basic:error] [pid 848:tid 139931032708864] [client 166.181.252.47:1627] AH01617: user admin: authentication failure for "/": Password Mismatch
+Mar 20 21:19:24 jfm-vm NetworkManager[827]: <info>  [1616300364.1318] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Mar 11 16:48:46 riley-VirtualBox sshd[17406]: Received disconnect from 161.35.59.177 port 60722:11: Bye Bye [preauth]
+Mar 20 19:14:25 jfm-vm NetworkManager[827]: <info>  [1616292865.3927] dhcp4 (ens33): option requested_nis_servers => '1'
+Jan 12 15:41:06 riley-VirtualBox sshd[2740]: Unable to negotiate with 142.93.60.111 port 55768: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 22:56:42 riley-VirtualBox sshd[11452]: Failed password for invalid user hadoop from 115.159.102.123 port 48064 ssh2
+Apr  1 18:29:51 riley-VirtualBox sshd[7634]: Received disconnect from 188.120.249.12 port 43788:11: Bye Bye [preauth]
+Mar 11 15:30:01 riley-VirtualBox CRON[17081]: pam_unix(cron:session): session opened for user root by (uid=0)
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 18:07:08 riley-VirtualBox sshd[7339]: Failed password for invalid user postgres from 128.199.13.95 port 58286 ssh2
+Apr  1 23:06:36 riley-VirtualBox sshd[11589]: Invalid user admin from 115.159.102.123 port 37644
+Apr  1 22:07:26 riley-VirtualBox sshd[10736]: Invalid user webmaster from 49.232.164.192 port 52966
+Mar 21 18:19:03 riley-VirtualBox sshd[22685]: Failed password for invalid user wow from 81.69.251.177 port 34642 ssh2
+Mar 20 21:19:50 jfm-vm avahi-daemon[822]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.152.128.
+Apr  1 21:58:09 riley-VirtualBox sshd[10524]: Invalid user hadoop from 34.86.71.86 port 57868
+Apr  1 21:00:01 riley-VirtualBox sshd[9158]: Failed password for invalid user ubuntu from 113.31.117.89 port 39808 ssh2
+Apr  1 17:18:02 riley-VirtualBox sshd[6688]: Received disconnect from 113.118.184.251 port 24167:11: Bye Bye [preauth]
+Apr  1 22:38:48 riley-VirtualBox sshd[11185]: Invalid user mysql from 134.175.55.212 port 57302
+Jan 12 15:20:59 riley-VirtualBox sshd[2156]: Invalid user mexico from 42.192.51.95 port 35880
+Apr  1 19:07:19 riley-VirtualBox sshd[8136]: Failed password for invalid user teamspeak3 from 167.99.231.236 port 36432 ssh2
+Apr  1 22:07:53 riley-VirtualBox sshd[10744]: Failed password for invalid user telecomadmin from 183.89.84.249 port 55759 ssh2
+Feb 13 19:20:17 riley-VirtualBox sshd[4126]: Failed password for invalid user dal from 49.234.54.100 port 42686 ssh2
+Apr  1 17:01:39 riley-VirtualBox sshd[3318]: Failed password for invalid user user from 84.199.67.194 port 35898 ssh2
+Apr  1 23:12:55 riley-VirtualBox sshd[11684]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.122.226.164 
+Apr  1 19:34:58 riley-VirtualBox sshd[8565]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:47:21 riley-VirtualBox sshd[9036]: Disconnected from invalid user christian 202.91.78.34 port 47226 [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Feb 13 19:44:11 riley-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Apr  1 21:59:36 riley-VirtualBox sshd[10555]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 18:50:08 riley-VirtualBox sshd[7856]: Invalid user default from 49.48.250.119 port 49186
+Apr  1 21:30:05 riley-VirtualBox sshd[9833]: Invalid user admin1 from 183.89.84.249 port 52736
+[Wed Dec 09 18:57:55.208340 2020] [auth_basic:error] [pid 793:tid 140073706153728] [client 73.239.143.254:53720] AH01618: user badmin not found: /
+Apr  6 15:48:45 riley-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 18:59:25 jfm-vm NetworkManager[827]: <info>  [1616291965.3804] dhcp4 (ens33): option requested_domain_name => '1'
+[Fri Apr 09 17:37:54.059891 2021] [auth_basic:error] [pid 848:tid 139931066279680] [client 166.181.252.47:3354] AH01618: user fw2rjidow not found: /
+Apr  1 22:35:52 riley-VirtualBox sshd[11141]: Failed password for test from 85.24.194.41 port 43186 ssh2
+Apr  1 21:32:24 riley-VirtualBox sshd[9887]: Invalid user zabbix from 49.232.164.192 port 42910
+Mar 20 23:49:50 jfm-vm dbus-daemon[826]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=827 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr  1 21:19:18 riley-VirtualBox sshd[9530]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:46:00 riley-VirtualBox sshd[10231]: pam_unix(sshd:auth): check pass; user unknown
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 18:58:03 riley-VirtualBox sshd[7988]: pam_unix(sshd:auth): check pass; user unknown
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 22:54:38 riley-VirtualBox sshd[11422]: pam_unix(sshd:auth): check pass; user unknown
+Apr  6 15:52:37 riley-VirtualBox sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+[Thu Mar 11 21:23:43.225211 2021] [auth_basic:error] [pid 816:tid 139737364952832] [client 166.181.242.53:49454] AH01617: user admin: authentication failure for "/": Password Mismatch
+[Sun Dec 06 15:30:42.481279 2020] [auth_basic:error] [pid 8235:tid 139933717096192] [client 166.181.249.13:28554] AH01617: user admin: authentication failure for “/”: Password Mismatch
+Apr  1 21:52:23 riley-VirtualBox sshd[10384]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:54:08 riley-VirtualBox sshd[11414]: Disconnected from invalid user ftp 115.159.102.123 port 50664 [preauth]
+Apr  1 20:34:33 riley-VirtualBox sshd[8947]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:45:48 riley-VirtualBox sshd[7081]: Received disconnect from 84.199.67.194 port 39278:11: Bye Bye [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 21:56:59 riley-VirtualBox sshd[10497]: Invalid user jenkins from 85.24.194.41 port 50394
+Jan 12 15:34:49 riley-VirtualBox sshd[2536]: Unable to negotiate with 142.93.60.111 port 46968: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 22:45:07 riley-VirtualBox sshd[11278]: pam_unix(sshd:auth): check pass; user unknown
+[Thu Mar 11 22:01:52.498629 2021] [auth_basic:error] [pid 816:tid 139737046161152] [client 166.181.242.53:17411] AH01618: user I need more usernames not found: /
+Apr  1 21:48:32 riley-VirtualBox sshd[10291]: Invalid user git from 106.52.20.112 port 34184
+Apr  1 20:42:50 riley-VirtualBox sshd[9000]: Failed password for invalid user minecraft from 167.99.231.236 port 48132 ssh2
+Apr  1 21:37:36 riley-VirtualBox sshd[10006]: pam_unix(sshd:auth): check pass; user unknown
+Feb 13 20:10:33 riley-VirtualBox sshd[5103]: Received disconnect from 223.223.192.230 port 7168:11: Bye Bye [preauth]
+Apr  1 17:17:03 riley-VirtualBox sshd[6675]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.229.62.94 
+Jan 12 15:20:59 riley-VirtualBox sshd[2156]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:07:58 riley-VirtualBox sshd[11607]: Received disconnect from 175.24.127.209 port 58714:11: Bye Bye [preauth]
+Feb 13 18:35:09 riley-VirtualBox dbus-daemon[557]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Feb 13 20:30:02 riley-VirtualBox sshd[5194]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=42.193.185.126  user=root
+Apr  1 21:10:37 riley-VirtualBox sshd[9294]: Failed password for invalid user gitblit from 106.52.152.75 port 33298 ssh2
+Apr  1 17:16:54 riley-VirtualBox sshd[6668]: Invalid user mc from 128.199.13.95 port 49400
+Jan 15 17:06:22 riley-VirtualBox gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Apr  1 17:40:45 riley-VirtualBox sshd[7015]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:00:29 riley-VirtualBox sshd[9164]: Disconnected from invalid user hadoop 134.175.55.212 port 47566 [preauth]
+Feb 13 20:20:27 riley-VirtualBox sshd[5150]: Failed password for root from 122.51.207.208 port 50906 ssh2
+Apr  1 22:17:49 riley-VirtualBox sshd[10919]: Received disconnect from 34.86.71.86 port 53014:11: Bye Bye [preauth]
+Apr  1 19:19:35 riley-VirtualBox sshd[8324]: pam_unix(sshd:auth): check pass; user unknown
+Apr  6 15:53:05 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Apr  1 21:35:15 riley-VirtualBox sshd[9950]: Invalid user mysql from 49.235.179.102 port 51326
+Apr  1 22:26:23 riley-VirtualBox sshd[11032]: Received disconnect from 113.31.117.89 port 37788:11: Bye Bye [preauth]
+Jan 12 16:19:45 riley-VirtualBox gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Apr  1 19:18:01 riley-VirtualBox sshd[8300]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.118.184.251 
+Apr  1 18:16:17 riley-VirtualBox sshd[7454]: Disconnected from invalid user deploy 118.69.82.233 port 48538 [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+[Thu Mar 11 21:25:07.551277 2021] [auth_basic:error] [pid 816:tid 139737096517376] [client 166.181.242.53:17597] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 20:11:53 riley-VirtualBox sshd[8800]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 18:06:10 riley-VirtualBox sshd[7331]: Disconnected from invalid user git 188.120.249.12 port 48738 [preauth]
+Apr  1 20:01:27 riley-VirtualBox sshd[8739]: Failed password for invalid user gitlab from 52.191.135.1 port 50298 ssh2
+Jan 12 17:17:01 riley-VirtualBox CRON[4234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 19:34:21 riley-VirtualBox sshd[8556]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.48.250.119 
+Mar 20 22:34:50 jfm-vm NetworkManager[827]: <info>  [1616304890.3264] dhcp4 (ens33): option requested_time_offset => '1'
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 21:16:41 riley-VirtualBox sshd[9455]: Failed password for invalid user default from 183.89.84.249 port 47183 ssh2
+Apr  1 23:04:20 riley-VirtualBox sshd[11559]: Received disconnect from 101.36.122.184 port 37200:11: Bye Bye [preauth]
+Jan 15 16:50:31 riley-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 15:53:34 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+Apr  1 19:05:24 riley-VirtualBox sshd[8106]: pam_unix(sshd:auth): check pass; user unknown
+[Thu Mar 11 21:28:44.769894 2021] [auth_basic:error] [pid 816:tid 139737331382016] [client 166.181.242.53:49285] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  6 15:54:05 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt remove
+Mar 20 22:04:50 jfm-vm NetworkManager[827]: <info>  [1616303090.3266] dhcp4 (ens33): option ip_address           => '192.168.152.128'
+Apr  1 19:08:55 riley-VirtualBox sshd[8165]: Failed password for root from 49.48.250.119 port 60525 ssh2
+Apr  1 21:09:33 riley-VirtualBox sshd[9262]: Failed password for invalid user system from 113.31.117.89 port 40890 ssh2
+Apr  1 18:51:05 riley-VirtualBox sshd[7870]: Received disconnect from 119.28.68.78 port 33316:11: Bye Bye [preauth]
+Mar 20 20:29:25 jfm-vm NetworkManager[827]: <info>  [1616297365.3936] dhcp4 (ens33): option domain_name_servers  => '192.168.152.2'
+Apr  1 19:35:56 riley-VirtualBox sshd[8584]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:20:26 riley-VirtualBox sshd[764]: Server listening on :: port 22.
+Feb 13 19:58:37 riley-VirtualBox sshd[4689]: Disconnected from authenticating user root 212.64.100.82 port 51298 [preauth]
+Apr  1 19:39:37 riley-VirtualBox sshd[8639]: Connection closed by invalid user telecomadmin 49.48.250.119 port 57998 [preauth]
+[Fri Apr 09 17:35:47.805445 2021] [auth_basic:error] [pid 847:tid 139931057886976] [client 166.181.252.47:1550] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 23:18:10 riley-VirtualBox sshd[11762]: Invalid user vagrant from 200.233.186.57 port 59558
+Jan 15 16:49:47 riley-VirtualBox systemd-logind[618]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr  1 19:12:06 riley-VirtualBox sshd[8210]: Disconnected from invalid user minecraft 153.101.29.178 port 59888 [preauth]
+Apr  1 22:08:19 riley-VirtualBox sshd[10750]: Connection closed by invalid user telecomadmin 183.89.84.249 port 60054 [preauth]
+Apr  1 21:54:06 riley-VirtualBox sshd[10423]: Invalid user user from 183.89.84.249 port 56532
+Apr  1 22:22:05 riley-VirtualBox sshd[10980]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.52.152.75  user=test
+Apr  1 21:57:43 riley-VirtualBox sshd[10514]: Invalid user hadoop from 159.65.13.233 port 42848
+Apr  6 15:47:29 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  1 21:16:19 riley-VirtualBox sshd[9446]: Received disconnect from 52.191.135.1 port 47924:11: Bye Bye [preauth]
+Apr  1 20:09:22 riley-VirtualBox sshd[8786]: Received disconnect from 116.204.183.184 port 54734:11: Bye Bye [preauth]
+Apr  1 19:25:09 riley-VirtualBox sshd[8415]: Invalid user nagios from 167.99.231.236 port 33076
+Apr  1 20:30:26 riley-VirtualBox sshd[8918]: Invalid user git from 167.99.231.236 port 58852
+[Thu Mar 11 21:27:40.637574 2021] [auth_basic:error] [pid 816:tid 139736979019520] [client 166.181.242.53:49267] AH01617: user admin: authentication failure for "/": Password Mismatch
+Jan 12 16:30:01 riley-VirtualBox CRON[4198]: pam_unix(cron:session): session closed for user root
+Jan 12 15:20:40 riley-VirtualBox PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Apr  6 15:52:47 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get remove
+Mar 11 15:07:34 riley-VirtualBox sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Mar 20 21:19:50 jfm-vm NetworkManager[827]: <info>  [1616300390.3264] dhcp4 (ens33): option requested_routers    => '1'
+Jan 12 15:26:26 riley-VirtualBox sshd[2046]: Unable to negotiate with 142.93.60.111 port 58848: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 23:27:50 riley-VirtualBox sshd[11872]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:38:20 riley-VirtualBox sshd[10026]: Connection closed by authenticating user root 183.89.84.249 port 61299 [preauth]
+Apr  1 21:52:59 riley-VirtualBox sshd[10396]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:37:11 riley-VirtualBox sshd[9988]: Connection closed by authenticating user root 183.89.84.249 port 37335 [preauth]
+Apr  1 19:03:08 riley-VirtualBox sshd[8069]: Disconnected from invalid user support 120.53.227.85 port 48616 [preauth]
+71.212.209.82 - admin [09/Dec/2020:18:59:07 -0800] "GET / HTTP/1.1" 200 592 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0"
+Apr  1 17:30:36 riley-VirtualBox sshd[6855]: Failed password for invalid user linuxadmin from 119.28.68.78 port 44286 ssh2
+[Fri Apr 09 17:35:04.968855 2021] [auth_basic:error] [pid 847:tid 139930529408768] [client 166.181.252.47:3445] AH01617: user admin: authentication failure for "/": Password Mismatch
+Mar 11 15:17:01 riley-VirtualBox CRON[17066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 17:24:41 riley-VirtualBox sshd[6774]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:59:34 riley-VirtualBox sshd[11494]: Failed password for invalid user sysadmin from 134.175.55.212 port 35208 ssh2
+Apr  1 17:28:27 riley-VirtualBox sshd[6824]: Received disconnect from 121.229.62.94 port 54526:11: Bye Bye [preauth]
+Jan 12 15:32:38 riley-VirtualBox sshd[2311]: Invalid user almacen from 103.4.233.93 port 51266
+Apr  1 19:34:14 riley-VirtualBox sshd[8554]: Connection closed by invalid user demo 49.48.250.119 port 57132 [preauth]
+Apr  1 17:49:31 riley-VirtualBox sshd[7126]: Received disconnect from 121.229.62.94 port 47380:11: Bye Bye [preauth]
+Mar 11 15:03:00 riley-VirtualBox sshd[738]: Received signal 15; terminating.
+Apr  1 19:39:53 riley-VirtualBox sshd[8643]: pam_unix(sshd:auth): check pass; user unknown
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Mar 11 15:02:05 riley-VirtualBox polkitd(authority=local): Operator of unix-session:1 successfully authenticated as unix-user:riley to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.81 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:riley)
+Apr  1 22:06:49 riley-VirtualBox sshd[10717]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:27:39 riley-VirtualBox sshd[6813]: Disconnected from invalid user newuser 142.93.78.168 port 37102 [preauth]
+Apr  6 15:56:27 riley-VirtualBox sudo: pam_unix(sudo:session): session closed for user root166.181.251.200 - - [09/Dec/2020:18:52:51 -0800] "GET / HTTP/1.1" 401 847 "-" "Mozilla/5.0 (Linux; Android 10; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36"
+[Thu Mar 11 22:02:46.647689 2021] [auth_basic:error] [pid 815:tid 139737180378880] [client 166.181.242.53:17913] AH01618: user failed access 5 not found: /
+[Fri Apr 09 17:34:54.156694 2021] [auth_basic:error] [pid 848:tid 139931007530752] [client 166.181.252.47:3427] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  6 15:42:47 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Feb 13 20:27:16 riley-VirtualBox sshd[5176]: Received disconnect from 223.223.192.230 port 3392:11: Bye Bye [preauth]
+Mar 20 18:59:25 jfm-vm NetworkManager[827]: <info>  [1616291965.3805] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Apr  1 21:26:35 riley-VirtualBox sshd[9728]: Invalid user user from 34.86.71.86 port 51556
+Feb 13 20:20:28 riley-VirtualBox sshd[5150]: Received disconnect from 122.51.207.208 port 50906:11: Bye Bye [preauth]
+Jan 12 15:21:00 riley-VirtualBox sshd[2060]: Received disconnect from 103.4.233.93 port 52456:11: Bye Bye [preauth]
+[Fri Apr 09 17:34:59.028614 2021] [auth_basic:error] [pid 848:tid 139930990745344] [client 166.181.252.47:3427] AH01617: user admin: authentication failure for "/": Password Mismatch
+[Sun Dec 06 15:27:53.417366 2020] [auth_basic:error] [pid 8235:tid 139932450420480] [client 166.181.249.13:49766] AH01617: user admin: authentication failure for “/”: Password Mismatch
+Apr  1 21:41:51 riley-VirtualBox sshd[10118]: Disconnected from invalid user ts3 106.52.152.75 port 40354 [preauth]
+Mar 20 23:49:50 jfm-vm NetworkManager[827]: <info>  [1616309390.3296] dhcp4 (ens33): option requested_static_routes => '1'
+Apr  1 18:29:22 riley-VirtualBox sshd[7628]: Disconnected from invalid user github 121.229.62.94 port 60049 [preauth]
+Apr  1 22:02:02 riley-VirtualBox sshd[10607]: Failed password for invalid user webmaster from 103.96.220.115 port 58332 ssh2
+Apr  1 23:00:04 riley-VirtualBox sshd[11500]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:20:24 riley-VirtualBox sshd[11786]: Failed password for invalid user ansible from 47.254.238.145 port 43552 ssh2
+Apr  1 21:55:44 riley-VirtualBox sshd[10460]: Received disconnect from 202.91.78.34 port 35332:11: Bye Bye [preauth]
+Apr  1 17:11:02 riley-VirtualBox sshd[6580]: Received disconnect from 188.120.249.12 port 43704:11: Bye Bye [preauth]
+Apr  1 20:54:51 riley-VirtualBox sshd[9104]: Invalid user teamspeak3 from 49.235.179.102 port 53298
+Apr  1 20:32:11 riley-VirtualBox sshd[8929]: Received disconnect from 134.175.55.212 port 48762:11: Bye Bye [preauth]
+Apr  1 20:46:27 riley-VirtualBox sshd[9029]: Failed password for invalid user apitest from 134.175.55.212 port 34040 ssh2
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  6 15:44:49 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get remove
+Apr  1 18:40:53 riley-VirtualBox sshd[7746]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:38:43 riley-VirtualBox sshd[8625]: Received disconnect from 116.204.183.184 port 60322:11: Bye Bye [preauth]
+Mar 11 16:44:36 riley-VirtualBox sshd[17383]: Received disconnect from 80.37.181.60 port 43112:11: Bye Bye [preauth]
+[Thu Mar 11 21:23:27.603328 2021] [auth_basic:error] [pid 816:tid 139737348167424] [client 166.181.242.53:49282] AH01617: user admin: authentication failure for "/": Password Mismatch
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+[Wed Dec 09 18:58:00.023046 2020] [auth_basic:error] [pid 793:tid 140073697761024] [client 73.239.143.254:53720] AH01618: user oops not found: /
+Apr  1 23:18:40 riley-VirtualBox sshd[11766]: Failed password for www-data from 47.254.238.145 port 46810 ssh2
+Apr  1 19:29:19 riley-VirtualBox sshd[8476]: Invalid user tech from 49.48.250.119 port 53944
+Apr  1 17:30:56 riley-VirtualBox sshd[6861]: Invalid user webuser from 120.53.227.85 port 34452
+Mar 11 16:46:17 riley-VirtualBox sshd[17392]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:40:47 riley-VirtualBox sshd[2736]: Unable to negotiate with 142.93.60.111 port 49142: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:18:01 riley-VirtualBox sshd[9491]: Invalid user MikroTik from 183.89.84.249 port 22977
+[Fri Apr 09 17:37:23.405034 2021] [auth_basic:error] [pid 848:tid 139930210649856] [client 166.181.252.47:3354] AH01618: user djsiq9lf not found: /
+Apr  1 17:19:00 riley-VirtualBox sshd[6701]: Received disconnect from 121.229.62.94 port 37241:11: Bye Bye [preauth]
+Apr  1 22:45:28 riley-VirtualBox sshd[11287]: Invalid user teamspeak3 from 106.52.20.112 port 53866
+Apr  1 21:42:03 riley-VirtualBox sshd[10126]: Received disconnect from 113.31.117.89 port 55978:11: Bye Bye [preauth]
+Feb 13 20:19:40 riley-VirtualBox sshd[5145]: Disconnected from invalid user paula 212.64.100.82 port 38936 [preauth]
+Jan 15 16:49:47 riley-VirtualBox systemd-logind[618]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Apr  1 17:53:54 riley-VirtualBox sshd[7181]: pam_unix(sshd:auth): check pass; user unknown
+Apr  6 15:43:13 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  1 20:59:29 riley-VirtualBox sshd[9152]: Invalid user user3 from 118.27.39.94 port 49032
+Apr  1 21:47:32 riley-VirtualBox sshd[10267]: Disconnected from invalid user ubuntu 159.65.13.233 port 56414 [preauth]
+[Sun Dec 06 15:33:08.543591 2020] [auth_basic:error] [pid 8234:tid 139932895004416] [client 166.181.249.13:65234] AH01617: user admin: authentication failure for “/”: Password Mismatch
+Apr  1 21:34:10 riley-VirtualBox sshd[9925]: Failed password for invalid user student1 from 85.24.194.41 port 51476 ssh2
+Apr  1 21:27:31 riley-VirtualBox sshd[9754]: Received disconnect from 159.65.13.233 port 55314:11: Bye Bye [preauth]
+Apr  1 21:46:33 riley-VirtualBox sshd[10244]: Failed password for invalid user administrator from 183.89.84.249 port 34193 ssh2
+Apr  1 21:39:58 riley-VirtualBox sshd[10075]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:25:32 riley-VirtualBox gnome-keyring-daemon[1049]: The Secret Service was already initialized
+Apr  1 22:57:52 riley-VirtualBox sshd[11468]: Disconnected from invalid user kafka 165.22.73.254 port 43248 [preauth]
+Apr  1 17:58:45 riley-VirtualBox sshd[7236]: Disconnected from invalid user postgres 142.93.78.168 port 45512 [preauth]
+Apr  1 17:20:43 riley-VirtualBox sshd[6718]: Received disconnect from 35.195.238.142 port 59672:11: Bye Bye [preauth]
+Apr  1 23:19:54 riley-VirtualBox sshd[11778]: Received disconnect from 192.109.241.161 port 52412:11: Bye Bye [preauth]
+[Fri Apr 09 17:37:25.535883 2021] [auth_basic:error] [pid 848:tid 139930999138048] [client 166.181.252.47:3354] AH01618: user ueiepqkrk not found: /
+Mar 20 21:19:32 jfm-vm NetworkManager[827]: <info>  [1616300372.2104] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan 15 16:50:49 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+[Wed Dec 09 18:43:42.648239 2020] [ssl:error] [pid 791:tid 140073873185856] AH02604: Unable to configure certificate 192.1680.38:443:0 for stapling
+Jan 12 15:28:34 riley-VirtualBox sshd[2118]: Unable to negotiate with 142.93.60.111 port 48900: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 18:17:41 riley-VirtualBox sshd[7479]: pam_unix(sshd:auth): check pass; user unknown
+Feb 13 20:28:09 riley-VirtualBox sshd[5182]: Received disconnect from 49.234.54.100 port 40178:11: Bye Bye [preauth]
+Feb 13 19:22:36 riley-VirtualBox sshd[4131]: Disconnected from invalid user sue 212.64.100.82 port 55208 [preauth]
+Apr  1 20:16:03 riley-VirtualBox sshd[8827]: Failed password for invalid user user4 from 212.68.218.36 port 53794 ssh2
+Apr  1 17:23:15 riley-VirtualBox sshd[6757]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:00:08 riley-VirtualBox sshd[8020]: Invalid user profile1 from 49.48.250.119 port 41019
+Apr  1 18:20:43 riley-VirtualBox sshd[7519]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:33:24 riley-VirtualBox sshd[6897]: Invalid user user1 from 142.93.78.168 port 54556
+Feb 13 20:13:22 riley-VirtualBox sshd[5118]: Failed password for invalid user wy from 122.51.207.208 port 57172 ssh2
+[Thu Feb 11 16:12:04.449782 2021] [auth_basic:error] [pid 855:tid 140032887211776] [client 166.181.251.145:54583] AH01617: user admin: authentication failure for "/": Password Mismatch
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Jan 12 15:34:40 riley-VirtualBox sshd[2534]: Unable to negotiate with 142.93.60.111 port 57736: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Mar 20 21:21:54 jfm-vm dbus-daemon[826]: [system] Successfully activated service 'net.reactivated.Fprint'
+Apr  1 22:08:48 riley-VirtualBox sshd[10766]: Failed password for invalid user teamspeak from 153.101.57.40 port 15520 ssh2
+Apr  1 21:48:38 riley-VirtualBox sshd[10293]: Invalid user web from 183.89.84.249 port 61892
+Mar 21 18:14:43 riley-VirtualBox sshd[2854]: Disconnected from invalid user anna 81.69.251.177 port 40982 [preauth]
+Feb 13 19:53:07 riley-VirtualBox sshd[4663]: Failed password for invalid user tencent from 212.64.100.82 port 58946 ssh2
+Apr  1 21:55:27 riley-VirtualBox sshd[10458]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:45:26 riley-VirtualBox sshd[11285]: pam_unix(sshd:auth): check pass; user unknown
+Mar 20 21:21:59 jfm-vm gnome-shell[1331]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Mar 20 21:19:50 jfm-vm whoopsie[973]: [21:19:50] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/4
+Apr  1 20:48:50 riley-VirtualBox sshd[9045]: Received disconnect from 116.204.183.184 port 57890:11: Bye Bye [preauth]
+Mar 11 16:42:27 travis sudo: pam_unix(sudo:auth): authentication failure; logname=travis uid=1000 euid=0 tty=/dev/pts/1 ruser=travis rhost=  user=travis
+Apr  1 18:00:13 riley-VirtualBox sshd[7259]: Received disconnect from 157.245.166.197 port 52144:11: Bye Bye [preauth]
+Feb 11 18:17:01 riley-VirtualBox CRON[56974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 21:15:08 riley-VirtualBox sshd[9417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.89.84.249 
+Jan 12 15:33:39 riley-VirtualBox sshd[2347]: Disconnected from invalid user ubuntu 150.158.176.248 port 59902 [preauth]
+Apr  1 17:44:01 riley-VirtualBox sshd[7060]: Failed password for invalid user ts from 42.192.39.113 port 36190 ssh2
+Apr  1 17:32:41 riley-VirtualBox sshd[6883]: Failed password for invalid user fabian from 128.199.13.95 port 43412 ssh2
+Jan 12 15:34:15 riley-VirtualBox sshd[2519]: Unable to negotiate with 142.93.60.111 port 33650: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Feb 13 19:25:43 riley-VirtualBox sshd[4136]: Received disconnect from 212.64.100.82 port 59746:11: Bye Bye [preauth]
+Apr  1 18:41:02 riley-VirtualBox sshd[7748]: Invalid user postgres from 118.69.82.233 port 36966
+Apr  1 23:01:43 riley-VirtualBox sshd[11523]: pam_unix(sshd:auth): check pass; user unknown
+Apr  2 15:47:48 riley-VirtualBox useradd[980]: failed adding user 'vboxadd', data deleted
+Apr  1 18:20:46 riley-VirtualBox sshd[7519]: Disconnected from invalid user ocadmin 113.118.184.251 port 21551 [preauth]
+Apr  1 22:36:42 riley-VirtualBox sshd[11150]: Disconnected from invalid user testuser 115.159.102.123 port 49168 [preauth]
+Apr  1 17:20:51 riley-VirtualBox sshd[6722]: Disconnected from invalid user web 157.245.166.197 port 50384 [preauth]
+Apr  1 21:34:26 riley-VirtualBox sshd[9931]: Failed password for invalid user admin from 103.96.220.115 port 34592 ssh2
+Apr  1 23:29:07 riley-VirtualBox sshd[11887]: Received disconnect from 47.91.114.85 port 57536:11: Bye Bye [preauth]
+Apr  1 19:19:39 riley-VirtualBox sshd[8324]: Connection closed by invalid user web 49.48.250.119 port 2908 [preauth]
+Apr  1 17:38:26 riley-VirtualBox sshd[6986]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:31:58 riley-VirtualBox sshd[9877]: Invalid user admin from 85.24.194.41 port 40328
+[Thu Mar 11 22:02:40.525230 2021] [auth_basic:error] [pid 816:tid 139736970626816] [client 166.181.242.53:17409] AH01618: user failed access 4 not found: /
+Apr  1 22:13:40 riley-VirtualBox sshd[10863]: Received disconnect from 150.95.177.195 port 45468:11: Bye Bye [preauth]
+Jan 12 15:37:01 riley-VirtualBox sshd[2646]: Unable to negotiate with 142.93.60.111 port 54304: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 19:07:46 riley-VirtualBox sshd[8144]: Received disconnect from 169.244.157.194 port 48718:11: Bye Bye [preauth]
+Mar 20 22:34:50 jfm-vm NetworkManager[827]: <info>  [1616304890.3259] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Apr  6 15:43:22 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Feb 13 20:30:59 riley-VirtualBox gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Apr  1 18:17:32 riley-VirtualBox sshd[7477]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:22:57 riley-VirtualBox sshd[9632]: Invalid user profile1 from 183.89.84.249 port 65413
+Jan 12 15:39:51 riley-VirtualBox sshd[2694]: Unable to negotiate with 142.93.60.111 port 57436: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+[Thu Feb 11 16:12:12.081192 2021] [auth_basic:error] [pid 855:tid 140032635561728] [client 166.181.251.145:34873] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 20:46:26 riley-VirtualBox sshd[9029]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:24:15 riley-VirtualBox sshd[9661]: Invalid user user from 202.91.78.34 port 45802
+Mar 11 16:37:32 travis sshd[3393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.102.74.99 
+Apr  1 21:19:42 riley-VirtualBox sshd[9536]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:02:00 riley-VirtualBox sshd[3323]: Disconnected from invalid user uftp 188.120.249.12 port 56976 [preauth]
+Jan 12 15:22:46 riley-VirtualBox sshd[3182]: pam_unix(sshd:auth): check pass; user unknown
+[Thu Mar 11 22:02:06.867835 2021] [auth_basic:error] [pid 815:tid 139736593184512] [client 166.181.242.53:17503] AH01618: user failed login not found: /
+Apr  1 20:01:26 riley-VirtualBox sshd[8739]: Invalid user gitlab from 52.191.135.1 port 50298
+Apr  1 21:38:37 riley-VirtualBox sshd[10030]: Disconnected from invalid user gitlab 34.86.71.86 port 34448 [preauth]
+Mar 21 18:23:41 riley-VirtualBox sshd[23472]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:40:03 riley-VirtualBox sshd[11207]: Failed password for invalid user admin from 106.52.20.112 port 35852 ssh2
+Apr  1 20:47:15 riley-VirtualBox sshd[9034]: Disconnected from invalid user webuser 52.191.135.1 port 59664 [preauth]
+[Fri Apr 09 17:32:48.083336 2021] [auth_basic:error] [pid 847:tid 139931083065088] [client 166.181.252.47:3418] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 19:26:57 riley-VirtualBox sshd[8440]: Invalid user support from 49.48.250.119 port 1088
+Apr  1 21:23:23 riley-VirtualBox sshd[9642]: Failed password for invalid user jenkins from 116.204.183.184 port 36394 ssh2
+Apr  6 15:53:48 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Apr  1 19:21:15 riley-VirtualBox sshd[8351]: Invalid user web from 49.48.250.119 port 50547
+Mar 11 16:23:35 riley-VirtualBox sshd[17290]: Received disconnect from 80.37.181.60 port 34162:11: Bye Bye [preauth]
+Apr  1 18:13:26 riley-VirtualBox sshd[7421]: Invalid user mcadmin from 84.199.67.194 port 55010
+[Fri Apr 09 17:37:37.982866 2021] [auth_basic:error] [pid 848:tid 139931189348096] [client 166.181.252.47:3354] AH01618: user ew72irjrm not found: /
+Apr  1 23:22:25 riley-VirtualBox sshd[11804]: Received disconnect from 112.215.113.11 port 50329:11: Bye Bye [preauth]
+Apr  1 22:55:24 riley-VirtualBox sshd[11430]: Failed password for test from 140.143.229.56 port 55844 ssh2
+Apr  1 21:37:28 riley-VirtualBox sshd[10000]: Disconnected from invalid user ubuntu 159.65.13.233 port 41748 [preauth]
+Apr  6 15:53:58 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  1 18:44:58 riley-VirtualBox sshd[7785]: Invalid user user1 from 103.83.37.140 port 54058
+Mar 20 23:49:50 jfm-vm NetworkManager[827]: <info>  [1616309390.3294] dhcp4 (ens33): option requested_nis_servers => '1'
+Apr  1 22:52:40 riley-VirtualBox sshd[11388]: Failed password for invalid user testftp from 49.235.179.102 port 58332 ssh2
+Apr  1 17:51:31 riley-VirtualBox sshd[7152]: Received disconnect from 118.69.82.233 port 59458:11: Bye Bye [preauth]
+Jan 12 15:30:48 riley-VirtualBox sshd[2281]: Unable to negotiate with 142.93.60.111 port 56220: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 23:16:04 riley-VirtualBox sshd[11731]: Disconnected from invalid user user1 200.233.186.57 port 59184 [preauth]
+Jan 12 15:41:43 riley-VirtualBox sshd[2753]: Unable to negotiate with 142.93.60.111 port 40770: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 12 15:37:38 riley-VirtualBox sshd[2660]: Unable to negotiate with 142.93.60.111 port 39344: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:10:35 riley-VirtualBox sshd[9294]: Invalid user gitblit from 106.52.152.75 port 33298
+Apr  1 21:45:39 riley-VirtualBox sshd[10215]: Invalid user administrator from 183.89.84.249 port 25169
+Mar 11 16:26:13 riley-VirtualBox sshd[17304]: Disconnected from invalid user user1 81.68.133.181 port 60802 [preauth]
+Mar 11 16:47:10 riley-VirtualBox sshd[17397]: Received disconnect from 175.24.64.176 port 55584:11: Bye Bye [preauth]
+Jan 12 15:30:04 riley-VirtualBox sshd[2142]: Unable to negotiate with 142.93.60.111 port 53772: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 17:00:43 riley-VirtualBox sshd[3314]: Received disconnect from 142.93.78.168 port 40334:11: Bye Bye [preauth]
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 21:57:18 riley-VirtualBox sshd[10506]: Invalid user git from 49.232.164.192 port 50082
+Apr  1 20:48:49 riley-VirtualBox sshd[9046]: Disconnected from invalid user gpadmin 212.68.218.36 port 55518 [preauth]
+Apr  1 19:46:42 riley-VirtualBox sshd[8671]: Received disconnect from 167.99.231.236 port 60504:11: Bye Bye [preauth]
+Apr  1 18:16:47 riley-VirtualBox sshd[7466]: Invalid user system from 157.245.166.197 port 49546
+Apr  1 22:57:02 riley-VirtualBox sshd[11456]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:29:07 riley-VirtualBox sshd[11069]: Invalid user webmaster from 51.159.29.5 port 41492
+Apr  1 18:44:27 riley-VirtualBox sshd[7779]: Disconnected from invalid user test1 119.28.68.78 port 44370 [preauth]
+Apr  1 21:25:52 riley-VirtualBox sshd[9709]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:48:58 riley-VirtualBox sshd[9049]: Failed password for invalid user ftpuser1 from 167.99.231.236 port 42784 ssh2
+Mar 20 20:44:25 jfm-vm NetworkManager[827]: <info>  [1616298265.3880] dhcp4 (ens33): option routers              => '192.168.152.2'
+Apr  1 18:55:41 riley-VirtualBox sshd[7952]: Connection closed by invalid user MikroTik 49.48.250.119 port 55328 [preauth]
+[Thu Feb 11 16:15:05.875411 2021] [auth_basic:error] [pid 856:tid 140033029822208] [client 166.181.251.145:11179] AH01617: user admin: authentication failure for "/": Password Mismatch
+Feb 13 20:14:23 riley-VirtualBox sshd[5124]: pam_unix(sshd:auth): check pass; user unknown
+Mar 20 22:04:50 jfm-vm NetworkManager[827]: <info>  [1616303090.3275] dhcp4 (ens33): option requested_static_routes => '1'
+Apr  1 19:30:55 riley-VirtualBox sshd[8499]: Connection closed by invalid user tech 49.48.250.119 port 49696 [preauth]
+Apr  1 18:02:46 riley-VirtualBox sshd[7288]: Received disconnect from 142.93.78.168 port 57148:11: Bye Bye [preauth]
+Apr  1 21:38:42 riley-VirtualBox sshd[10032]: Disconnected from invalid user git 85.24.194.41 port 45598 [preauth]
+Mar 20 19:14:25 jfm-vm NetworkManager[827]: <info>  [1616292865.3928] dhcp4 (ens33): option requested_root_path  => '1'
+Apr  1 21:59:24 riley-VirtualBox sshd[10551]: Disconnected from invalid user alex 150.95.177.195 port 40998 [preauth]
+[Fri Apr 09 17:35:24.422487 2021] [auth_basic:error] [pid 847:tid 139931083065088] [client 166.181.252.47:2012] AH01617: user admin: authentication failure for "/": Password Mismatch
+Feb 13 20:00:40 riley-VirtualBox sshd[4697]: Received disconnect from 223.223.192.230 port 45152:11: Bye Bye [preauth]
+Jan 12 15:33:02 riley-VirtualBox sshd[2338]: Unable to negotiate with 142.93.60.111 port 35350: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 19:13:07 riley-VirtualBox sshd[8226]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.48.250.119 
+Apr  1 18:15:30 riley-VirtualBox sshd[7444]: Received disconnect from 120.53.227.85 port 54986:11: Bye Bye [preauth]
+Apr  1 22:02:29 riley-VirtualBox sshd[10622]: Failed password for invalid user ts3 from 140.143.229.56 port 52390 ssh2
+Apr  1 22:43:10 riley-VirtualBox sshd[11253]: Received disconnect from 106.52.152.75 port 59698:11: Bye Bye [preauth]
+Apr  1 18:43:11 riley-VirtualBox sshd[7764]: Disconnected from invalid user mysql 118.69.82.233 port 40516 [preauth]
+Apr  1 19:27:53 riley-VirtualBox sshd[8452]: Disconnected from invalid user hadoop 116.204.183.184 port 39254 [preauth]
+Feb 13 19:51:36 riley-VirtualBox sshd[4648]: Invalid user testing from 212.64.100.82 port 39668
+Jan 12 15:34:05 riley-VirtualBox sshd[2464]: Unable to negotiate with 142.93.60.111 port 44498: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:56:47 riley-VirtualBox sshd[10486]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:37:34 riley-VirtualBox sshd[2656]: Disconnected from authenticating user root 49.233.251.161 port 55672 [preauth]
+Mar 21 18:24:03 riley-VirtualBox sshd[23739]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:43:41 riley-VirtualBox sshd[7053]: Received disconnect from 157.245.166.197 port 54742:11: Bye Bye [preauth]
+[Wed Dec 09 19:00:45.223817 2020] [auth_basic:error] [pid 793:tid 140073731331840] [client 212.102.47.66:63684] AH01618: user applebottom jeans not found: /
+Apr  1 21:13:25 riley-VirtualBox sshd[9365]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:18:10 riley-VirtualBox sshd[8844]: Received disconnect from 167.99.231.236 port 41342:11: Bye Bye [preauth]
+Apr  1 21:57:42 riley-VirtualBox sshd[10512]: Invalid user web5 from 140.143.229.56 port 49490
+Apr  1 21:37:45 riley-VirtualBox sshd[10012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=153.101.57.40 
+Apr  1 18:26:36 riley-VirtualBox sshd[7587]: pam_unix(sshd:auth): check pass; user unknown
+[Fri Apr 09 17:38:02.262519 2021] [auth_basic:error] [pid 848:tid 139931049494272] [client 166.181.252.47:3354] AH01618: user vde3rffk not found: /
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 18:08:06 riley-VirtualBox sshd[7355]: Disconnected from invalid user minecraft 42.192.39.113 port 44188 [preauth]
+Mar 20 19:29:25 jfm-vm NetworkManager[827]: <info>  [1616293765.3823] dhcp4 (ens33): option next_server          => '192.168.152.254'
+Feb 13 19:55:47 riley-VirtualBox sshd[4673]: Failed password for invalid user apagar from 212.64.100.82 port 40976 ssh2
+Apr  1 18:13:59 riley-VirtualBox sshd[7425]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:33:22 riley-VirtualBox sshd[11113]: Invalid user admin from 49.232.164.192 port 60190
+Mar 11 16:19:52 riley-VirtualBox sshd[17276]: Disconnected from invalid user reach 180.76.152.65 port 46044 [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 21:58:26 riley-VirtualBox sshd[10530]: Connection closed by invalid user support 183.89.84.249 port 15659 [preauth]
+Jan 12 15:36:17 riley-VirtualBox sshd[2631]: Unable to negotiate with 142.93.60.111 port 51838: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:29:21 riley-VirtualBox sshd[9807]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.159.29.5 
+Mar 11 17:01:40 travis sshd[39312]: Received disconnect from 14.102.74.99 port 37260:11: Bye Bye [preauth]
+Apr  1 18:54:13 riley-VirtualBox sshd[7924]: Connection closed by invalid user MikroTik 49.48.250.119 port 62170 [preauth]
+Mar 11 15:43:44 riley-VirtualBox sshd[17109]: Received disconnect from 165.232.151.116 port 35916:11: Normal Shutdown, Thank you for playing [preauth]
+Mar 21 18:20:39 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Jan 12 15:39:13 riley-VirtualBox sshd[2686]: Unable to negotiate with 142.93.60.111 port 44228: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 17:49:41 riley-VirtualBox sshd[7128]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=84.199.67.194 
+Mar 20 19:29:25 jfm-vm NetworkManager[827]: <info>  [1616293765.3827] dhcp4 (ens33): option requested_nis_servers => '1'
+Apr  1 21:22:16 riley-VirtualBox sshd[9610]: Invalid user webuser from 159.65.13.233 port 33866
+[Thu Mar 11 21:27:02.150407 2021] [auth_basic:error] [pid 816:tid 139737071339264] [client 166.181.242.53:49555] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 21:31:54 riley-VirtualBox sshd[9875]: Invalid user csgoserver from 134.175.55.212 port 56738
+Apr  1 21:17:29 riley-VirtualBox sshd[9483]: Invalid user github from 116.204.183.184 port 39976
+Apr  1 22:04:31 riley-VirtualBox sshd[10670]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=153.101.57.40 
+Apr  6 15:52:37 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  1 19:21:19 riley-VirtualBox sshd[8349]: Disconnected from invalid user sftp 167.99.231.236 port 46056 [preauth]
+Mar 20 21:37:30 jfm-vm dbus-daemon[1106]: [session uid=1000 pid=1106] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Apr  1 23:19:37 riley-VirtualBox sshd[11772]: Disconnected from invalid user fctrserver 200.106.236.138 port 35854 [preauth]
+Apr  1 19:11:34 riley-VirtualBox sshd[8202]: Invalid user admin1 from 103.83.37.140 port 55610
+Mar 21 18:11:37 riley-VirtualBox sshd[2136]: Received disconnect from 81.69.251.177 port 42844:11: Bye Bye [preauth]
+Apr  1 23:11:35 riley-VirtualBox sshd[11653]: Received disconnect from 112.215.113.11 port 62882:11: Bye Bye [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Feb 13 20:05:18 riley-VirtualBox sshd[4713]: Received disconnect from 223.223.192.230 port 26112:11: Bye Bye [preauth]
+Apr  1 18:41:21 riley-VirtualBox sshd[7750]: Failed password for test from 153.101.29.178 port 58584 ssh2
+Apr  1 21:12:20 riley-VirtualBox sshd[9335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.235.179.102 
+[Wed Dec 09 19:00:33.336769 2020] [auth_basic:error] [pid 792:tid 140073680975616] [client 71.212.209.82:56699] AH01618: user afga not found: /
+Apr  1 23:05:46 riley-VirtualBox sshd[11578]: Failed password for invalid user ubuntu from 115.159.102.123 port 57332 ssh2
+Apr  1 21:49:34 riley-VirtualBox sshd[10312]: Disconnected from authenticating user test 103.96.220.115 port 57174 [preauth]
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 22:52:38 riley-VirtualBox sshd[11388]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.235.179.102 
+Apr  1 21:10:59 riley-VirtualBox sshd[9302]: pam_unix(sshd:auth): check pass; user unknown
+[Fri Apr 09 17:38:06.012441 2021] [auth_basic:error] [pid 848:tid 139931041101568] [client 166.181.252.47:3354] AH01618: user cawrfeek not found: /
+Mar 20 19:04:25 jfm-vm systemd[1]: fwupd-refresh.service: Succeeded.
+Mar 11 16:20:56 riley-VirtualBox sshd[17283]: Failed password for root from 125.124.209.123 port 57436 ssh2
+Mar 11 16:36:10 riley-VirtualBox sshd[17353]: Failed password for invalid user vbox from 125.124.209.123 port 43668 ssh2
+Apr  6 15:48:53 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Apr  1 19:31:25 riley-VirtualBox sshd[8510]: Invalid user tech from 49.48.250.119 port 53908
+Apr  1 18:02:49 riley-VirtualBox sshd[7290]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:12:53 riley-VirtualBox sshd[6602]: Invalid user user2 from 118.69.82.233 port 48762
+Apr  1 23:03:26 riley-VirtualBox sshd[11549]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.215.113.11 
+Apr  1 19:22:02 riley-VirtualBox sshd[8359]: Failed password for invalid user web from 49.48.250.119 port 20571 ssh2
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Mar  3 18:10:51 riley-VirtualBox PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+[Thu Mar 11 22:02:34.899867 2021] [auth_basic:error] [pid 816:tid 139737020983040] [client 166.181.242.53:17896] AH01618: user failed access 3 not found: /
+Apr  1 21:03:48 riley-VirtualBox sshd[9192]: Disconnected from invalid user server 202.91.78.34 port 43448 [preauth]
+Apr  1 17:40:37 riley-VirtualBox sshd[7013]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:00:03 riley-VirtualBox sshd[10563]: Connection closed by invalid user tech 183.89.84.249 port 36876 [preauth]
+Apr  1 21:52:35 riley-VirtualBox sshd[10390]: Invalid user user from 183.89.84.249 port 10035
+[Fri Apr 09 17:33:32.722087 2021] [auth_basic:error] [pid 847:tid 139931057886976] [client 166.181.252.47:3418] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 19:35:41 riley-VirtualBox sshd[8576]: Disconnected from invalid user admin2 212.68.218.36 port 47310 [preauth]
+Apr  1 21:10:00 riley-VirtualBox sshd[9280]: Received disconnect from 101.36.122.184 port 39036:11: Bye Bye [preauth]
+Apr  1 22:57:31 riley-VirtualBox sshd[11462]: Invalid user test4 from 200.233.186.57 port 55836
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 19:17:06 riley-VirtualBox sshd[8283]: Received disconnect from 120.53.227.85 port 55058:11: Bye Bye [preauth]
+Apr  1 22:56:17 riley-VirtualBox sshd[11450]: Invalid user server from 47.91.114.85 port 37776
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  6 15:52:34 riley-VirtualBox sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+[Fri Apr 09 17:37:12.799633 2021] [auth_basic:error] [pid 847:tid 139931108243200] [client 166.181.252.47:3343] AH01618: user fhdjsnak4i not found: /
+Apr  6 15:41:32 riley-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 19:12:14 riley-VirtualBox sshd[8214]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:27:21 riley-VirtualBox sshd[11868]: Disconnected from invalid user appuser 47.254.238.145 port 58782 [preauth]
+Mar 20 19:47:55 jfm-vm systemd-resolved[784]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr  1 20:17:45 riley-VirtualBox sshd[8840]: Received disconnect from 118.27.39.94 port 36708:11: Bye Bye [preauth]
+Apr  1 22:22:09 riley-VirtualBox sshd[10979]: Disconnected from invalid user test6 85.24.194.41 port 60652 [preauth]
+Apr  1 19:36:20 riley-VirtualBox sshd[8590]: Connection closed by invalid user telecomadmin 49.48.250.119 port 53342 [preauth]
+Apr  6 15:52:03 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  1 20:46:18 riley-VirtualBox sshd[9027]: Received disconnect from 212.68.218.36 port 44540:11: Bye Bye [preauth]
+Apr  1 17:33:22 riley-VirtualBox sshd[6895]: pam_unix(sshd:auth): check pass; user unknown
+Mar 21 00:01:28 jfm-vm systemd-resolved[784]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr  1 22:31:49 riley-VirtualBox sshd[11099]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:41:56 riley-VirtualBox sshd[7030]: Disconnected from invalid user test3 120.53.227.85 port 39576 [preauth]
+Apr  1 23:26:26 riley-VirtualBox sshd[11862]: pam_unix(sshd:auth): check pass; user unknown
+Mar 21 18:20:08 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Mar 11 16:32:27 travis sshd[3270]: Accepted password for travis from 192.168.0.122 port 51856 ssh2
+Apr  1 22:36:56 riley-VirtualBox sshd[11155]: Invalid user pi from 88.161.55.5 port 24739
+[Thu Mar 11 21:28:13.283583 2021] [auth_basic:error] [pid 816:tid 139737356560128] [client 166.181.242.53:49192] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 21:18:52 riley-VirtualBox sshd[9514]: Received disconnect from 106.52.152.75 port 40820:11: Bye Bye [preauth]
+Apr  1 18:29:51 riley-VirtualBox sshd[7632]: Received disconnect from 84.199.67.194 port 39806:11: Bye Bye [preauth]
+Mar 20 21:19:03 jfm-vm NetworkManager[827]: <info>  [1616300343.9147] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr  1 17:28:50 riley-VirtualBox sshd[6833]: Disconnected from invalid user developer 128.199.13.95 port 44956 [preauth]
+Apr  1 23:11:31 riley-VirtualBox sshd[11651]: Received disconnect from 200.106.236.138 port 37126:11: Bye Bye [preauth]
+Apr  1 22:59:12 riley-VirtualBox sshd[11484]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=115.159.102.123 
+Apr  1 20:51:26 riley-VirtualBox sshd[9076]: Failed password for invalid user ts3serv from 202.91.78.34 port 53344 ssh2
+Apr  1 23:05:14 riley-VirtualBox sshd[11574]: Invalid user deploy from 200.106.236.138 port 38056
+Apr  1 21:41:30 riley-VirtualBox sshd[10112]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:50:09 riley-VirtualBox sshd[9061]: Failed password for invalid user ftp-user from 91.72.171.138 port 44782 ssh2
+Jan 15 16:50:15 riley-VirtualBox sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Apr  1 17:24:16 riley-VirtualBox sshd[6766]: Disconnected from invalid user uftp 119.28.68.78 port 43772 [preauth]
+Apr  1 21:44:18 riley-VirtualBox sshd[10188]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:46:16 riley-VirtualBox sshd[9027]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:57:14 riley-VirtualBox sshd[9128]: Disconnected from invalid user webcam 153.101.57.40 port 58016 [preauth]
+Mar 20 21:19:32 jfm-vm NetworkManager[827]: <info>  [1616300372.1896] dhcp4 (ens33): option requested_static_routes => '1'
+Apr  6 15:48:24 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  1 17:59:05 riley-VirtualBox sshd[7243]: Connection closed by 192.241.228.4 port 48886 [preauth]
+Apr  1 19:19:46 riley-VirtualBox sshd[8326]: Invalid user web from 49.48.250.119 port 5279
+Mar 11 16:55:44 travis pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr  1 22:22:58 riley-VirtualBox sshd[10986]: Failed password for invalid user testftp from 49.232.164.192 port 57296 ssh2
+Apr  1 22:07:18 riley-VirtualBox sshd[10728]: Failed password for invalid user webuser from 140.143.229.56 port 55278 ssh2
+Apr  1 21:40:06 riley-VirtualBox sshd[10077]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=150.95.177.195 
+Apr  1 18:27:08 riley-VirtualBox sshd[7599]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:21:59 riley-VirtualBox sshd[9600]: pam_unix(sshd:auth): check pass; user unknown
+Feb 11 18:11:09 travis sshd[3075]: Unable to negotiate with 73.239.143.254 port 55804: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Apr  1 21:57:35 riley-VirtualBox sshd[10510]: Invalid user support from 183.89.84.249 port 62039
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 22:46:59 riley-VirtualBox sshd[11303]: Disconnected from invalid user uftp 115.159.102.123 port 38776 [preauth]
+Apr  1 18:58:13 riley-VirtualBox sshd[7990]: Invalid user profile1 from 49.48.250.119 port 56026
+Apr  1 19:00:14 riley-VirtualBox sshd[8022]: Failed password for invalid user steam from 120.53.227.85 port 47328 ssh2
+Mar 20 19:00:51 jfm-vm gnome-shell[1331]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Apr  1 17:36:00 riley-VirtualBox sshd[6955]: Received disconnect from 84.199.67.194 port 41724:11: Bye Bye [preauth]
+Apr  1 19:00:57 riley-VirtualBox sshd[8035]: Disconnected from invalid user sammy 103.83.37.140 port 38050 [preauth]
+Apr  1 19:03:21 riley-VirtualBox sshd[8073]: Connection closed by invalid user user1 49.48.250.119 port 13427 [preauth]
+Apr  1 17:43:47 riley-VirtualBox sshd[7056]: Invalid user rtest from 84.199.67.194 port 34124
+Apr  1 17:21:54 riley-VirtualBox sshd[6736]: Received disconnect from 142.93.78.168 port 47876:11: Bye Bye [preauth]
+Apr  1 20:01:41 riley-VirtualBox sshd[8741]: Disconnected from invalid user user 118.27.39.94 port 49468 [preauth]
+Apr  1 19:29:01 riley-VirtualBox sshd[8470]: Disconnected from invalid user user 167.99.231.236 port 48330 [preauth]
+Feb 13 20:29:39 riley-VirtualBox sshd[5189]: Invalid user lwk from 223.223.192.230 port 56832
+Apr  1 17:44:02 riley-VirtualBox sshd[7058]: Disconnected from authenticating user root 35.195.238.142 port 33850 [preauth]
+Apr  1 21:00:27 riley-VirtualBox sshd[9164]: Invalid user hadoop from 134.175.55.212 port 47566
+Apr  1 21:17:24 riley-VirtualBox sshd[9475]: Disconnected from authenticating user test 159.65.13.233 port 40648 [preauth]
+Feb 13 19:51:24 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get auto-remove
+[Fri Apr 09 17:37:08.733537 2021] [auth_basic:error] [pid 847:tid 139930672019200] [client 166.181.252.47:3343] AH01618: user shduenfbf not found: /
+Mar 11 16:14:44 riley-VirtualBox sshd[17261]: Disconnected from invalid user ftp 80.37.181.60 port 44542 [preauth]
+Apr  1 23:18:17 riley-VirtualBox sshd[11764]: Invalid user steam from 101.36.122.184 port 33434
+Apr  1 22:57:47 riley-VirtualBox sshd[11466]: Disconnected from authenticating user root 140.143.229.56 port 57302 [preauth]
+[Thu Mar 11 21:52:23.506956 2021] [auth_basic:error] [pid 816:tid 139737088124672] [client 166.181.242.53:17563] AH01618: user failedusername2 not found: /
+Apr  1 21:44:29 riley-VirtualBox sshd[10192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.89.84.249 
+Apr  1 18:31:22 riley-VirtualBox sshd[7655]: Disconnected from invalid user testftp 121.229.62.94 port 46567 [preauth]
+Jan 12 15:21:00 riley-VirtualBox sshd[2060]: Disconnected from invalid user elsearch 103.4.233.93 port 52456 [preauth]
+Apr  1 16:24:55 riley-VirtualBox sshd[3220]: Unable to negotiate with 167.172.34.183 port 50358: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 23:18:03 riley-VirtualBox sshd[11758]: Disconnected from invalid user ftpuser 195.122.226.164 port 30836 [preauth]
+Apr  1 23:04:42 riley-VirtualBox sshd[11563]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:16:02 riley-VirtualBox sshd[10896]: Invalid user csadmin from 150.95.177.195 port 55620
+Jan 12 15:35:33 riley-VirtualBox sshd[2589]: Unable to negotiate with 142.93.60.111 port 49340: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 18:03:19 riley-VirtualBox sshd[7297]: Invalid user deploy from 128.199.13.95 port 59782
+Apr  1 21:31:16 riley-VirtualBox sshd[9858]: Failed password for invalid user teamspeak from 52.191.135.1 port 56210 ssh2
+Apr  1 21:47:32 riley-VirtualBox sshd[10267]: Received disconnect from 159.65.13.233 port 56414:11: Bye Bye [preauth]
+Apr  1 22:02:14 riley-VirtualBox sshd[10614]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:50:05 riley-VirtualBox sshd[11358]: Invalid user kerapetse from 153.101.57.40 port 11562
+Apr  1 17:35:11 riley-VirtualBox sshd[6940]: Unable to negotiate with 128.199.38.16 port 53600: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  6 15:48:45 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Apr  1 22:38:33 riley-VirtualBox sshd[11177]: Disconnected from invalid user alexander 113.31.117.89 port 60968 [preauth]
+Apr  1 19:32:56 riley-VirtualBox sshd[8532]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:05:51 riley-VirtualBox sshd[10697]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:02:50 riley-VirtualBox sshd[11539]: Invalid user deploy from 47.91.114.85 port 47378
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 23:04:56 riley-VirtualBox sshd[11567]: Invalid user admin1 from 115.159.102.123 port 48790
+Mar 11 16:40:47 riley-VirtualBox sshd[17366]: Disconnected from invalid user newuser 89.252.190.151 port 50916 [preauth]
+Apr  1 19:52:35 riley-VirtualBox sshd[8697]: Invalid user ftpsecure from 167.99.231.236 port 55144
+Apr  1 22:26:20 riley-VirtualBox sshd[11032]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:00:31 riley-VirtualBox sshd[10577]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:17:20 riley-VirtualBox sshd[9473]: Connection closed by invalid user default 183.89.84.249 port 51473 [preauth]
+Apr  1 18:54:23 riley-VirtualBox sshd[7926]: Failed password for invalid user MikroTik from 49.48.250.119 port 52509 ssh2
+Apr  1 20:57:37 riley-VirtualBox sshd[9136]: Received disconnect from 118.27.39.94 port 47114:11: Bye Bye [preauth]
+Apr  1 21:27:03 riley-VirtualBox sshd[9734]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:34:49 riley-VirtualBox sshd[2536]: Unable to negotiate with 142.93.60.111 port 46968: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:42:30 riley-VirtualBox sshd[10139]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=159.65.13.233 
+Apr  1 18:18:38 riley-VirtualBox sshd[7494]: Disconnected from invalid user developer 103.83.37.140 port 52508 [preauth]
+Jan 12 15:20:31 riley-VirtualBox gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user riley by (uid=0)
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 21:43:03 riley-VirtualBox sshd[10157]: Failed password for invalid user ubnt from 183.89.84.249 port 49824 ssh2
+Apr  1 17:35:32 riley-VirtualBox sshd[6949]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=35.195.238.142 
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Jan 12 15:35:50 riley-VirtualBox sshd[2615]: Unable to negotiate with 142.93.60.111 port 56014: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 22:14:22 riley-VirtualBox sshd[10871]: Invalid user testuser from 140.143.229.56 port 59600
+[Fri Apr 09 17:28:27.895133 2021] [ssl:warn] [pid 794:tid 139931221593152] AH01909: 192.1680.38:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 11 22:02:22.947371 2021] [auth_basic:error] [pid 816:tid 139737447241472] [client 166.181.242.53:17644] AH01618: user failed access 1 not found: /
+Apr  1 23:01:00 riley-VirtualBox sshd[11513]: Received disconnect from 115.159.102.123 port 34314:11: Bye Bye [preauth]
+Apr  1 22:39:41 riley-VirtualBox sshd[11199]: message repeated 2 times: [ Failed password for root from 222.187.232.205 port 20513 ssh2]
+Apr  1 22:46:08 riley-VirtualBox sshd[11299]: pam_unix(sshd:auth): check pass; user unknown
+Mar 20 18:59:22 jfm-vm dbus-daemon[1106]: [session uid=1000 pid=1106] Activating service name='org.gnome.Logs' requested by ':1.36' (uid=1000 pid=1331 comm="/usr/bin/gnome-shell " label="unconfined")
+Feb 13 19:32:26 riley-VirtualBox sshd[4153]: Received disconnect from 223.223.192.230 port 33345:11: Bye Bye [preauth]
+Apr  1 22:38:00 riley-VirtualBox sshd[11168]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:47:59 riley-VirtualBox sshd[9040]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:21:02 riley-VirtualBox sshd[2156]: Received disconnect from 42.192.51.95 port 35880:11: Bye Bye [preauth]
+Apr  1 21:50:01 riley-VirtualBox sshd[10324]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:25:25 riley-VirtualBox systemd-logind[622]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr  1 23:03:27 riley-VirtualBox sshd[11549]: Failed password for invalid user ts from 112.215.113.11 port 46990 ssh2
+[Thu Mar 11 22:02:57.511494 2021] [auth_basic:error] [pid 815:tid 139737348167424] [client 166.181.242.53:17751] AH01618: user failed accesss 7 not found: /
+Apr  1 18:07:20 riley-VirtualBox sshd[7345]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:59:24 riley-VirtualBox sshd[11486]: Failed password for invalid user ts from 85.24.194.41 port 42284 ssh2
+Feb 13 19:53:26 riley-VirtualBox sshd[4666]: Disconnected from invalid user corona 49.234.54.100 port 56166 [preauth]
+Feb 13 19:59:25 riley-VirtualBox sshd[4691]: Failed password for root from 122.51.207.208 port 41498 ssh2
+Apr  1 21:23:11 riley-VirtualBox sshd[9638]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.89.84.249 
+Jan 12 15:21:40 riley-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr  1 16:25:15 riley-VirtualBox sshd[3251]: Unable to negotiate with 167.172.34.183 port 39126: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Mar 11 16:32:35 riley-VirtualBox sshd[17334]: Received disconnect from 125.124.209.123 port 32998:11: Bye Bye [preauth]
+Apr  1 17:28:24 riley-VirtualBox sshd[6824]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.229.62.94 
+[Thu Mar 11 21:26:52.378160 2021] [auth_basic:error] [pid 815:tid 139736601577216] [client 166.181.242.53:17694] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 21:15:15 riley-VirtualBox sshd[9420]: Invalid user guest3 from 106.52.20.112 port 58416
+Feb 13 19:47:31 riley-VirtualBox sshd[4568]: Received disconnect from 212.64.100.82 port 38316:11: Bye Bye [preauth]
+Apr  1 21:53:55 riley-VirtualBox sshd[10419]: pam_unix(sshd:auth): check pass; user unknown
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Jan 12 15:24:55 riley-VirtualBox sshd[25488]: Disconnected from invalid user sammy 106.52.128.100 port 39066 [preauth]
+Apr  1 19:33:06 riley-VirtualBox sshd[8537]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:06:36 riley-VirtualBox sshd[11589]: pam_unix(sshd:auth): check pass; user unknown
+Feb 13 19:20:15 riley-VirtualBox sshd[4126]: Invalid user dal from 49.234.54.100 port 42686
+Apr  6 15:41:42 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+[Fri Apr 09 17:37:42.713392 2021] [auth_basic:error] [pid 848:tid 139931007530752] [client 166.181.252.47:3354] AH01618: user d28ifjrieodk not found: /
+Jan 16 21:45:49 riley-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Apr  1 20:28:54 riley-VirtualBox sshd[8905]: Failed password for invalid user bot2 from 116.204.183.184 port 56310 ssh2
+Apr  1 21:48:40 riley-VirtualBox sshd[10293]: Connection closed by invalid user web 183.89.84.249 port 61892 [preauth]
+Apr  1 22:00:38 riley-VirtualBox sshd[10581]: Disconnected from invalid user git 49.235.179.102 port 53638 [preauth]
+Apr  1 23:01:44 riley-VirtualBox sshd[11525]: pam_unix(sshd:auth): check pass; user unknown
+[Thu Feb 11 16:14:31.205555 2021] [auth_basic:error] [pid 856:tid 140033046607616] [client 166.181.251.145:53790] AH01617: user admin: authentication failure for "/": Password Mismatch
+[Fri Apr 09 17:37:29.900405 2021] [auth_basic:error] [pid 848:tid 139930193864448] [client 166.181.252.47:3354] AH01618: user fjqo10eu not found: /
+[Fri Apr 09 17:34:01.432169 2021] [auth_basic:error] [pid 848:tid 139931108243200] [client 166.181.252.47:3323] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 22:38:32 riley-VirtualBox sshd[11177]: Failed password for invalid user alexander from 113.31.117.89 port 60968 ssh2
+Feb 13 20:04:13 riley-VirtualBox sshd[4709]: Disconnected from invalid user palm 212.64.100.82 port 43672 [preauth]
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 18:58:33 riley-VirtualBox sshd[7996]: pam_unix(sshd:auth): check pass; user unknown
+Mar 11 16:38:21 travis sshd[3396]: Failed password for invalid user admin from 174.214.28.47 port 22685 ssh2
+Apr  1 22:47:24 riley-VirtualBox sshd[11311]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 16:15:15 riley-VirtualBox gdm-autologin]: gkr-pam: no password is available for user
+Mar 20 21:39:46 jfm-vm systemd[1]: Starting Hostname Service...
+[Fri Apr 09 17:35:37.841303 2021] [auth_basic:error] [pid 848:tid 139931049494272] [client 166.181.252.47:1879] AH01617: user admin: authentication failure for "/": Password Mismatch
+Mar 11 16:58:35 travis sshd[28777]: Received disconnect from 14.102.74.99 port 33430:11: Bye Bye [preauth]
+Apr  1 16:57:57 riley-VirtualBox sshd[3300]: Failed password for invalid user ubuntu from 121.229.62.94 port 59037 ssh2
+Mar 20 18:59:35 jfm-vm systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+[Thu Mar 11 21:58:15.832292 2021] [auth_basic:error] [pid 815:tid 139737205556992] [client 166.181.242.53:49613] AH01618: user user not found: /
+Apr  1 17:36:00 riley-VirtualBox sshd[6953]: Received disconnect from 42.192.39.113 port 45440:11: Bye Bye [preauth]
+Apr  1 22:41:42 riley-VirtualBox sshd[11233]: Failed password for invalid user sinusbot from 153.101.57.40 port 18036 ssh2
+[Wed Dec 09 19:00:26.323867 2020] [auth_basic:error] [pid 792:tid 140073714546432] [client 71.212.209.82:56697] AH01618: user adf not found: /
+Apr  1 17:18:03 riley-VirtualBox sshd[6690]: Received disconnect from 142.93.78.168 port 36238:11: Bye Bye [preauth]
+Apr  1 21:10:34 riley-VirtualBox sshd[9292]: Invalid user admin from 183.89.84.249 port 39947
+Apr  1 21:56:52 riley-VirtualBox sshd[10492]: Received disconnect from 134.175.55.212 port 45080:11: Bye Bye [preauth]
+Apr  1 22:45:48 riley-VirtualBox sshd[11291]: Disconnected from invalid user admin 134.175.55.212 port 49928 [preauth]
+Mar 11 15:59:29 riley-VirtualBox sshd[17223]: Disconnected from invalid user skaner 80.37.181.60 port 33990 [preauth]
+Apr  1 22:43:42 riley-VirtualBox sshd[11262]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:37:10 riley-VirtualBox sshd[8603]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:18:04 riley-VirtualBox sshd[9493]: Disconnected from invalid user mcserver 134.175.55.212 port 43248 [preauth]
+Mar 11 15:44:15 riley-VirtualBox sshd[17210]: Failed password for invalid user user from 165.232.151.116 port 54480 ssh2
+Mar 11 16:54:05 travis sshd[11528]: Failed password for invalid user mailtest from 14.102.74.99 port 41806 ssh2
+Jan 12 15:33:38 riley-VirtualBox sshd[2349]: Unable to negotiate with 142.93.60.111 port 48610: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:38:51 riley-VirtualBox sshd[10041]: Disconnected from invalid user webmaster 101.36.122.184 port 59750 [preauth]
+Apr  1 20:10:19 riley-VirtualBox sshd[8794]: Disconnected from invalid user ts3bot 167.99.231.236 port 39074 [preauth]
+Apr  1 21:41:42 riley-VirtualBox sshd[10116]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.89.84.249 
+Apr  1 22:26:11 riley-VirtualBox sshd[11028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.52.20.112 
+Mar 21 18:19:47 riley-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  1 19:27:43 riley-VirtualBox sshd[8450]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.48.250.119 
+Jan 12 15:27:05 riley-VirtualBox sshd[2088]: Unable to negotiate with 142.93.60.111 port 43948: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 17:26:50 riley-VirtualBox sshd[6801]: Received disconnect from 128.199.13.95 port 45720:11: Bye Bye [preauth]
+Apr  1 19:34:43 riley-VirtualBox sshd[8561]: Invalid user demo from 49.48.250.119 port 4296
+Apr  1 21:52:21 riley-VirtualBox sshd[10382]: Received disconnect from 52.191.135.1 port 33930:11: Bye Bye [preauth]
+Apr  1 22:26:16 riley-VirtualBox sshd[11030]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:13:22 riley-VirtualBox sshd[11690]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:52:19 riley-VirtualBox sshd[7159]: Received disconnect from 188.120.249.12 port 40412:11: Bye Bye [preauth]
+Apr  1 18:54:12 riley-VirtualBox sshd[7924]: Failed password for invalid user MikroTik from 49.48.250.119 port 62170 ssh2
+Apr  1 21:46:56 riley-VirtualBox sshd[10246]: Connection closed by invalid user administrator 183.89.84.249 port 58396 [preauth]
+Mar 21 18:16:11 riley-VirtualBox sshd[3810]: Received disconnect from 81.69.251.177 port 57694:11: Bye Bye [preauth]
+Apr  1 20:57:37 riley-VirtualBox sshd[9136]: Disconnected from invalid user developer 118.27.39.94 port 47114 [preauth]
+Dec  9 19:03:20 riley-VirtualBox sudo:    riley : TTY=pts/1 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+Apr  1 22:15:22 riley-VirtualBox sshd[10886]: Invalid user postgres from 49.232.164.192 port 55138
+[Fri Apr 09 17:35:55.252407 2021] [auth_basic:error] [pid 847:tid 139931189348096] [client 166.181.252.47:1874] AH01617: user admin: authentication failure for "/": Password Mismatch
+Mar 20 21:19:35 jfm-vm systemd-resolved[784]: message repeated 4 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr  1 18:52:32 riley-VirtualBox sshd[7894]: Failed password for invalid user default from 49.48.250.119 port 45331 ssh2
+Apr  1 21:39:53 riley-VirtualBox sshd[10069]: Received disconnect from 153.101.57.40 port 38544:11: Bye Bye [preauth]
+Apr  1 23:00:06 riley-VirtualBox sshd[11500]: Received disconnect from 115.159.102.123 port 54002:11: Bye Bye [preauth]
+Apr  1 22:40:33 riley-VirtualBox sshd[11215]: Failed password for invalid user user5 from 200.233.186.57 port 33056 ssh2
+Apr  6 15:55:11 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Mar 11 16:32:34 riley-VirtualBox sshd[17334]: Failed password for invalid user tiago from 125.124.209.123 port 32998 ssh2
+Apr  1 21:43:53 riley-VirtualBox sshd[10182]: Invalid user user2 from 153.101.57.40 port 35192
+Apr  1 19:05:54 riley-VirtualBox sshd[8114]: Disconnected from invalid user minecraft 120.53.227.85 port 49906 [preauth]
+Apr  1 17:42:33 riley-VirtualBox sshd[7040]: Disconnected from invalid user daniel 128.199.13.95 port 39644 [preauth]
+Apr  1 21:22:52 riley-VirtualBox sshd[9630]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 16:48:32 riley-VirtualBox sshd[3280]: Disconnected from invalid user webadm 59.15.3.197 port 37489 [preauth]
+Apr  1 21:24:05 riley-VirtualBox sshd[9655]: Failed password for invalid user vyos from 212.68.218.36 port 39948 ssh2
+Jan 12 15:37:09 riley-VirtualBox sshd[2648]: Disconnected from invalid user nicolas 150.158.176.248 port 35532 [preauth]
+Apr  1 21:34:11 riley-VirtualBox sshd[9925]: Received disconnect from 85.24.194.41 port 51476:11: Bye Bye [preauth]
+Mar 20 22:17:30 jfm-vm rtkit-daemon[1103]: Successfully made thread 6356 of process 5924 owned by '1000' RT at priority 10.
+Apr  6 15:54:46 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt auto-remove
+Mar 20 19:29:25 jfm-vm NetworkManager[827]: <info>  [1616293765.3827] dhcp4 (ens33): option requested_ntp_servers => '1'
+Apr  1 21:26:54 riley-VirtualBox sshd[9732]: Failed password for invalid user user1 from 183.89.84.249 port 61306 ssh2
+[Fri Apr 09 17:32:33.993901 2021] [auth_basic:error] [pid 848:tid 139931057886976] [client 166.181.252.47:1706] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 22:19:42 riley-VirtualBox sshd[10951]: Invalid user sysadmin from 85.24.194.41 port 49430
+Apr  1 17:18:32 riley-VirtualBox sshd[6694]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=84.199.67.194  user=test
+Apr  1 22:30:46 riley-VirtualBox sshd[11083]: Received disconnect from 150.95.177.195 port 60086:11: Bye Bye [preauth]
+Apr  1 22:09:04 riley-VirtualBox sshd[10772]: Received disconnect from 113.31.117.89 port 44864:11: Bye Bye [preauth]
+Apr  1 17:34:43 riley-VirtualBox sshd[6932]: Unable to negotiate with 128.199.38.16 port 50374: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Mar 20 23:34:50 jfm-vm systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr  1 19:29:23 riley-VirtualBox sshd[8476]: Connection closed by invalid user tech 49.48.250.119 port 53944 [preauth]
+Apr  1 18:12:52 riley-VirtualBox sshd[7408]: pam_unix(sshd:auth): check pass; user unknown
+Jan 15 16:50:44 riley-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Apr  1 21:18:57 riley-VirtualBox sshd[9522]: pam_unix(sshd:auth): check pass; user unknown
+[Fri Apr 09 17:37:58.221421 2021] [auth_basic:error] [pid 848:tid 139931057886976] [client 166.181.252.47:3354] AH01618: user fdwdrfkn not found: /
+Apr  1 21:18:59 riley-VirtualBox sshd[9520]: Failed password for invalid user userftp from 103.96.220.115 port 47230 ssh2
+Jan 16 17:30:01 riley-VirtualBox CRON[16524]: pam_unix(cron:session): session closed for user root
+[Thu Mar 11 21:28:06.949356 2021] [auth_basic:error] [pid 815:tid 139736576399104] [client 166.181.242.53:49394] AH01617: user admin: authentication failure for "/": Password Mismatch
+[Fri Apr 09 17:37:14.627384 2021] [auth_basic:error] [pid 847:tid 139930521016064] [client 166.181.252.47:3343] AH01618: user iwkwhfie not found: /
+Apr  1 20:43:04 riley-VirtualBox sshd[9004]: Received disconnect from 116.204.183.184 port 33240:11: Bye Bye [preauth]
+Feb 13 20:21:08 riley-VirtualBox sshd[5152]: Invalid user clone from 212.64.100.82 port 58180
+Apr  1 22:40:01 riley-VirtualBox sshd[11203]: Failed password for root from 222.187.232.205 port 39061 ssh2
+Apr  1 21:26:19 riley-VirtualBox sshd[9715]: Failed password for invalid user user1 from 183.89.84.249 port 45961 ssh2
+Apr  1 23:05:17 riley-VirtualBox sshd[11574]: Disconnected from invalid user deploy 200.106.236.138 port 38056 [preauth]
+Apr  1 18:15:32 riley-VirtualBox sshd[7446]: Failed password for invalid user postgres from 84.199.67.194 port 60160 ssh2
+Apr  1 17:52:34 riley-VirtualBox sshd[7161]: Invalid user dspace from 35.195.238.142 port 47558
+Apr  1 17:41:34 riley-VirtualBox sshd[7026]: Failed password for invalid user uftp from 119.28.68.78 port 56042 ssh2
+Apr  1 18:34:50 riley-VirtualBox sshd[7690]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 18:09:39 riley-VirtualBox sshd[7372]: Failed password for invalid user postgres from 35.195.238.142 port 46740 ssh2
+Apr  1 20:58:06 riley-VirtualBox sshd[9143]: Disconnected from invalid user user6 106.52.152.75 port 51264 [preauth]
+Apr  1 22:38:42 riley-VirtualBox sshd[11182]: Invalid user testftp from 101.36.122.184 port 49614
+Apr  1 17:39:51 riley-VirtualBox sshd[7007]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:49:47 riley-VirtualBox sshd[9057]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:32:48 riley-VirtualBox sshd[8528]: Connection closed by invalid user demo 49.48.250.119 port 62948 [preauth]
+Mar 11 17:08:51 travis sshd[39502]: Unable to negotiate with 73.239.143.254 port 1225: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Apr  1 17:07:40 riley-VirtualBox sshd[4684]: Invalid user steam from 42.192.39.113 port 36178
+Apr  1 21:59:12 riley-VirtualBox sshd[10546]: Received disconnect from 85.24.194.41 port 33350:11: Bye Bye [preauth]
+Apr  1 21:12:27 riley-VirtualBox sshd[9338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.89.84.249 
+Apr  1 17:55:53 riley-VirtualBox sshd[7206]: Invalid user user from 128.199.13.95 port 34446
+Apr  1 23:16:54 riley-VirtualBox sshd[11742]: Failed password for invalid user tomek from 112.215.113.11 port 58949 ssh2
+Apr  1 21:53:20 riley-VirtualBox sshd[10408]: Invalid user uftp from 134.175.55.212 port 34654
+Mar 20 20:29:25 jfm-vm NetworkManager[827]: <info>  [1616297365.3942] dhcp4 (ens33): option requested_routers    => '1'
+Mar 11 16:18:00 riley-VirtualBox sshd[17272]: Disconnected from invalid user lucia 180.76.152.65 port 50360 [preauth]
+Apr  1 18:42:11 riley-VirtualBox sshd[7758]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:20:51 riley-VirtualBox sshd[6726]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.229.62.94 
+Mar 11 16:29:09 riley-VirtualBox sshd[17317]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 18:17:51 riley-VirtualBox sshd[7481]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=188.120.249.12 
+Apr  1 18:00:12 riley-VirtualBox sshd[7259]: Failed password for invalid user admin from 157.245.166.197 port 52144 ssh2
+[Fri Apr 09 17:37:35.431440 2021] [auth_basic:error] [pid 848:tid 139930235827968] [client 166.181.252.47:3354] AH01618: user ruei2krjf8 not found: /
+Apr  1 22:39:21 riley-VirtualBox sshd[11193]: Failed password for root from 222.187.232.205 port 30435 ssh2
+Jan 12 15:30:01 riley-VirtualBox CRON[2140]: pam_unix(cron:session): session opened for user root by (uid=0)
+[Sun Dec 06 15:32:42.415483 2020] [auth_basic:error] [pid 8235:tid 139933415089920] [client 166.181.249.13:6858] AH01617: user admin: authentication failure for “/”: Password Mismatch
+Apr  1 19:10:15 riley-VirtualBox sshd[8186]: Invalid user user from 157.245.166.197 port 53484
+Apr  1 20:47:20 riley-VirtualBox sshd[9036]: Failed password for invalid user christian from 202.91.78.34 port 47226 ssh2
+Apr  1 21:59:19 riley-VirtualBox sshd[10549]: Invalid user tech from 183.89.84.249 port 65217
+Apr  1 17:26:46 riley-VirtualBox sshd[6801]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:29:19 riley-VirtualBox sshd[2128]: Unable to negotiate with 142.93.60.111 port 51316: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Feb 13 20:27:05 riley-VirtualBox sshd[5172]: Received disconnect from 111.125.70.22 port 37698:11: Bye Bye [preauth]
+Apr  1 22:33:34 riley-VirtualBox sshd[11117]: pam_unix(sshd:auth): check pass; user unknown
+Apr  6 15:48:37 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt remove
+Apr  1 20:21:05 riley-VirtualBox sshd[8860]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 19:35:37 riley-VirtualBox sshd[8574]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:48:39 riley-VirtualBox sshd[9042]: Failed password for invalid user david from 150.95.177.195 port 42148 ssh2
+Apr  1 18:58:45 riley-VirtualBox sshd[7998]: Failed password for invalid user profile1 from 49.48.250.119 port 31647 ssh2
+Mar 11 16:43:17 riley-VirtualBox sshd[17378]: Received disconnect from 89.252.190.151 port 36350:11: Bye Bye [preauth]
+Apr  6 15:54:44 riley-VirtualBox sudo: message repeated 3 times: [ pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory]
+Apr  1 17:57:51 riley-VirtualBox sshd[7231]: Disconnected from invalid user oracle 157.245.166.197 port 40418 [preauth]
+[Thu Mar 11 22:02:51.938776 2021] [auth_basic:error] [pid 816:tid 139737314596608] [client 166.181.242.53:17484] AH01618: user failed access 6 not found: /
+Mar 11 16:32:40 riley-VirtualBox sshd[17336]: Invalid user system from 150.109.113.116 port 56738
+Mar 11 15:08:03 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt autoremove
+Apr  1 18:13:10 riley-VirtualBox sshd[7412]: Received disconnect from 42.192.39.113 port 45202:11: Bye Bye [preauth]
+Feb 13 19:20:19 riley-VirtualBox sshd[4126]: Disconnected from invalid user dal 49.234.54.100 port 42686 [preauth]
+Apr  6 15:52:25 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Apr  1 18:50:16 riley-VirtualBox sshd[7858]: Received disconnect from 103.83.37.140 port 48724:11: Bye Bye [preauth]
+Feb 13 19:58:14 riley-VirtualBox sshd[4687]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:44:20 riley-VirtualBox sshd[10188]: Failed password for invalid user administrator from 183.89.84.249 port 31661 ssh2
+Apr  1 20:28:16 riley-VirtualBox sshd[8898]: Disconnected from invalid user oracle 134.175.55.212 port 38290 [preauth]
+Apr  1 21:53:18 riley-VirtualBox sshd[10406]: Disconnected from invalid user ts3server 34.86.71.86 port 59068 [preauth]
+[Fri Apr 09 17:33:25.822609 2021] [auth_basic:error] [pid 847:tid 139930554586880] [client 166.181.252.47:3296] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 21:35:05 riley-VirtualBox sshd[9945]: Invalid user system from 150.95.177.195 port 52376
+Mar 20 18:52:25 jfm-vm systemd[1047]: gnome-launched-org.gnome.Terminal.desktop-2344.scope: Succeeded.
+Apr  1 19:06:51 riley-VirtualBox sshd[8128]: Failed password for invalid user admin1 from 49.48.250.119 port 63418 ssh2
+Apr  1 17:28:10 riley-VirtualBox sshd[6820]: Disconnected from invalid user ubuntu 84.199.67.194 port 49322 [preauth]
+Feb 11 17:36:56 riley-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr  1 19:25:13 riley-VirtualBox sshd[8413]: Disconnected from invalid user csgoserver 116.204.183.184 port 55162 [preauth]
+Apr  1 22:58:08 riley-VirtualBox sshd[11472]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.215.113.11 
+Apr  1 16:58:41 riley-VirtualBox sshd[3305]: Failed password for invalid user postgres from 142.93.78.168 port 34512 ssh2
+Apr  1 19:08:07 riley-VirtualBox sshd[8152]: Connection closed by authenticating user root 49.48.250.119 port 55032 [preauth]
+Mar 11 16:47:22 riley-VirtualBox sshd[17401]: Failed password for invalid user central from 125.124.209.123 port 47454 ssh2
+[Thu Mar 11 21:57:19.139506 2021] [auth_basic:error] [pid 816:tid 139737348167424] [client 166.181.242.53:49157] AH01618: user failedlogin5 not found: /
+Mar 11 17:10:56 travis gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 18:17:58 riley-VirtualBox sshd[7483]: Invalid user user22 from 128.199.13.95 port 53874
+Apr  1 19:35:05 riley-VirtualBox sshd[8567]: Invalid user demo from 49.48.250.119 port 61582
+Apr  1 22:09:35 riley-VirtualBox sshd[10778]: Failed password for invalid user test1 from 106.52.152.75 port 57810 ssh2
+Mar 20 19:59:25 jfm-vm NetworkManager[827]: <info>  [1616295565.3858] dhcp4 (ens33): option requested_nis_domain => '1'
+Apr  1 19:56:34 riley-VirtualBox sshd[8715]: Disconnected from invalid user webs 167.99.231.236 port 42156 [preauth]
+Apr  1 22:57:47 riley-VirtualBox sshd[11466]: Received disconnect from 140.143.229.56 port 57302:11: Bye Bye [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  6 15:53:10 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Mar 21 18:11:03 riley-VirtualBox gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user riley by (uid=0)
+Apr  1 17:52:50 riley-VirtualBox sshd[7165]: Invalid user postgres from 142.93.78.168 port 56280
+Apr  6 15:53:40 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Jan 12 15:33:56 riley-VirtualBox sshd[2439]: Unable to negotiate with 142.93.60.111 port 55240: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 22:01:34 riley-VirtualBox sshd[10595]: Received disconnect from 101.36.122.184 port 42448:11: Bye Bye [preauth]
+[Fri Apr 09 17:34:13.473040 2021] [auth_basic:error] [pid 847:tid 139930562979584] [client 166.181.252.47:3530] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 20:57:02 riley-VirtualBox sshd[9126]: Disconnected from invalid user testuser 134.175.55.212 port 37130 [preauth]
+Apr  1 20:07:41 riley-VirtualBox sshd[8775]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:06:29 riley-VirtualBox sshd[10707]: Invalid user demo from 183.89.84.249 port 57328
+Mar 20 19:14:25 jfm-vm NetworkManager[827]: <info>  [1616292865.3920] dhcp4 (ens33): option domain_name          => 'localdomain'
+Apr  1 21:34:28 riley-VirtualBox sshd[9933]: Failed password for invalid user support from 140.143.229.56 port 35060 ssh2
+Apr  1 22:33:41 riley-VirtualBox sshd[11119]: Failed password for test from 140.143.229.56 port 42906 ssh2
+Apr  1 23:23:57 riley-VirtualBox sshd[11822]: Disconnected from authenticating user root 101.36.122.184 port 43230 [preauth]
+73.239.103.142 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  6 15:43:11 riley-VirtualBox sudo: message repeated 3 times: [ pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory]
+Apr  1 19:15:35 riley-VirtualBox sshd[8266]: Failed password for invalid user administrator from 49.48.250.119 port 32731 ssh2
+Apr  6 15:52:10 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get update
+Apr  6 15:52:17 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Apr  1 18:28:50 riley-VirtualBox sshd[7618]: Failed password for invalid user ftpuser from 119.28.68.78 port 44552 ssh2
+Apr  1 18:17:55 riley-VirtualBox sshd[7481]: Disconnected from invalid user appltest 188.120.249.12 port 46254 [preauth]
+Apr  1 20:28:36 riley-VirtualBox sshd[8902]: Received disconnect from 212.68.218.36 port 52254:11: Bye Bye [preauth]
+Apr  1 21:41:05 riley-VirtualBox sshd[10104]: Invalid user ubnt from 183.89.84.249 port 60380
+Apr  1 21:58:59 riley-VirtualBox sshd[10541]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:25:30 riley-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user riley by (uid=0)
+Mar 20 18:59:25 jfm-vm NetworkManager[827]: <info>  [1616291965.3805] dhcp4 (ens33): option requested_interface_mtu => '1'
+Apr  1 22:39:32 riley-VirtualBox sshd[11193]: Received disconnect from 222.187.232.205 port 30435:11:  [preauth]
+Apr  1 18:18:24 riley-VirtualBox sshd[7489]: Invalid user git from 35.195.238.142 port 60450
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Apr  1 17:10:24 riley-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr  1 18:30:45 riley-VirtualBox sshd[7640]: Failed password for root from 103.83.37.140 port 40060 ssh2
+Apr  1 21:54:47 riley-VirtualBox sshd[10443]: Failed password for invalid user ts3server from 49.232.164.192 port 49356 ssh2
+Apr  1 23:08:45 riley-VirtualBox sshd[11619]: Failed password for invalid user www from 165.22.73.254 port 41964 ssh2
+Jan 12 15:25:55 riley-VirtualBox dbus-daemon[594]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr  1 18:54:43 riley-VirtualBox sshd[7932]: pam_unix(sshd:auth): check pass; user unknown
+Feb 11 18:11:07 travis sshd[3061]: Unable to negotiate with 73.239.143.254 port 55766: no matching host key type found. Their offer: ssh-dss [preauth]
+Apr  1 21:17:22 riley-VirtualBox sshd[9475]: Failed password for test from 159.65.13.233 port 40648 ssh2
+Mar 20 23:34:50 jfm-vm NetworkManager[827]: <info>  [1616308490.3285] dhcp4 (ens33): option expiry               => '1616310290'
+[Sun Dec 06 15:34:33.137435 2020] [auth_basic:error] [pid 8235:tid 139933071152896] [client 166.181.249.13:37470] AH01617: user admin: authentication failure for “/”: Password Mismatch
+Mar 20 18:57:55 jfm-vm systemd-resolved[784]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr  1 21:19:57 riley-VirtualBox sshd[9545]: Connection closed by invalid user MikroTik 183.89.84.249 port 27041 [preauth]
+[Fri Apr 09 17:35:11.598053 2021] [auth_basic:error] [pid 847:tid 139929497630464] [client 166.181.252.47:3307] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 18:14:23 riley-VirtualBox sshd[7433]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:25:57 riley-VirtualBox sshd[11856]: Received disconnect from 175.24.127.209 port 54220:11: Bye Bye [preauth]
+Mar 21 18:20:19 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley ; USER=root ; COMMAND=/usr/bin/apt-get update
+Apr  1 21:25:03 riley-VirtualBox sshd[9683]: Invalid user webmaster from 49.235.179.102 port 44760
+[Thu Mar 11 22:01:43.248653 2021] [auth_basic:error] [pid 815:tid 139736576399104] [client 166.181.242.53:17432] AH01618: user asdf not found: /
+Apr  1 17:09:21 riley-VirtualBox sshd[6542]: Received disconnect from 42.192.39.113 port 57076:11: Bye Bye [preauth]
+Mar 11 15:00:07 riley-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.45 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 11 16:47:10 riley-VirtualBox sshd[17397]: Received disconnect from 175.24.64.176 port 55584:11: Bye Bye [preauth]
+Apr  1 18:33:20 riley-VirtualBox sshd[7674]: Disconnected from invalid user dev 121.229.62.94 port 33085 [preauth]
+Apr  1 18:04:57 riley-VirtualBox sshd[7316]: Disconnected from invalid user admin 119.28.68.78 port 49150 [preauth]
+Apr  1 18:53:11 riley-VirtualBox sshd[7904]: Failed password for invalid user deploy from 157.245.166.197 port 56084 ssh2
+Feb 13 19:34:55 riley-VirtualBox sshd[4172]: Received disconnect from 223.223.192.230 port 23872:11: Bye Bye [preauth]
+Apr  1 22:23:47 riley-VirtualBox sshd[10999]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:29:59 riley-VirtualBox sshd[9825]: Failed password for invalid user oracle from 49.232.164.192 port 42182 ssh2
+Mar 20 19:44:25 jfm-vm NetworkManager[827]: <info>  [1616294665.3859] dhcp4 (ens33): option requested_domain_search => '1'
+Jan 15 16:50:49 riley-VirtualBox sudo:    riley : TTY=pts/0 ; PWD=/home/riley ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Apr  1 21:45:50 riley-VirtualBox sshd[10222]: Invalid user test2 from 51.159.29.5 port 47594
+Apr  1 21:15:32 riley-VirtualBox sshd[9415]: Connection reset by 42.192.161.98 port 37302 [preauth]
+174.21.39.133 - - [06/Jan/2021:18:44:32 -0800] "GET / HTTP/1.0" 200 451 "-" "ApacheBench/2.3"
+Mar 11 15:59:25 riley-VirtualBox sshd[17223]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.37.181.60 
+Apr  1 22:20:22 riley-VirtualBox sshd[10957]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 20:12:14 riley-VirtualBox sshd[8804]: Received disconnect from 167.99.231.236 port 46700:11: Bye Bye [preauth]
+Apr  1 19:48:18 riley-VirtualBox sshd[8677]: Invalid user sysadmin from 212.68.218.36 port 45842
+Apr  1 18:26:38 riley-VirtualBox sshd[7587]: Failed password for invalid user luser from 118.69.82.233 port 39340 ssh2
+Apr  1 22:23:54 riley-VirtualBox sshd[11001]: Received disconnect from 153.101.57.40 port 31182:11: Bye Bye [preauth]
+Mar 21 00:01:28 jfm-vm systemd[1]: Starting Rotate log files...
+Jan 12 15:40:08 riley-VirtualBox sshd[2698]: Disconnected from invalid user j 42.192.51.95 port 53564 [preauth]
+Apr  1 19:33:15 riley-VirtualBox sshd[8539]: Received disconnect from 116.204.183.184 port 35674:11: Bye Bye [preauth]
+Apr  1 21:57:04 riley-VirtualBox sshd[10499]: Failed password for invalid user demo from 150.95.177.195 port 59078 ssh2
+Apr  1 21:43:20 riley-VirtualBox sshd[10163]: Disconnected from invalid user ntadmin 52.191.135.1 port 51538 [preauth]
+Apr  1 22:52:40 riley-VirtualBox sshd[11390]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:30:40 riley-VirtualBox sshd[2279]: Unable to negotiate with 142.93.60.111 port 38794: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 18:55:51 riley-VirtualBox sshd[7954]: Connection closed by invalid user MikroTik 49.48.250.119 port 56452 [preauth]
+Apr  1 22:39:43 riley-VirtualBox sshd[11199]: Disconnected from authenticating user root 222.187.232.205 port 20513 [preauth]
+Feb 13 20:00:36 riley-VirtualBox sshd[4697]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.223.192.230 
+Apr  1 18:24:01 riley-VirtualBox sshd[7560]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 17:14:56 riley-VirtualBox sshd[6636]: pam_unix(sshd:auth): check pass; user unknown
+Apr  6 15:41:49 riley-VirtualBox sudo:    riley : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/riley/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+Feb 13 19:13:51 riley-VirtualBox sshd[4113]: Unable to negotiate with 206.189.111.9 port 56726: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 12 15:21:59 riley-VirtualBox sshd[3122]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.10.103.227 
+Apr  1 17:47:42 riley-VirtualBox sshd[7104]: Failed password for invalid user steam from 153.101.29.178 port 46834 ssh2
+Mar 21 18:11:03 riley-VirtualBox gdm-autologin]: gkr-pam: no password is available for user
+Mar 21 18:11:03 riley-VirtualBox useradd[986]: failed adding user 'vboxadd', data deleted
+Apr  1 18:46:15 riley-VirtualBox sshd[7790]: Failed password for invalid user postgres from 120.53.227.85 port 40894 ssh2
+Apr  1 19:20:09 riley-VirtualBox sshd[8334]: Connection closed by invalid user web 49.48.250.119 port 7657 [preauth]
+Jan 12 15:26:46 riley-VirtualBox sshd[2084]: Unable to negotiate with 142.93.60.111 port 37288: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 20:09:17 riley-VirtualBox sshd[8786]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:21:14 riley-VirtualBox sshd[10965]: Failed password for test from 49.235.179.102 port 38590 ssh2
+Mar 20 20:07:07 jfm-vm dbus-daemon[1106]: [session uid=1000 pid=1106] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1093 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 15 16:49:47 riley-VirtualBox systemd-logind[618]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr  6 15:43:04 riley-VirtualBox sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Apr  1 19:05:13 riley-VirtualBox sshd[8103]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:21:35 riley-VirtualBox sshd[9587]: Connection closed by invalid user MikroTik 183.89.84.249 port 43011 [preauth]
+Mar 20 21:19:32 jfm-vm avahi-daemon[822]: Registering new address record for fe80::4114:4f47:ff1a:b141 on ens33.*.
+[Fri Apr 09 17:37:17.077326 2021] [auth_basic:error] [pid 848:tid 139930227435264] [client 166.181.252.47:3354] AH01618: user dkjwoqlfn not found: /
+Apr  1 18:34:52 riley-VirtualBox sshd[7690]: Disconnected from invalid user sammy 118.69.82.233 port 54550 [preauth]
+Jan 12 15:33:03 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+[Fri Apr 09 17:35:31.281069 2021] [auth_basic:error] [pid 847:tid 139930554586880] [client 166.181.252.47:1558] AH01617: user admin: authentication failure for "/": Password Mismatch
+Apr  1 21:17:05 riley-VirtualBox sshd[9464]: Disconnected from authenticating user test 34.86.71.86 port 53960 [preauth]
+Apr  1 18:53:48 riley-VirtualBox sshd[7919]: pam_unix(sshd:auth): check pass; user unknown
+[Wed Dec 09 18:43:42.649161 2020] [core:notice] [pid 791:tid 140073873185856] AH00094: Command line: '/usr/sbin/apache2'
+Apr  1 19:22:31 riley-VirtualBox sshd[8369]: Connection closed by invalid user user 49.48.250.119 port 23517 [preauth]
+[Thu Mar 11 21:27:19.374843 2021] [auth_basic:error] [pid 816:tid 139736987412224] [client 166.181.242.53:49281] AH01617: user admin: authentication failure for "/": Password Mismatch
+[Fri Apr 09 17:37:49.388406 2021] [auth_basic:error] [pid 848:tid 139931074672384] [client 166.181.252.47:3354] AH01618: user qr4ffe9knr not found: /
+Apr  1 21:44:37 riley-VirtualBox sshd[10196]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 21:02:30 riley-VirtualBox sshd[9179]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:30:40 riley-VirtualBox sshd[2279]: Unable to negotiate with 142.93.60.111 port 38794: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:12:16 riley-VirtualBox sshd[9333]: Failed password for invalid user teamspeak from 159.65.13.233 port 47432 ssh2
+Apr  1 17:02:54 riley-VirtualBox sshd[3329]: Failed password for invalid user user1 from 118.69.82.233 port 58152 ssh2
+[Thu Mar 11 21:56:54.033202 2021] [auth_basic:error] [pid 816:tid 139737322989312] [client 166.181.242.53:49617] AH01618: user failedlogin4 not found: /
+Mar 21 18:23:53 riley-VirtualBox sshd[23737]: pam_unix(sshd:auth): check pass; user unknown
+Jan 12 15:28:34 riley-VirtualBox sshd[2118]: Unable to negotiate with 142.93.60.111 port 48900: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Apr  1 21:07:45 riley-VirtualBox sshd[9235]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:04:45 riley-VirtualBox sshd[11563]: Disconnected from invalid user jenkins 49.232.164.192 port 40640 [preauth]
+Feb 13 20:05:43 riley-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Mar 11 16:20:16 riley-VirtualBox sshd[17279]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 23:25:25 riley-VirtualBox sshd[11834]: Disconnected from invalid user deploy 195.122.226.164 port 2454 [preauth]
+Apr  1 23:21:56 riley-VirtualBox sshd[11796]: Received disconnect from 175.24.127.209 port 44510:11: Bye Bye [preauth]
+Apr  1 17:49:27 riley-VirtualBox sshd[7124]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:06:40 riley-VirtualBox sshd[10711]: Disconnected from invalid user ftpuser 113.31.117.89 port 45878 [preauth]
+Feb 13 19:20:24 riley-VirtualBox sshd[4128]: Disconnected from invalid user musikbot 122.51.207.208 port 36576 [preauth]
+Apr  1 22:00:37 riley-VirtualBox sshd[10579]: Failed password for invalid user christian from 34.86.71.86 port 43138 ssh2
+Apr  1 21:24:12 riley-VirtualBox sshd[9659]: pam_unix(sshd:auth): check pass; user unknown
+Feb 13 20:22:32 riley-VirtualBox sshd[5157]: pam_unix(sshd:auth): check pass; user unknown
+Mar 20 23:04:50 jfm-vm dbus-daemon[826]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=827 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr  1 21:35:34 riley-VirtualBox sshd[9956]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 22:56:17 riley-VirtualBox sshd[11450]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 18:38:03 riley-VirtualBox sshd[7725]: Disconnected from invalid user tsbot 35.195.238.142 port 41900 [preauth]
+Apr  1 19:07:24 riley-VirtualBox sshd[8138]: Connection closed by invalid user admin1 49.48.250.119 port 50452 [preauth]
+Apr  1 22:01:20 riley-VirtualBox sshd[10589]: Connection closed by invalid user tech 183.89.84.249 port 53188 [preauth]
+[Thu Mar 11 22:02:29.761372 2021] [auth_basic:error] [pid 816:tid 139737339774720] [client 166.181.242.53:17890] AH01618: user failed access 2 not found: /
+Apr  1 21:10:58 riley-VirtualBox sshd[9300]: Failed password for invalid user testa from 134.175.55.212 port 50630 ssh2
+Mar 21 18:21:07 riley-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=riley rhost=  user=riley
+Jan 12 15:30:01 riley-VirtualBox CRON[2140]: pam_unix(cron:session): session closed for user root
+Apr  1 22:24:16 riley-VirtualBox sshd[11007]: Received disconnect from 106.52.152.75 port 49804:11: Bye Bye [preauth]
+Apr  1 18:57:07 riley-VirtualBox sshd[7968]: Connection closed by invalid user MikroTik 49.48.250.119 port 64856 [preauth]
+Apr  1 19:26:36 riley-VirtualBox sshd[8436]: Failed password for invalid user support from 49.48.250.119 port 53071 ssh2
+Apr  1 23:11:52 riley-VirtualBox sshd[11661]: pam_unix(sshd:auth): check pass; user unknown
+Apr  1 18:38:31 riley-VirtualBox sshd[7728]: Failed password for invalid user vbox from 157.245.166.197 port 42174 ssh2
