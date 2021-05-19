@@ -1,6 +1,6 @@
 import os
 
-import numpy as np #TODO: Check if these libraries are needed
+import numpy as np
 import pandas as pd
 import pickle
 import re
@@ -12,7 +12,7 @@ import random
 import json
 
 # For opening file explorer windows
-from tkinter import Tk     # From tkinter import Tk for Python 3.x
+from tkinter import Tk # From tkinter import Tk for Python 3.x
 from tkinter.filedialog import askopenfilename
 
 def ProcessLogs(filesToLoad = "all", cardinality = "multinomial", includeSafeLogs = True, loadNewVectorizer = False): 
@@ -114,10 +114,12 @@ from sklearn.metrics import recall_score
 
 def BinomialModelTrain(): # Train and save a binomial support vector machines (SVM) algorithm
     ProcessLogs("all","binomial",True, True)
-    clf = LogisticRegression(solver = 'liblinear') #'lbfgs' 'liblinear', might be more accurate just slower --------------------
+    clf = LogisticRegression(solver = 'liblinear') # 'liblinear', might be more accurate just slower --------------------
     clf.fit(trainingLogs, trainingLabels) # Train SVM algorithm using trainingLogs and trainingLabels
     predictions = clf.predict(testingLogs) # Predict testingLogs with newly trained model
     # Output the accuracy metrics of the model
+    print("/-------------------------------------------------------------\\")
+    print("\tSingle Algorithm Values:")
     print("Accuracy score of trained binomial model: " + str(accuracy_score(testingLabels,predictions)))
     print("f1 score of trained binomial model: " + str(f1_score(testingLabels,predictions,pos_label='safe')))
     print("precision score of trained binomial model: " + str(precision_score(testingLabels,predictions,pos_label='safe')))
@@ -126,7 +128,7 @@ def BinomialModelTrain(): # Train and save a binomial support vector machines (S
 
 def MultinomialModelTrain(): # Train and save a multinomial support vector machines (SVM) algorithm
     ProcessLogs("all","multinomial",False, True)
-    clf = LogisticRegression(multi_class='multinomial', solver = 'lbfgs') #'lbfgs' 'liblinear', might be more accurate just slower --------------------
+    clf = LogisticRegression(multi_class='multinomial', solver = 'lbfgs') # 'liblinear', might be more accurate just slower --------------------
     clf.fit(trainingLogs, trainingLabels) # Train SVM algorithm using trainingLogs and trainingLabels
     predictions = clf.predict(testingLogs) # Predict testingLogs with newly trained model
     # Output the accuracy metrics of the model
@@ -146,7 +148,9 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
     biPredictions = loadedModel.predict(testingLogs) # Make predictions on testingLogs (binomially)
     
     if compareToLabels == True: # Output the accuracy metrics of the model
-        print("Accuracy of binomial predictions: " + str(accuracy_score(testingLabels,biPredictions)))
+        print("    _____________________________________________")
+        print("\tTwo Part Pipeline Values:")
+        print("\nAccuracy of binomial predictions: " + str(accuracy_score(testingLabels,biPredictions)))
         print("f1 of binomial predictions: " + str(f1_score(testingLabels,biPredictions,average='micro')))
         print("precision of binomial predictions: " + str(precision_score(testingLabels,biPredictions,average='micro')))
         print("recall of binomial predictions: " + str(recall_score(testingLabels,biPredictions,average='micro')))
@@ -175,6 +179,7 @@ def MakePredictions(compareToLabels = False): # Writes each log and its correspo
         print("f1 of overall predictions: " + str(f1_score(testingLabels,finishedPrediction,average='micro')))
         print("precision of overall predictions: " + str(precision_score(testingLabels,finishedPrediction,average='micro')))
         print("recall of overall predictions: " + str(recall_score(testingLabels,finishedPrediction,average='micro')))
+        print("\\-------------------------------------------------------------/")
 
     # Write predictions to output file
     f = open("LogPredictions.txt", "w") # "w" will overwrite any existing content, "a" will append to the end of the file. Will make a file called "AlgorithmOutput.txt" if one doesn't already exist
@@ -274,6 +279,6 @@ def createBadActorSet(predictions): # Creates a new set with only unsafe logs
             f.write(logs[i]) # Write original log to file (not inluding '\n')
 
 
-BinomialModelTrain()
-MultinomialModelTrain()
+BinomialModelTrain()    # coment out if LRBinomial.sav already made
+MultinomialModelTrain() # coment out if LRMultinomial.sav already made
 MakePredictions(True)
