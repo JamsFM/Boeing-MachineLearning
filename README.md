@@ -1,12 +1,12 @@
 # **Boeing-MachineLearning**
-##### **Google Drive:** (Relevant Documents: Design Spec, Validation/Test Plan, PRD)
-##### https://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVAhttps://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVA
+##### **Google Drive:** [(Relevant Documents: Design Spec, Validation/Test Plan, PRD)](https://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVAhttps://drive.google.com/drive/u/1/folders/0AF8Y3XQxwJHZUk9PVA)
 
-##### **Final Presentation Video:** (Contains Live Demo)
-##### https://www.youtube.com/watch?v=hgDPWURL2XE
+### **Final Presentation Video (w/ Live Demo):** 
+#### [![Final Presentation Video](https://imgur.com/6l53lQa.png)](https://youtu.be/JVypXE8hxjc "UWT - Boeing Log Analysis Capstone Project - Final Presentation")
+
 
 ## **Boeing Analytics for Plane and Ground Support Log Data**
-####     Design Specifications 0.7
+###     Design Specifications 0.7
 ####     *Nicholas Falter, James Mare, Riley Ruckman, Travis Shields*
 ####     managed by: *Nicholas Falter*
 ####     4/11/2021
